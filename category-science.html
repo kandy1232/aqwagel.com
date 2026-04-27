@@ -4,20 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Science & Nature Posters — Aqwagel Educational Charts Sri Lanka</title>
-<meta name="description" content="Aqwagel science and nature posters — periodic table, plant life cycle, water cycle, food chain charts for Sri Lankan schools and students.">
-<meta name="keywords" content="science posters Sri Lanka, periodic table poster, plant life cycle chart, water cycle poster, food chain poster, nature education Sri Lanka, school science charts, Aqwagel, school posters, educational posters Sri Lanka, පාසල් පෝස්ටර්">
+<meta name="description" content="Aqwagel science and nature posters — periodic table, plant life cycle, water cycle, food chain charts for Sri Lankan schools and students. All ages.">
+<meta name="keywords" content="science posters Sri Lanka, periodic table poster, plant life cycle chart, water cycle poster, food chain poster, nature education Sri Lanka, school science charts, Aqwagel, school posters, educational posters Sri Lanka, Montessori to University, පාසල් පෝස්ටර්">
 <meta name="author" content="Aqwagel">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://aqwagel.com/science.html">
 <meta property="og:title" content="Science & Nature Posters — Aqwagel Educational Charts Sri Lanka">
-<meta property="og:description" content="Aqwagel science and nature posters — periodic table, plant life cycle, water cycle, food chain charts for Sri Lankan schools and students.">
+<meta property="og:description" content="Aqwagel science and nature posters — periodic table, plant life cycle, water cycle, food chain charts for Sri Lankan schools and students. All ages.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://aqwagel.com/science.html">
 <meta property="og:image" content="https://aqwagel.com/logo.png">
 <meta property="og:locale" content="en_LK">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Science & Nature Posters — Aqwagel Educational Charts Sri Lanka">
-<meta name="twitter:description" content="Aqwagel science and nature posters — periodic table, plant life cycle, water cycle, food chain charts for Sri Lankan schools and students.">
+<meta name="twitter:description" content="Aqwagel science and nature posters — periodic table, plant life cycle, water cycle, food chain charts for Sri Lankan schools and students. All ages.">
 <link rel="stylesheet" href="style.css">
 <script src="contact.js" defer></script>
 </head>
@@ -65,14 +65,14 @@
       Suitable from Montessori to University
     </div>
     <h1>Science & Nature</h1>
-    <p class="hero-tagline">Periodic Tables, Life Cycles & Nature Charts for Sri Lankan Schools — All Grades</p>
+    <p class="hero-tagline">Periodic Tables, Life Cycles & Nature Charts for Sri Lankan Schools — Montessori to University</p>
   </div>
 </section>
 
 <main id="main">
   <section aria-labelledby="products-heading">
     <h2 id="products-heading" class="section-title">🔬 Science & Nature</h2>
-    <p class="section-subtitle">From the periodic table of elements to plant life cycles — our science posters make complex concepts visual and engaging for Sri Lankan students.</p>
+    <p class="section-subtitle">Browse our collection of science & nature designed for Sri Lankan schools and young learners. All products suitable from Montessori to University level.</p>
     <div class="product-grid" id="category-products">
       <noscript>
         <p class="text-center" style="grid-column:1/-1;color:var(--text-light);padding:40px;">
@@ -88,7 +88,7 @@
     <div class="footer-top">
       <div class="footer-brand">
         <span class="brand-name">Aqwa<span>gel</span></span>
-        <p>Premium educational maps, posters, and learning materials for children and schools across Sri Lanka.</p>
+        <p>Premium educational maps, posters, and learning materials for children and schools across Sri Lanka. Suitable from Montessori to University level.</p>
       </div>
       <div class="footer-links">
         <h4>Categories</h4>
@@ -114,13 +114,14 @@
         <p><strong>Hours:</strong><br><span data-contact="hours">Mon - Sat: 9:00 AM - 6:00 PM</span></p>
       </div>
     </div>
-    <p class="footer-seo">Aqwagel is a leading Sri Lankan brand specializing in educational maps, school posters, world maps, Sri Lanka maps, solar system charts, human body diagrams, animal posters, science posters, math charts, alphabet posters, language charts, history posters, Sri Lanka specific posters, and giant coloring posters for children. Our products are designed for Sri Lankan schools, tuition classes, preschools, and home learning environments. We provide high-quality educational materials including අධ්‍යාපනික සිතියම්, පාසල් පෝස්ටර්, and ගණිත සිතියම් that make learning engaging and accessible for every child in Sri Lanka. Visit us at No 17, Wikramasinghepura, Battaramulla, or call +94 71 729 9504.</p>
+    <p class="footer-seo">Aqwagel is a leading Sri Lankan brand specializing in educational maps, school posters, world maps, Sri Lanka maps, solar system charts, human body diagrams, animal posters, science posters, math charts, alphabet posters, language charts, history posters, Sri Lanka specific posters, and giant coloring posters for children. Our products are suitable from Montessori to University level and are designed for Sri Lankan schools, tuition classes, preschools, and home learning environments. We provide high-quality educational materials including අධ්‍යාපනික සිතියම්, පාසල් පෝස්ටර්, and ගණිත සිතියම් that make learning engaging and accessible for every child in Sri Lanka. Visit us at No 17, Wikramasinghepura, Battaramulla, or call +94 71 729 9504.</p>
     <div class="footer-bottom">
       <p>© 2026 Aqwagel. All rights reserved. Educational Maps & Posters Sri Lanka.</p>
     </div>
   </div>
 </footer>
 
+<script src="products.js"></script>
 <script>
 function toggleNav(){
   const nav=document.querySelector('.main-nav');
@@ -131,15 +132,14 @@ function toggleNav(){
 function renderProducts(){
   const container=document.getElementById('category-products');
   if(!container) return;
-  let products=JSON.parse(localStorage.getItem('aqwagel_products')||'[]');
-  products=products.filter(p=>p.category==='science');
+  let products=getProductsByCategory('science');
   if(products.length===0){
     container.innerHTML='<p class="text-center" style="grid-column:1/-1;color:var(--text-light);padding:40px;">No products in this category yet. Check back soon or explore <a href="index.html">other categories</a>.</p>';
     return;
   }
   container.innerHTML=products.map(p=>`
     <article class="product-card" itemscope itemtype="https://schema.org/Product">
-      <img src="${p.image}" alt="${p.alt||p.name}" width="400" height="300" loading="lazy" itemprop="image">
+      <img src="${p.image}" alt="${p.alt||p.name}" width="400" height="300" loading="lazy" itemprop="image" onerror="this.src='https://placehold.co/400x300/e3f2fd/1565c0?text=${encodeURIComponent(p.name)}'">
       <div class="product-info">
         <h3 itemprop="name">${p.name}</h3>
         <p itemprop="description">${p.description}</p>

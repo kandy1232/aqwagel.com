@@ -4,20 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aqwagel Stationeries — Educational School Supplies Sri Lanka</title>
-<meta name="description" content="Quality Aqwagel stationeries and educational school supplies for Sri Lankan students. Rulers, pencils, erasers with learning-focused designs.">
-<meta name="keywords" content="Aqwagel stationeries, school supplies Sri Lanka, educational stationery, classroom supplies Sri Lanka, student stationery, Aqwagel, school posters, educational posters Sri Lanka, පාසල් පෝස්ටර්">
+<meta name="description" content="Quality Aqwagel stationeries and educational school supplies for Sri Lankan students. Suitable from Montessori to University.">
+<meta name="keywords" content="Aqwagel stationeries, school supplies Sri Lanka, educational stationery, classroom supplies Sri Lanka, student stationery, Aqwagel, school posters, educational posters Sri Lanka, Montessori to University, පාසල් පෝස්ටර්">
 <meta name="author" content="Aqwagel">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://aqwagel.com/stationeries.html">
 <meta property="og:title" content="Aqwagel Stationeries — Educational School Supplies Sri Lanka">
-<meta property="og:description" content="Quality Aqwagel stationeries and educational school supplies for Sri Lankan students. Rulers, pencils, erasers with learning-focused designs.">
+<meta property="og:description" content="Quality Aqwagel stationeries and educational school supplies for Sri Lankan students. Suitable from Montessori to University.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://aqwagel.com/stationeries.html">
 <meta property="og:image" content="https://aqwagel.com/logo.png">
 <meta property="og:locale" content="en_LK">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Aqwagel Stationeries — Educational School Supplies Sri Lanka">
-<meta name="twitter:description" content="Quality Aqwagel stationeries and educational school supplies for Sri Lankan students. Rulers, pencils, erasers with learning-focused designs.">
+<meta name="twitter:description" content="Quality Aqwagel stationeries and educational school supplies for Sri Lankan students. Suitable from Montessori to University.">
 <link rel="stylesheet" href="style.css">
 <script src="contact.js" defer></script>
 </head>
@@ -65,14 +65,14 @@
       Suitable from Montessori to University
     </div>
     <h1>Aqwagel Stationeries</h1>
-    <p class="hero-tagline">Educational School Supplies for Sri Lankan Students — From Preschool to Higher Education</p>
+    <p class="hero-tagline">Educational School Supplies for Sri Lankan Students — Montessori to University</p>
   </div>
 </section>
 
 <main id="main">
   <section aria-labelledby="products-heading">
     <h2 id="products-heading" class="section-title">✏️ Aqwagel Stationeries</h2>
-    <p class="section-subtitle">Browse our collection of quality stationeries designed with educational themes for Sri Lankan schools, tuition classes, and home learning.</p>
+    <p class="section-subtitle">Browse our collection of aquagel stationeries designed for Sri Lankan schools and young learners. All products suitable from Montessori to University level.</p>
     <div class="product-grid" id="category-products">
       <noscript>
         <p class="text-center" style="grid-column:1/-1;color:var(--text-light);padding:40px;">
@@ -88,7 +88,7 @@
     <div class="footer-top">
       <div class="footer-brand">
         <span class="brand-name">Aqwa<span>gel</span></span>
-        <p>Premium educational maps, posters, and learning materials for children and schools across Sri Lanka.</p>
+        <p>Premium educational maps, posters, and learning materials for children and schools across Sri Lanka. Suitable from Montessori to University level.</p>
       </div>
       <div class="footer-links">
         <h4>Categories</h4>
@@ -114,13 +114,14 @@
         <p><strong>Hours:</strong><br><span data-contact="hours">Mon - Sat: 9:00 AM - 6:00 PM</span></p>
       </div>
     </div>
-    <p class="footer-seo">Aqwagel is a leading Sri Lankan brand specializing in educational maps, school posters, world maps, Sri Lanka maps, solar system charts, human body diagrams, animal posters, science posters, math charts, alphabet posters, language charts, history posters, Sri Lanka specific posters, and giant coloring posters for children. Our products are designed for Sri Lankan schools, tuition classes, preschools, and home learning environments. We provide high-quality educational materials including අධ්‍යාපනික සිතියම්, පාසල් පෝස්ටර්, and ගණිත සිතියම් that make learning engaging and accessible for every child in Sri Lanka. Visit us at No 17, Wikramasinghepura, Battaramulla, or call +94 71 729 9504.</p>
+    <p class="footer-seo">Aqwagel is a leading Sri Lankan brand specializing in educational maps, school posters, world maps, Sri Lanka maps, solar system charts, human body diagrams, animal posters, science posters, math charts, alphabet posters, language charts, history posters, Sri Lanka specific posters, and giant coloring posters for children. Our products are suitable from Montessori to University level and are designed for Sri Lankan schools, tuition classes, preschools, and home learning environments. We provide high-quality educational materials including අධ්‍යාපනික සිතියම්, පාසල් පෝස්ටර්, and ගණිත සිතියම් that make learning engaging and accessible for every child in Sri Lanka. Visit us at No 17, Wikramasinghepura, Battaramulla, or call +94 71 729 9504.</p>
     <div class="footer-bottom">
       <p>© 2026 Aqwagel. All rights reserved. Educational Maps & Posters Sri Lanka.</p>
     </div>
   </div>
 </footer>
 
+<script src="products.js"></script>
 <script>
 function toggleNav(){
   const nav=document.querySelector('.main-nav');
@@ -131,15 +132,14 @@ function toggleNav(){
 function renderProducts(){
   const container=document.getElementById('category-products');
   if(!container) return;
-  let products=JSON.parse(localStorage.getItem('aqwagel_products')||'[]');
-  products=products.filter(p=>p.category==='stationeries');
+  let products=getProductsByCategory('stationeries');
   if(products.length===0){
     container.innerHTML='<p class="text-center" style="grid-column:1/-1;color:var(--text-light);padding:40px;">No products in this category yet. Check back soon or explore <a href="index.html">other categories</a>.</p>';
     return;
   }
   container.innerHTML=products.map(p=>`
     <article class="product-card" itemscope itemtype="https://schema.org/Product">
-      <img src="${p.image}" alt="${p.alt||p.name}" width="400" height="300" loading="lazy" itemprop="image">
+      <img src="${p.image}" alt="${p.alt||p.name}" width="400" height="300" loading="lazy" itemprop="image" onerror="this.src='https://placehold.co/400x300/e3f2fd/1565c0?text=${encodeURIComponent(p.name)}'">
       <div class="product-info">
         <h3 itemprop="name">${p.name}</h3>
         <p itemprop="description">${p.description}</p>
