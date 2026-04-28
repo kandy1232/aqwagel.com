@@ -305,5 +305,112 @@ function renderProducts(containerId, filterFn, limit){
 renderProducts('featured-products',null,8);
 renderProducts('giant-preview',p=>p.category==='giant',4);
 </script>
+
+<!-- WhatsApp Live Support Button -->
+<a href="https://wa.me/94717299504?text=Hello%20Aqwagel!%20I%20am%20interested%20in%20your%20educational%20posters." 
+   class="whatsapp-float" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   aria-label="Chat with us on WhatsApp">
+  <svg viewBox="0 0 32 32" fill="currentColor">
+    <path d="M16 2C8.268 2 2 8.268 2 16c0 2.585.66 5.03 1.82 7.168L2 30l6.986-1.798A13.93 13.93 0 0016 30c7.732 0 14-6.268 14-14S23.732 2 16 2zm0 25.2a11.24 11.24 0 01-5.76-1.584l-.412-.248-4.168 1.074 1.11-4.058-.268-.432A11.26 11.26 0 014.8 16C4.8 9.396 10.196 4 16 4s11.2 5.396 11.2 12-5.396 12-11.2 12zm6.196-8.868c-.336-.168-1.992-.984-2.3-1.096-.308-.112-.532-.168-.756.168-.224.336-.868 1.096-1.064 1.316-.196.224-.392.252-.728.084-.336-.168-1.42-.524-2.704-1.668-1-.892-1.676-1.992-1.876-2.328-.196-.336-.02-.518.148-.684.152-.152.336-.392.504-.588.168-.196.224-.336.336-.56.112-.224.056-.42-.028-.588-.084-.168-.756-1.82-1.036-2.492-.272-.656-.548-.568-.756-.576-.196-.008-.42-.01-.644-.01-.224 0-.588.084-.896.42-.308.336-1.176 1.148-1.176 2.8 0 1.652 1.204 3.248 1.372 3.472.168.224 2.38 3.652 5.788 4.972.808.316 1.44.504 1.932.648.812.258 1.55.222 2.132.136.652-.096 1.992-.816 2.272-1.512.28-.696.28-1.292.196-1.512-.084-.196-.308-.308-.644-.476z"/>
+  </svg>
+  <span class="whatsapp-tooltip">Chat with us</span>
+</a>
+
+<style>
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 60px;
+  height: 60px;
+  background: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  z-index: 9999;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+
+.whatsapp-float svg {
+  width: 32px;
+  height: 32px;
+}
+
+/* Tooltip */
+.whatsapp-tooltip {
+  position: absolute;
+  right: 70px;
+  background: #1a2b3c;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.whatsapp-tooltip::after {
+  content: '';
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 6px 0 6px 6px;
+  border-style: solid;
+  border-color: transparent transparent transparent #1a2b3c;
+}
+
+.whatsapp-float:hover .whatsapp-tooltip {
+  opacity: 1;
+  visibility: visible;
+  right: 75px;
+}
+
+/* Pulse animation */
+@keyframes whatsapp-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+  70% { box-shadow: 0 0 0 20px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+.whatsapp-float {
+  animation: whatsapp-pulse 2s infinite;
+}
+
+.whatsapp-float:hover {
+  animation: none;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .whatsapp-float {
+    width: 54px;
+    height: 54px;
+    bottom: 16px;
+    right: 16px;
+  }
+  .whatsapp-float svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+</style>
+
 </body>
 </html>
