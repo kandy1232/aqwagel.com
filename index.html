@@ -291,6 +291,11 @@ function renderProducts(containerId, filterFn, limit){
       <div class="product-info">
         <h3 itemprop="name">${p.name}</h3>
         <p itemprop="description">${p.description}</p>
+        <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+          <span itemprop="priceCurrency" content="LKR">Rs.</span>
+          <span itemprop="price">${p.price}</span>
+          <link itemprop="availability" href="${p.availability}">
+        </div>
         <meta itemprop="brand" content="Aqwagel">
       </div>
     </article>
