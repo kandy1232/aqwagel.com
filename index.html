@@ -116,7 +116,6 @@
 
         function renderProducts() {
             const grid = document.getElementById('productsGrid');
-            const policies = window.merchantPolicies || {};
 
             products.forEach(product => {
                 const card = document.createElement('div');
@@ -174,10 +173,7 @@
                     <h3 itemprop="name">${product.name}</h3>
                     <p itemprop="description">${product.description}</p>
                     <div class="product-meta">
-                        <span class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                            <span itemprop="priceCurrency" content="LKR">Rs.</span>
-                            <span itemprop="price">${parseFloat(product.price).toLocaleString('en-LK')}</span>
-                        </span>
+                        <span class="price">Rs. ${parseFloat(product.price).toLocaleString('en-LK')}</span>
                         <span class="stock">✅ In Stock</span>
                     </div>
                     <a href="https://wa.me/94717299504?text=Hi%20Aqwagel!%20I%20want%20to%20order%20${encodeURIComponent(product.name)}" class="order-btn" target="_blank">Order on WhatsApp</a>
