@@ -147,7 +147,7 @@ const CATEGORIES = [
   {value:'world-map-landmarks', label:'World Map / Landmarks', collection:'Learning & Fun', slug:'learning-fun'},
   {value:'amusement-park', label:'Amusement Park', collection:'Learning & Fun', slug:'learning-fun'}
 ];
-const COLLECTIONS = [
+const ADMIN_COLLECTIONS = [
   { name: 'Celebrations & Holidays', slug: 'celebrations-holidays', categories: ['birthday-party', 'halloween'] },
   { name: 'Nature & Wildlife', slug: 'nature-wildlife', categories: ['safari-jungle', 'ocean', 'dinosaur', 'woodland', 'farm', 'birds', 'insects-garden', 'polar-arctic'] },
   { name: 'Vehicles & Exploration', slug: 'vehicles-exploration', categories: ['space', 'construction-trucks', 'city-traffic', 'trains'] },
@@ -213,7 +213,7 @@ function productsJsText(){
   '// Buy Now opens the Payhip product page.\n\n' +
   'const PRODUCTS = ' + JSON.stringify(window.PRODUCTS, null, 2) + ';\n\n' +
   '// The 5 collections, each with its categories (from the AQWAGEL plan)\n' +
-  'const COLLECTIONS = ' + JSON.stringify(COLLECTIONS, null, 2) + ';\n\n' +
+  'const COLLECTIONS = ' + JSON.stringify(ADMIN_COLLECTIONS, null, 2) + ';\n\n' +
   'function getProductsByCategory(category) {\n  return PRODUCTS.filter(function (p) { return p.category === category; });\n}\n' +
   'function getProductsByCollection(slug) {\n  return PRODUCTS.filter(function (p) { return p.collectionSlug === slug; });\n}\n' +
   'function getProductsByAge(age) {\n  return PRODUCTS.filter(function (p) { return p.age === age; });\n}\n\n' +
