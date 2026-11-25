@@ -3,327 +3,389 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Admin Panel — Aqwagel Product Manager</title>
-<meta name="description" content="Aqwagel admin panel for managing educational maps, posters, and products. Password protected.">
+<title>Admin — AQWAGEL Giant Coloring Posters</title>
 <meta name="robots" content="noindex, nofollow">
-<link rel="stylesheet" href="style.css">
-<script src="contact.js" defer></script>
 <style>
-.image-preview{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;background:var(--blue-light);margin-top:8px;display:none}
-.image-preview.show{display:block}
-.empty-state{text-align:center;padding:60px 20px;color:var(--text-light)}
-.tab-bar{display:flex;gap:4px;margin-bottom:20px;border-bottom:2px solid var(--border);flex-wrap:wrap}
-.tab-btn{padding:10px 18px;background:none;border:none;border-bottom:2px solid transparent;margin-bottom:-2px;cursor:pointer;font-weight:600;color:var(--text-light);font-size:.85rem;transition:all .2s}
-.tab-btn.active{border-bottom-color:var(--blue);color:var(--blue)}
-.tab-btn:hover{color:var(--blue-dark)}
-.tab-panel{display:none}
-.tab-panel.active{display:block}
-.admin-contact-bar{background:var(--blue-light);padding:12px 16px;border-radius:8px;margin-bottom:16px;display:flex;gap:20px;flex-wrap:wrap;align-items:center;font-size:.82rem;color:var(--text-light)}
-.admin-contact-bar a{color:var(--blue);font-weight:600}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#222;background:#fffaf2;line-height:1.5}
+.container{max-width:980px;margin:0 auto;padding:18px}
+header{background:#fff;border-bottom:1px solid #e8e8e8;padding:14px 0}
+header .container{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header img{height:40px;width:auto}
+h1{font-size:22px}
+h2{font-size:19px;margin:22px 0 10px}
+h3{font-size:16px;margin:0 0 6px}
+p{margin-bottom:10px;font-size:15px}
+a{color:#1f8acb}
+.card{background:#fff;border:1px solid #e8e8e8;border-radius:12px;padding:16px;margin-bottom:16px}
+label{display:block;font-weight:700;font-size:14px;margin:12px 0 4px}
+input[type=text],input[type=password],input[type=url],input[type=number],select,textarea{width:100%;padding:10px;border:1px solid #ccc;border-radius:8px;font-size:15px;font-family:inherit}
+textarea{min-height:90px}
+button{cursor:pointer;border:0;border-radius:10px;padding:11px 18px;font-size:15px;font-weight:700;background:#f58220;color:#fff}
+button.secondary{background:#eee;color:#222}
+button.small{padding:7px 12px;font-size:14px}
+button:disabled{background:#ccc}
+.status{padding:12px;border-radius:10px;margin:12px 0;display:none}
+.status.show{display:block}
+.status.ok{background:#e6f7e9}
+.status.err{background:#fde8e8}
+.status.info{background:#e3f4ff}
+.hint{font-size:13px;color:#666}
+.warn{background:#fff3d6;border:1px solid #f0c36d;border-radius:10px;padding:12px;margin:12px 0;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.product{border:1px solid #e8e8e8;border-radius:12px;overflow:hidden;background:#fff}
+.product img{width:100%;aspect-ratio:2/1;object-fit:cover;display:block;background:#fff}
+.product .body{padding:12px}
+.product .body p{font-size:13px;color:#444}
+.badge{display:inline-block;font-size:12px;font-weight:700;background:#eef7ff;color:#1f8acb;border-radius:999px;padding:3px 9px;margin:0 4px 6px 0}
+.badge.age{background:#e6f7e9;color:#3aa655}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+#previewImg{max-width:100%;margin-top:10px;border:1px solid #e8e8e8;border-radius:8px;display:none}
+.hidden{display:none}
+code{background:#f0f0f0;padding:2px 6px;border-radius:6px;font-size:13px}
+ol{margin:0 0 10px 20px}
 </style>
 </head>
 <body>
-
-<!-- LOGIN SCREEN -->
-<div class="admin-login" id="login-screen">
-  <div class="login-box">
-    <picture>
-      <source srcset="logo.webp" type="image/webp">
-      <img src="logo.png" alt="Aqwagel Logo" style="height:48px;width:auto;border-radius:6px;margin-bottom:12px">
-    </picture>
-    <h2>Aqwagel Admin</h2>
-    <p>Enter password to manage products</p>
-    <input type="password" id="admin-password" placeholder="Password" onkeydown="if(event.key==='Enter')doLogin()">
-    <button class="btn" onclick="doLogin()">Sign In</button>
-    <p id="login-error" style="color:#c62828;font-size:.8rem;margin-top:12px;display:none">Incorrect password. Please try again.</p>
-  </div>
-</div>
-
-<!-- ADMIN PANEL -->
-<div class="admin-panel" id="admin-panel">
-  <div class="admin-contact-bar">
-    <span>📍 <strong data-contact="address">No 17, Wikramasinghepura, Battaramulla, Sri Lanka</strong></span>
-    <span>📞 <a data-contact="phone" href="tel:+94717299504">+94 71 729 9504</a></span>
-    <span>✉️ <a data-contact="email" href="mailto:hello@aqwagel.com">hello@aqwagel.com</a></span>
-    <span style="margin-left:auto;font-size:.75rem;color:var(--text-light)">Edit contact.js to change these details</span>
-  </div>
-
-  <div class="admin-header">
-    <h1>🛠️ Product Manager</h1>
-    <button class="btn" style="background:var(--blue);color:#fff" onclick="doLogout()">Logout</button>
-  </div>
-
-  <!-- TABS -->
-  <div class="tab-bar">
-    <button class="tab-btn active" onclick="showTab('add')" id="tab-add">➕ Add Product</button>
-    <button class="tab-btn" onclick="showTab('manage')" id="tab-manage">📦 Manage Products</button>
-    <button class="tab-btn" onclick="showTab('giant')" id="tab-giant">🎨 Giant Coloring</button>
-  </div>
-
-  <!-- ADD PRODUCT TAB -->
-  <div class="tab-panel active" id="panel-add">
-    <div class="admin-form">
-      <div class="form-row">
-        <div class="form-group">
-          <label for="prod-name">Product Name</label>
-          <input type="text" id="prod-name" placeholder="e.g. World Map Poster">
-        </div>
-        <div class="form-group">
-          <label for="prod-category">Category</label>
-          <select id="prod-category">
-            <option value="stationeries">Aqwagel Stationeries</option>
-            <option value="maps">World & Sri Lanka Maps</option>
-            <option value="animals">Animals & Insects</option>
-            <option value="solar">Solar System & Planets</option>
-            <option value="human">Human Body & Parts</option>
-            <option value="science">Science & Nature</option>
-            <option value="languages">Languages & Literacy</option>
-            <option value="history">History & Culture</option>
-            <option value="math">Math Charts</option>
-            <option value="alphabet">Alphabet & Numbers</option>
-            <option value="srilanka">Sri Lanka Specific</option>
-            <option value="others">Others</option>
-            <option value="giant">Giant Coloring Posters</option>
-          </select>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group" style="flex:2">
-          <label for="prod-desc">Description</label>
-          <textarea id="prod-desc" placeholder="Short description..." oninput="updateWordCounter()"></textarea>
-          <div class="word-counter" id="word-counter">0 words</div>
-        </div>
-        <div class="form-group" style="flex:1">
-          <label for="prod-image">Image (URL or upload)</label>
-          <input type="text" id="prod-image" placeholder="https://... or paste base64" oninput="previewImage()">
-          <input type="file" id="prod-file" accept="image/*" style="margin-top:8px;font-size:.8rem" onchange="handleFileUpload()">
-          <img id="image-preview" class="image-preview" alt="Preview">
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group">
-          <label for="prod-alt">Image Alt Text (SEO)</label>
-          <input type="text" id="prod-alt" placeholder="Aqwagel product description for SEO">
-        </div>
-      </div>
-      <button class="btn" style="margin-top:8px" onclick="addProduct()">Add Product</button>
+<header>
+  <div class="container">
+    <img src="logo.png" alt="AQWAGEL">
+    <div class="row">
+      <span id="connLabel" class="hint">Not connected</span>
+      <button class="secondary small" id="logoutBtn" onclick="doLogout()" style="display:none">Log Out</button>
     </div>
   </div>
+</header>
 
-  <!-- MANAGE PRODUCTS TAB -->
-  <div class="tab-panel" id="panel-manage">
-    <div class="admin-products" id="admin-products-list"></div>
-  </div>
+<main class="container">
+  <h1>Admin — Giant Coloring Posters</h1>
+  <p>Add a poster to <a href="https://www.aqwagel.com/" target="_blank" rel="noopener">aqwagel.com</a> and Payhip. Every poster is <b>$1.00 USD</b>, instant download, for US, UK, Canada, EU and Australia.</p>
 
-  <!-- GIANT COLORING TAB -->
-  <div class="tab-panel" id="panel-giant">
-    <div class="admin-products" id="admin-giant-list"></div>
-  </div>
+  <!-- CONNECT -->
+  <section class="card" id="connectCard">
+    <h2>1. Connect to GitHub</h2>
+    <p>Your website lives in GitHub repo <code>kandy1232/aqwagel.com</code>, branch <code>main</code>. This page saves straight to that repo. Your token stays in <b>this browser only</b> — it is never sent anywhere except GitHub. Never paste it in chat.</p>
+    <div class="warn"><b>How to make a token:</b> in GitHub, go to Settings &gt; Developer settings &gt; Personal access tokens &gt; Fine-grained tokens &gt; Generate new token. Resource owner: <code>kandy1232</code>. Repository access: only <code>aqwagel.com</code>. Permissions: Contents — Read and write. Then paste it below.</div>
+    <label for="token">GitHub token</label>
+    <input type="password" id="token" placeholder="github_pat_..." autocomplete="off">
+    <label for="repo">Repository</label>
+    <input type="text" id="repo" value="kandy1232/aqwagel.com">
+    <label for="branch">Branch</label>
+    <input type="text" id="branch" value="main">
+    <p style="margin-top:12px"><label style="display:inline;font-weight:400"><input type="checkbox" id="remember" checked> Remember login in this browser</label></p>
+    <div class="row" style="margin-top:12px">
+      <button onclick="doConnect()">Connect &amp; Load Products</button>
+    </div>
+    <div id="connectStatus" class="status"></div>
+  </section>
 
-  <div class="save-indicator" id="save-indicator">💾 Saved to localStorage</div>
-</div>
+  <!-- PRODUCTS -->
+  <section id="adminSection" class="hidden">
+    <div class="row" style="justify-content:space-between">
+      <h2 style="margin:0">Products <span id="countLabel" class="hint"></span></h2>
+      <a href="https://www.aqwagel.com/" target="_blank" rel="noopener">View live site</a>
+      <a href="https://payhip.com/Aqwagel" target="_blank" rel="noopener">Payhip store</a>
+    </div>
+    <div id="status" class="status"></div>
+
+    <!-- ADD / EDIT -->
+    <section class="card">
+      <h2 id="formTitle">2. Add a new poster</h2>
+      <div class="warn"><b>Upload the WATERMARKED preview only</b> — the image with the AQWAGEL logo across the middle. Never upload the clean, unwatermarked poster here, and never upload the SVG / PDF here. Those files go in Payhip only.</div>
+      <label for="fImage">Preview image (watermarked, JPG / PNG / WebP)</label>
+      <input type="file" id="fImage" accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp" onchange="onImageChosen(event)">
+      <img id="previewImg" alt="Preview">
+      <p class="hint" id="fileNameLabel"></p>
+      <label for="fTitle">Title — e.g. Birthday Animal Parade</label>
+      <input type="text" id="fTitle" placeholder="Birthday Animal Parade">
+      <label for="fCategory">Category</label>
+      <select id="fCategory"></select>
+      <p class="hint" id="collectionLabel"></p>
+      <label for="fAge">Age</label>
+      <select id="fAge"><option value="4-7">Ages 4-7</option><option value="8-12">Ages 8-12</option></select>
+      <label for="fPrice">Price (USD)</label>
+      <input type="number" id="fPrice" value="1.00" step="0.01" min="0">
+      <label for="fPayhip">Payhip product URL — e.g. https://payhip.com/b/Z3TY6</label>
+      <input type="url" id="fPayhip" placeholder="https://payhip.com/b/...">
+      <p class="hint">Create the product in Payhip first, then paste its link here. If empty, Buy Now goes to the Payhip store.</p>
+      <label for="fDesc">Description — only what is visible in the picture, short, friendly, US English</label>
+      <textarea id="fDesc" placeholder="A birthday animal parade with an elephant holding a birthday cake in the centre, joined by..."></textarea>
+      <div class="row" style="margin-top:14px">
+        <button id="saveBtn" onclick="saveProduct()">Upload Image &amp; Save Product</button>
+        <button class="secondary" onclick="resetForm()">Clear Form</button>
+      </div>
+      <p class="hint" style="margin-top:10px">Saving uploads the image to <code>images/</code>, adds the product to <code>products.js</code>, and the poster appears on the homepage and on its category page automatically. It does <b>not</b> change Payhip — edit or delete the Payhip product in Payhip itself.</p>
+    </section>
+
+    <!-- LIST -->
+    <h2>All posters</h2>
+    <div class="grid" id="productGrid"></div>
+  </section>
+</main>
 
 <script src="products.js"></script>
 <script>
-const ADMIN_PASSWORD = 'aqwagel2026';
-let editingId = null;
+const CATEGORIES = [
+  {value:'birthday-party', label:'Birthday Party', collection:'Celebrations & Holidays', slug:'celebrations-holidays'},
+  {value:'halloween', label:'Halloween', collection:'Celebrations & Holidays', slug:'celebrations-holidays'},
+  {value:'safari-jungle', label:'Safari / Jungle', collection:'Nature & Wildlife', slug:'nature-wildlife'},
+  {value:'ocean', label:'Ocean', collection:'Nature & Wildlife', slug:'nature-wildlife'},
+  {value:'dinosaur', label:'Dinosaur', collection:'Nature & Wildlife', slug:'nature-wildlife'},
+  {value:'woodland', label:'Woodland / Forest', collection:'Nature & Wildlife', slug:'nature-wildlife'},
+  {value:'farm', label:'Farm', collection:'Nature & Wildlife', slug:'nature-wildlife'},
+  {value:'birds', label:'Birds', collection:'Nature & Wildlife', slug:'nature-wildlife'},
+  {value:'insects-garden', label:'Insects / Garden', collection:'Nature & Wildlife', slug:'nature-wildlife'},
+  {value:'polar-arctic', label:'Polar / Arctic', collection:'Nature & Wildlife', slug:'nature-wildlife'},
+  {value:'space', label:'Space', collection:'Vehicles & Exploration', slug:'vehicles-exploration'},
+  {value:'construction-trucks', label:'Construction / Trucks', collection:'Vehicles & Exploration', slug:'vehicles-exploration'},
+  {value:'city-traffic', label:'City / Traffic', collection:'Vehicles & Exploration', slug:'vehicles-exploration'},
+  {value:'trains', label:'Trains', collection:'Vehicles & Exploration', slug:'vehicles-exploration'},
+  {value:'fairy-tale-unicorn', label:'Fairy Tale / Unicorn', collection:'Fantasy & Adventure', slug:'fantasy-adventure'},
+  {value:'mermaids', label:'Mermaids', collection:'Fantasy & Adventure', slug:'fantasy-adventure'},
+  {value:'pirates', label:'Pirates', collection:'Fantasy & Adventure', slug:'fantasy-adventure'},
+  {value:'community-helpers', label:'Community Helpers', collection:'Learning & Fun', slug:'learning-fun'},
+  {value:'world-map-landmarks', label:'World Map / Landmarks', collection:'Learning & Fun', slug:'learning-fun'},
+  {value:'amusement-park', label:'Amusement Park', collection:'Learning & Fun', slug:'learning-fun'}
+];
+const COLLECTIONS = [
+  { name: 'Celebrations & Holidays', slug: 'celebrations-holidays', categories: ['birthday-party', 'halloween'] },
+  { name: 'Nature & Wildlife', slug: 'nature-wildlife', categories: ['safari-jungle', 'ocean', 'dinosaur', 'woodland', 'farm', 'birds', 'insects-garden', 'polar-arctic'] },
+  { name: 'Vehicles & Exploration', slug: 'vehicles-exploration', categories: ['space', 'construction-trucks', 'city-traffic', 'trains'] },
+  { name: 'Fantasy & Adventure', slug: 'fantasy-adventure', categories: ['fairy-tale-unicorn', 'mermaids', 'pirates'] },
+  { name: 'Learning & Fun', slug: 'learning-fun', categories: ['community-helpers', 'world-map-landmarks', 'amusement-park'] }
+];
+let token = '', repo = 'kandy1232/aqwagel.com', branch = 'main';
+let productsSha = '', editingId = null, chosenFile = null, chosenDataUrl = '';
 
-if(localStorage.getItem('aqwagel_admin')==='1'){
-  showPanel();
+function showStatus(id, msg, kind){
+  const el = document.getElementById(id);
+  el.textContent = msg; el.className = 'status show ' + (kind || 'info');
 }
-
-function doLogin(){
-  const input = document.getElementById('admin-password').value;
-  if(input === ADMIN_PASSWORD){
-    localStorage.setItem('aqwagel_admin','1');
-    showPanel();
-  } else {
-    document.getElementById('login-error').style.display='block';
+function slugify(s){
+  return s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,60) || 'poster';
+}
+function b64encode(str){
+  const bytes = new TextEncoder().encode(str);
+  let bin = '';
+  for (let i = 0; i < bytes.length; i += 8192) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 8192));
+  return btoa(bin);
+}
+async function gh(path, method, body){
+  const res = await fetch('https://api.github.com' + path, {
+    method: method || 'GET',
+    headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+    body: body ? JSON.stringify(body) : undefined
+  });
+  if (!res.ok) {
+    const t = await res.text();
+    throw new Error('GitHub ' + res.status + ': ' + t.slice(0, 300));
+  }
+  return res.json();
+}
+function fillCategories(){
+  const sel = document.getElementById('fCategory');
+  sel.innerHTML = CATEGORIES.map(c => '<option value="' + c.value + '">' + c.label + ' — ' + c.collection + '</option>').join('');
+  sel.onchange = () => {
+    const c = CATEGORIES.find(x => x.value === sel.value);
+    document.getElementById('collectionLabel').textContent = c ? 'Collection: ' + c.collection : '';
+  };
+  sel.onchange();
+}
+function renderProducts(){
+  const grid = document.getElementById('productGrid');
+  const list = window.PRODUCTS || [];
+  document.getElementById('countLabel').textContent = '(' + list.length + ' products)';
+  grid.innerHTML = list.map(p =>
+    '<article class="product"><img src="' + p.image + '" alt="' + (p.alt || p.title) + '" loading="lazy">' +
+    '<div class="body"><h3>' + p.title + '</h3>' +
+    '<span class="badge">' + p.collection + '</span><span class="badge age">' + p.ageLabel + '</span>' +
+    '<p>' + (p.description || '') + '</p>' +
+    '<p><b>$' + p.price + ' USD</b> · ' + (p.payhipUrl ? '<a href="' + p.payhipUrl + '" target="_blank" rel="noopener">Payhip</a>' : 'No Payhip link') + '</p>' +
+    '<div class="row"><button class="small secondary" onclick="editProduct(\'' + p.id + '\')">Edit</button>' +
+    '<button class="small secondary" onclick="deleteProduct(\'' + p.id + '\')">Delete</button></div>' +
+    '</div></article>'
+  ).join('') || '<p>No products yet. Add the first one above.</p>';
+}
+function productsJsText(){
+  return '// AQWAGEL — Giant Coloring Posters\n' +
+  '// Digital downloads only. US, UK, Canada, EU, Australia.\n' +
+  '// Price: $1.00 USD for every poster, all ages.\n' +
+  '// Buy Now opens the Payhip product page.\n\n' +
+  'const PRODUCTS = ' + JSON.stringify(window.PRODUCTS, null, 2) + ';\n\n' +
+  '// The 5 collections, each with its categories (from the AQWAGEL plan)\n' +
+  'const COLLECTIONS = ' + JSON.stringify(COLLECTIONS, null, 2) + ';\n\n' +
+  'function getProductsByCategory(category) {\n  return PRODUCTS.filter(function (p) { return p.category === category; });\n}\n' +
+  'function getProductsByCollection(slug) {\n  return PRODUCTS.filter(function (p) { return p.collectionSlug === slug; });\n}\n' +
+  'function getProductsByAge(age) {\n  return PRODUCTS.filter(function (p) { return p.age === age; });\n}\n\n' +
+  "if (typeof window !== 'undefined') {\n  window.PRODUCTS = PRODUCTS;\n  window.COLLECTIONS = COLLECTIONS;\n  window.getProductsByCategory = getProductsByCategory;\n  window.getProductsByCollection = getProductsByCollection;\n  window.getProductsByAge = getProductsByAge;\n}\n";
+}
+async function doConnect(){
+  token = document.getElementById('token').value.trim();
+  repo = document.getElementById('repo').value.trim();
+  branch = document.getElementById('branch').value.trim() || 'main';
+  if (!token) { showStatus('connectStatus', 'Please enter your GitHub token.', 'err'); return; }
+  try {
+    showStatus('connectStatus', 'Connecting…', 'info');
+    const data = await gh('/repos/' + repo + '/contents/products.js?ref=' + branch);
+    productsSha = data.sha;
+    if (document.getElementById('remember').checked) {
+      localStorage.setItem('aqwagel_admin_token', token);
+      localStorage.setItem('aqwagel_admin_repo', repo);
+    } else {
+      localStorage.removeItem('aqwagel_admin_token');
+    }
+    document.getElementById('adminSection').classList.remove('hidden');
+    document.getElementById('connLabel').textContent = 'Connected: ' + repo + ' (' + branch + ')';
+    document.getElementById('logoutBtn').style.display = '';
+    showStatus('connectStatus', 'Connected. Loaded ' + (window.PRODUCTS || []).length + ' products from products.js.', 'ok');
+    fillCategories(); renderProducts();
+  } catch (e) {
+    showStatus('connectStatus', 'Could not connect: ' + e.message + ' Check the token, the repo name, and that the token has Contents Read and write for aqwagel.com.', 'err');
   }
 }
-
 function doLogout(){
-  localStorage.removeItem('aqwagel_admin');
-  location.reload();
+  localStorage.removeItem('aqwagel_admin_token');
+  token = ''; document.getElementById('token').value = '';
+  document.getElementById('adminSection').classList.add('hidden');
+  document.getElementById('logoutBtn').style.display = 'none';
+  document.getElementById('connLabel').textContent = 'Not connected';
+  showStatus('connectStatus', 'Logged out. Token removed from this browser.', 'info');
 }
-
-function showPanel(){
-  document.getElementById('login-screen').style.display='none';
-  document.getElementById('admin-panel').style.display='block';
-  renderAdminProducts();
-  renderGiantProducts();
-}
-
-function showTab(tab){
-  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
-  document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
-  document.getElementById('tab-'+tab).classList.add('active');
-  document.getElementById('panel-'+tab).classList.add('active');
-  if(tab==='manage') renderAdminProducts();
-  if(tab==='giant') renderGiantProducts();
-}
-
-function updateWordCounter(){
-  const text = document.getElementById('prod-desc').value.trim();
-  const words = text ? text.split(/\s+/).length : 0;
-  const counter = document.getElementById('word-counter');
-  counter.textContent = words + ' words';
-  counter.className = 'word-counter';
-}
-
-function previewImage(){
-  const url = document.getElementById('prod-image').value;
-  const img = document.getElementById('image-preview');
-  if(url){
-    img.src = url;
-    img.classList.add('show');
-  } else {
-    img.classList.remove('show');
-  }
-}
-
-function handleFileUpload(){
-  const file = document.getElementById('prod-file').files[0];
-  if(!file) return;
+function onImageChosen(ev){
+  const f = ev.target.files[0];
+  chosenFile = f || null;
+  if (!f) { document.getElementById('previewImg').style.display = 'none'; return; }
   const reader = new FileReader();
-  reader.onload = function(e){
-    document.getElementById('prod-image').value = e.target.result;
-    previewImage();
+  reader.onload = () => {
+    chosenDataUrl = reader.result;
+    const img = document.getElementById('previewImg');
+    img.src = chosenDataUrl; img.style.display = 'block';
+    document.getElementById('fileNameLabel').textContent = 'File: ' + f.name + ' (' + Math.round(f.size / 1024) + ' KB) — it will be saved as images/' + slugify(document.getElementById('fTitle').value || f.name.replace(/\.[^.]+$/, '')) + '.' + f.name.split('.').pop().toLowerCase();
   };
-  reader.readAsDataURL(file);
+  reader.readAsDataURL(f);
 }
-
-function addProduct(){
-  const name = document.getElementById('prod-name').value.trim();
-  const category = document.getElementById('prod-category').value;
-  const description = document.getElementById('prod-desc').value.trim();
-  const image = document.getElementById('prod-image').value.trim();
-  const alt = document.getElementById('prod-alt').value.trim();
-
-  if(!name || !description || !image){
-    alert('Please fill in product name, description, and image.');
-    return;
-  }
-
-  const newProduct = {
-    id: editingId || 'p' + Date.now(),
-    name,
-    category,
-    description,
-    image,
-    alt: alt || name
-  };
-
-  if(editingId){
-    const idx = AQWAGEL_PRODUCTS.findIndex(p=>p.id===editingId);
-    if(idx>-1) AQWAGEL_PRODUCTS[idx] = newProduct;
-    editingId = null;
-  } else {
-    AQWAGEL_PRODUCTS.push(newProduct);
-  }
-
-  showSaveIndicator();
-
-  document.getElementById('prod-name').value='';
-  document.getElementById('prod-desc').value='';
-  document.getElementById('prod-image').value='';
-  document.getElementById('prod-alt').value='';
-  document.getElementById('prod-file').value='';
-  document.getElementById('image-preview').classList.remove('show');
-  updateWordCounter();
-
-  renderAdminProducts();
-  renderGiantProducts();
-  alert('Product added!');
+function resetForm(){
+  editingId = null; chosenFile = null; chosenDataUrl = '';
+  ['fTitle','fPayhip','fDesc'].forEach(id => document.getElementById(id).value = '');
+  document.getElementById('fPrice').value = '1.00';
+  document.getElementById('fImage').value = '';
+  document.getElementById('previewImg').style.display = 'none';
+  document.getElementById('fileNameLabel').textContent = '';
+  document.getElementById('formTitle').textContent = '2. Add a new poster';
+  document.getElementById('saveBtn').textContent = 'Upload Image & Save Product';
 }
-
-function deleteProduct(id){
-  if(!confirm('Delete this product?')) return;
-  const idx = AQWAGEL_PRODUCTS.findIndex(p=>p.id===id);
-  if(idx>-1) AQWAGEL_PRODUCTS.splice(idx, 1);
-  renderAdminProducts();
-  renderGiantProducts();
-}
-
 function editProduct(id){
-  const product = AQWAGEL_PRODUCTS.find(p=>p.id===id);
-  if(!product) return;
+  const p = (window.PRODUCTS || []).find(x => x.id === id);
+  if (!p) return;
   editingId = id;
-  document.getElementById('prod-name').value = product.name;
-  document.getElementById('prod-category').value = product.category;
-  document.getElementById('prod-desc').value = product.description;
-  document.getElementById('prod-image').value = product.image;
-  document.getElementById('prod-alt').value = product.alt || '';
-  previewImage();
-  updateWordCounter();
-  showTab('add');
-  document.getElementById('prod-name').focus();
+  document.getElementById('fTitle').value = p.title;
+  document.getElementById('fCategory').value = p.category;
+  document.getElementById('fCategory').onchange();
+  document.getElementById('fAge').value = p.age;
+  document.getElementById('fPrice').value = p.price;
+  document.getElementById('fPayhip').value = p.payhipUrl || '';
+  document.getElementById('fDesc').value = p.description || '';
+  document.getElementById('formTitle').textContent = '2. Edit: ' + p.title;
+  document.getElementById('saveBtn').textContent = 'Save Changes';
+  document.getElementById('fileNameLabel').textContent = 'Current image: ' + p.image + ' — choose a new file only to replace it.';
+  window.scrollTo({top: 0, behavior: 'smooth'});
 }
-
-function showSaveIndicator(){
-  const el = document.getElementById('save-indicator');
-  el.classList.add('show');
-  setTimeout(()=>el.classList.remove('show'), 2000);
+async function deleteProduct(id){
+  const p = (window.PRODUCTS || []).find(x => x.id === id);
+  if (!p) return;
+  if (!confirm('Delete "' + p.title + '" from the website? This does NOT delete it from Payhip — delete it there separately if needed.')) return;
+  window.PRODUCTS = window.PRODUCTS.filter(x => x.id !== id);
+  try {
+    showStatus('status', 'Deleting…', 'info');
+    await saveProductsJs('Remove ' + p.title + ' from AQWAGEL website');
+    renderProducts();
+    showStatus('status', 'Deleted "' + p.title + '" from the website.', 'ok');
+  } catch (e) { showStatus('status', 'Delete failed: ' + e.message, 'err'); }
 }
-
-function renderAdminProducts(){
-  const container = document.getElementById('admin-products-list');
-  const products = AQWAGEL_PRODUCTS.filter(p=>p.category!=='giant');
-  if(products.length===0){
-    container.innerHTML = '<div class="empty-state"><p>No products yet. Add your first product above.</p></div>';
-    return;
+async function saveProductsJs(message){
+  const content = b64encode(productsJsText());
+  const [owner, repoName] = repo.split('/');
+  const data = await gh('/repos/' + owner + '/' + repoName + '/contents/products.js', 'PUT', {
+    message: message, content: content, sha: productsSha, branch: branch
+  });
+  productsSha = data.content.sha;
+  return data;
+}
+async function saveProduct(){
+  const title = document.getElementById('fTitle').value.trim();
+  const cat = CATEGORIES.find(x => x.value === document.getElementById('fCategory').value);
+  const age = document.getElementById('fAge').value;
+  const price = document.getElementById('fPrice').value || '1.00';
+  const payhipUrl = document.getElementById('fPayhip').value.trim();
+  const desc = document.getElementById('fDesc').value.trim();
+  if (!title) { showStatus('status', 'Please enter a title.', 'err'); return; }
+  if (!desc) { showStatus('status', 'Please enter a description — only what is visible in the picture.', 'err'); return; }
+  if (!editingId && !chosenFile) { showStatus('status', 'Please choose the watermarked preview image first.', 'err'); return; }
+  const btn = document.getElementById('saveBtn');
+  btn.disabled = true;
+  try {
+    const [owner, repoName] = repo.split('/');
+    let imagePath;
+    if (chosenFile) {
+      const ext = chosenFile.name.split('.').pop().toLowerCase();
+      const fileName = slugify(title) + '.' + ext;
+      imagePath = 'images/' + fileName;
+      showStatus('status', 'Uploading image to ' + imagePath + '…', 'info');
+      const base64 = chosenDataUrl.split(',')[1];
+      let sha = undefined;
+      try { const ex = await gh('/repos/' + owner + '/' + repoName + '/contents/' + imagePath + '?ref=' + branch); sha = ex.sha; } catch (e) { /* new file */ }
+      await gh('/repos/' + owner + '/' + repoName + '/contents/' + imagePath, 'PUT', {
+        message: 'Add preview image ' + fileName, content: base64, sha: sha, branch: branch
+      });
+    } else {
+      imagePath = (window.PRODUCTS || []).find(x => x.id === editingId).image;
+    }
+    const product = {
+      id: editingId || slugify(title),
+      title: title,
+      description: desc,
+      category: cat.value,
+      categoryLabel: cat.label,
+      collection: cat.collection,
+      collectionSlug: cat.slug,
+      age: age,
+      ageLabel: age === '4-7' ? 'Ages 4-7' : 'Ages 8-12',
+      image: imagePath,
+      alt: title + ' giant coloring poster for kids ages ' + age,
+      price: parseFloat(price).toFixed(2),
+      priceCurrency: 'USD',
+      payhipUrl: payhipUrl,
+      formats: 'SVG + PDF',
+      sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    };
+    if (editingId) {
+      window.PRODUCTS = window.PRODUCTS.map(x => x.id === editingId ? product : x);
+    } else {
+      if ((window.PRODUCTS || []).some(x => x.id === product.id)) { showStatus('status', 'A product with that title already exists. Change the title slightly.', 'err'); btn.disabled = false; return; }
+      window.PRODUCTS = window.PRODUCTS || [];
+      window.PRODUCTS.push(product);
+    }
+    showStatus('status', 'Saving products.js…', 'info');
+    await saveProductsJs((editingId ? 'Update ' : 'Add ') + title + ' — AQWAGEL');
+    renderProducts(); resetForm();
+    showStatus('status', 'Saved! "' + title + '" is now on aqwagel.com in ' + cat.collection + ' / ' + cat.label + ', $' + product.price + '. ' + (payhipUrl ? 'Buy Now goes to: ' + payhipUrl : 'No Payhip link yet — add it in Payhip, then edit this product.'), 'ok');
+  } catch (e) {
+    showStatus('status', 'Save failed: ' + e.message, 'err');
+  } finally { btn.disabled = false; }
+}
+// Auto-connect if a token was remembered, like the ARTYHOMES admin
+(function(){
+  const saved = localStorage.getItem('aqwagel_admin_token');
+  if (saved) {
+    document.getElementById('token').value = saved;
+    document.getElementById('repo').value = localStorage.getItem('aqwagel_admin_repo') || 'kandy1232/aqwagel.com';
+    fillCategories();
+    doConnect();
+  } else {
+    fillCategories();
   }
-  container.innerHTML = products.map(p=>`
-    <div class="admin-product">
-      <img src="${p.image}" alt="${p.alt||p.name}" loading="lazy" onerror="this.src='https://placehold.co/400x300/e3f2fd/1565c0?text=${encodeURIComponent(p.name)}'">
-      <div class="admin-product-info">
-        <span class="cat-badge">${p.category}</span>
-        <h4>${p.name}</h4>
-        <p>${p.description}</p>
-        <div class="admin-actions">
-          <button class="btn-edit" onclick="editProduct('${p.id}')">Edit</button>
-          <button class="btn-delete" onclick="deleteProduct('${p.id}')">Delete</button>
-        </div>
-      </div>
-    </div>
-  `).join('');
-}
-
-function renderGiantProducts(){
-  const container = document.getElementById('admin-giant-list');
-  const products = AQWAGEL_PRODUCTS.filter(p=>p.category==='giant');
-  if(products.length===0){
-    container.innerHTML = '<div class="empty-state"><p>No giant coloring posters yet. Add one using the Add Product tab and select "Giant Coloring Posters" category.</p></div>';
-    return;
-  }
-  container.innerHTML = products.map(p=>`
-    <div class="admin-product">
-      <img src="${p.image}" alt="${p.alt||p.name}" loading="lazy" onerror="this.src='https://placehold.co/400x300/ffe0b2/ef6c00?text=${encodeURIComponent(p.name)}'">
-      <div class="admin-product-info">
-        <span class="cat-badge" style="background:#fff3e0;color:#e65100">Giant Coloring</span>
-        <h4>${p.name}</h4>
-        <p>${p.description}</p>
-        <div class="admin-actions">
-          <button class="btn-edit" onclick="editProduct('${p.id}')">Edit</button>
-          <button class="btn-delete" onclick="deleteProduct('${p.id}')">Delete</button>
-        </div>
-      </div>
-    </div>
-  `).join('');
-}
+  renderProducts();
+})();
 </script>
-
-<!-- WhatsApp Live Support Button -->
-<a href="https://wa.me/94717299504?text=Hi%20Aqwagel!%20I%20have%20a%20question%20about%20your%20products." 
-   class="whatsapp-float" 
-   target="_blank" 
-   rel="noopener noreferrer"
-   aria-label="Chat with us on WhatsApp">
-  <svg viewBox="0 0 32 32" fill="currentColor">
-    <path d="M16 2C8.268 2 2 8.268 2 16c0 2.585.686 5.012 1.884 7.113L2 30l7.113-1.884A13.936 13.936 0 0016 30c7.732 0 14-6.268 14-14S23.732 2 16 2zm0 25.2a11.16 11.16 0 01-5.7-1.564l-.408-.244-4.196 1.112 1.12-4.088-.26-.42A11.184 11.184 0 114.8 16c0 6.188 5.012 11.2 11.2 11.2zm6.16-8.4c-.336-.168-1.992-.984-2.3-1.096-.308-.112-.532-.168-.756.168-.224.336-.868 1.096-1.064 1.316-.196.224-.392.252-.728.084-.336-.168-1.42-.524-2.704-1.672-.998-.89-1.672-1.988-1.868-2.324-.196-.336-.02-.518.148-.686.152-.152.336-.392.504-.588.168-.196.224-.336.336-.56.112-.224.056-.42-.028-.588-.084-.168-.756-1.82-1.036-2.492-.272-.656-.548-.568-.756-.58-.196-.008-.42-.012-.644-.012-.224 0-.588.084-.896.42-.308.336-1.176 1.148-1.176 2.8 0 1.652 1.204 3.248 1.372 3.472.168.224 2.38 3.628 5.768 5.088.804.348 1.432.556 1.92.712.808.256 1.544.22 2.128.136.648-.096 1.992-.816 2.272-1.512.28-.696.28-1.292.196-1.512-.084-.196-.308-.308-.644-.476z"/>
-  </svg>
-  <span class="whatsapp-tooltip">Chat on WhatsApp</span>
-</a>
-
 </body>
 </html>
