@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /admin.html
 
-Sitemap: https://aqwagel.com/sitemap.xml
+Sitemap: https://www.aqwagel.com/sitemap.xml
