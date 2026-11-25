@@ -14,7 +14,7 @@ const PRODUCTS = [
     collectionSlug: 'celebrations-holidays',
     age: '4-7',
     ageLabel: 'Ages 4-7',
-    image: 'images/birthday-animal-parade.jpg',
+    image: 'images/birthday-animal-parade.webp',
     alt: 'Birthday Animal Parade giant coloring poster for kids ages 4-7',
     price: '1.00',
     priceCurrency: 'USD',
