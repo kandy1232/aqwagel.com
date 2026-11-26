@@ -1,5 +1,5 @@
 // AQWAGEL — Giant Coloring Posters
-// Digital downloads only. US, UK, Canada, EU, Australia.
+// Digital downloads only. Target countries: USA, UK, Canada, Australia, Germany, France, Netherlands, Italy, Spain, UAE, Saudi Arabia.
 // Price: $1.00 USD for every poster, all ages.
 // Buy Now opens the Payhip product page.
 
