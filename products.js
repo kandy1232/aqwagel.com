@@ -7,7 +7,7 @@ const PRODUCTS = [
   {
     id: 'birthday-animal-parade',
     title: 'Birthday Animal Parade',
-    description: 'A birthday animal parade with an elephant holding a birthday cake with 3 candles in the centre, joined by a bear with a balloon, a bunny holding a gift, a bird, a turtle in a party hat, a duck with a cupcake, and a cat with bunting. Big simple shapes and large open areas to colour.',
+    description: 'A birthday animal parade with an elephant holding a birthday cake with 3 candles in the center, joined by a bear with a balloon, a bunny holding a gift, a bird, a turtle in a party hat, a duck with a cupcake, and a cat with bunting. Big simple shapes and large open areas to color.',
     category: 'birthday-party',
     categoryLabel: 'Birthday Party',
     collection: 'Celebrations & Holidays',
@@ -25,7 +25,7 @@ const PRODUCTS = [
   {
     id: 'rainbow-insect-garden',
     title: 'Rainbow Insect Garden',
-    description: 'A happy insect garden under a big rainbow, with a smiling sun, flowers and strawberries. Bees, butterflies, dragonflies, ladybugs, ants, snails, a spider in its web, a grasshopper and a little worm hide all through the scene, waiting to be coloured.',
+    description: 'A happy insect garden under a big rainbow, with a smiling sun, flowers and strawberries. Bees, butterflies, dragonflies, ladybugs, ants, snails, a spider in its web, a grasshopper and a little worm hide all through the scene, waiting to be colored.',
     category: 'insects-garden',
     categoryLabel: 'Insects & Garden',
     collection: 'Nature & Wildlife',
@@ -169,7 +169,7 @@ const PRODUCTS = [
   {
     id: 'safari-river-animals',
     title: 'Safari River Animals',
-    description: 'Safari animals by a river, full of fine details to colour — elephant, rhino, hippo, crocodile, flamingos, giraffe, lion, koala with her baby and a chameleon, with palm trees, mountains and lotus flowers.',
+    description: 'Safari animals by a river, full of fine details to color — elephant, rhino, hippo, crocodile, flamingos, giraffe, lion, koala with her baby and a chameleon, with palm trees, mountains and lotus flowers.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',

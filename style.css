@@ -1,4 +1,4 @@
-/* AQWAGEL — Giant Coloring Posters. Digital downloads for US, UK, Canada, EU, Australia. */
+/* AQWAGEL — Giant Coloring Posters. Digital downloads for USA, UK, Canada, Australia, Germany, France, Netherlands, Italy, Spain, UAE, Saudi Arabia. 8 languages: en-US, en-GB, de, fr, nl, it, es, ar. */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--orange:#f58220;--blue:#1f8acb;--green:#3aa655;--ink:#222;--muted:#666;--line:#e8e8e8;--bg:#fffaf2;--card:#fff}
 body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
@@ -49,3 +49,8 @@ footer.site a{color:#fff}
 footer.site p{margin-bottom:6px;font-size:14px}
 .empty{background:#fff;border:1px dashed var(--line);border-radius:12px;padding:36px;text-align:center;color:var(--muted)}
 @media(max-width:640px){.brand img{height:36px}.hero{padding:36px 0}}
+
+.lang{display:flex;gap:2px;flex-wrap:wrap;justify-content:center;padding:0 18px 10px;font-size:13px}
+.lang a{color:var(--muted);text-decoration:none;padding:4px 9px;border-radius:999px}
+.lang a:hover{color:var(--blue)}
+.lang a.active{background:#eef7ff;color:var(--blue);font-weight:700}

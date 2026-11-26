@@ -1,11 +1,835 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.aqwagel.com/</loc><lastmod>2026-11-25</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.aqwagel.com/celebrations-holidays.html</loc><lastmod>2026-11-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aqwagel.com/nature-wildlife.html</loc><lastmod>2026-11-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aqwagel.com/vehicles-exploration.html</loc><lastmod>2026-11-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aqwagel.com/fantasy-adventure.html</loc><lastmod>2026-11-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aqwagel.com/learning-fun.html</loc><lastmod>2026-11-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aqwagel.com/ages-4-7.html</loc><lastmod>2026-11-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.aqwagel.com/ages-8-12.html</loc><lastmod>2026-11-25</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.aqwagel.com/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/celebrations-holidays.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/celebrations-holidays.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/nature-wildlife.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/nature-wildlife.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/vehicles-exploration.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/vehicles-exploration.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/fantasy-adventure.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/fantasy-adventure.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/learning-fun.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/learning-fun.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/ages-4-7.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-4-7.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/ages-8-12.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-8-12.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/en-gb/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/en-gb/celebrations-holidays.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/celebrations-holidays.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/en-gb/nature-wildlife.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/nature-wildlife.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/en-gb/vehicles-exploration.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/vehicles-exploration.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/en-gb/fantasy-adventure.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/fantasy-adventure.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/en-gb/learning-fun.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/learning-fun.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/en-gb/ages-4-7.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-4-7.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/en-gb/ages-8-12.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-8-12.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/de/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/de/celebrations-holidays.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/celebrations-holidays.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/de/nature-wildlife.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/nature-wildlife.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/de/vehicles-exploration.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/vehicles-exploration.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/de/fantasy-adventure.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/fantasy-adventure.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/de/learning-fun.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/learning-fun.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/de/ages-4-7.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-4-7.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/de/ages-8-12.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-8-12.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/fr/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/fr/celebrations-holidays.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/celebrations-holidays.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/fr/nature-wildlife.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/nature-wildlife.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/fr/vehicles-exploration.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/vehicles-exploration.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/fr/fantasy-adventure.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/fantasy-adventure.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/fr/learning-fun.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/learning-fun.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/fr/ages-4-7.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-4-7.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/fr/ages-8-12.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-8-12.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/nl/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/nl/celebrations-holidays.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/celebrations-holidays.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/nl/nature-wildlife.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/nature-wildlife.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/nl/vehicles-exploration.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/vehicles-exploration.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/nl/fantasy-adventure.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/fantasy-adventure.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/nl/learning-fun.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/learning-fun.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/nl/ages-4-7.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-4-7.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/nl/ages-8-12.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-8-12.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/it/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/it/celebrations-holidays.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/celebrations-holidays.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/it/nature-wildlife.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/nature-wildlife.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/it/vehicles-exploration.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/vehicles-exploration.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/it/fantasy-adventure.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/fantasy-adventure.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/it/learning-fun.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/learning-fun.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/it/ages-4-7.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-4-7.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/it/ages-8-12.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-8-12.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/es/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/es/celebrations-holidays.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/celebrations-holidays.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/es/nature-wildlife.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/nature-wildlife.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/es/vehicles-exploration.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/vehicles-exploration.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/es/fantasy-adventure.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/fantasy-adventure.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/es/learning-fun.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/learning-fun.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/es/ages-4-7.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-4-7.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/es/ages-8-12.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-8-12.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/ar/</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/ar/celebrations-holidays.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/celebrations-holidays.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/celebrations-holidays.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/ar/nature-wildlife.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/nature-wildlife.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/nature-wildlife.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/ar/vehicles-exploration.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/vehicles-exploration.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/vehicles-exploration.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/ar/fantasy-adventure.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/fantasy-adventure.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/fantasy-adventure.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/ar/learning-fun.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/learning-fun.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/learning-fun.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/ar/ages-4-7.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-4-7.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-4-7.html"/>
+  </url>
+  <url>
+    <loc>https://www.aqwagel.com/ar/ages-8-12.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.aqwagel.com/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://www.aqwagel.com/en-gb/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.aqwagel.com/de/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.aqwagel.com/fr/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.aqwagel.com/nl/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.aqwagel.com/it/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.aqwagel.com/es/ages-8-12.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.aqwagel.com/ar/ages-8-12.html"/>
+  </url>
 </urlset>
