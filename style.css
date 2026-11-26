@@ -54,3 +54,14 @@ footer.site p{margin-bottom:6px;font-size:14px}
 .lang a{color:var(--muted);text-decoration:none;padding:4px 9px;border-radius:999px}
 .lang a:hover{color:var(--blue)}
 .lang a.active{background:#eef7ff;color:var(--blue);font-weight:700}
+
+.grid.categories{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.cat-card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.cat-card a{display:block;color:inherit;text-decoration:none}
+.cat-card img{width:100%;aspect-ratio:2/1;object-fit:cover;display:block;background:#fff}
+.cat-ph{aspect-ratio:2/1;display:flex;align-items:center;justify-content:center;background:#f4f7fb;color:var(--muted);font-size:14px;padding:12px;text-align:center}
+.cat-body{padding:12px 14px}
+.cat-body h3{margin:0 0 4px;font-size:18px}
+.cat-coll{margin:0 0 2px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.cat-body .meta{margin:0;font-size:13px;color:var(--muted)}
+.badge.cat{background:#fff3d6;color:#b96a00}

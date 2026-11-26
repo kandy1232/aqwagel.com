@@ -186,7 +186,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-friends-stream',
-    title: 'Bosque Friends Stream',
+    title: 'Woodland Friends Stream',
     description: 'Amigos del bosque junto a un arroyo sinuoso — un ciervo entre los árboles, un pequeño oso pescando, zorros descansando, y un búho, pájaros, ardillas, un conejo, un erizo y ratones entre los hongos y las hojas.',
     category: 'woodland',
     categoryLabel: 'Bosque',
@@ -195,10 +195,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 años',
     image: '/images/woodland-friends-stream.webp',
-    alt: 'Bosque Friends Stream Póster gigante para colorear para niños de 4-7 años',
+    alt: 'Woodland Friends Stream Póster gigante para colorear para niños de 4-7 años',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/lU7fE', // Bosque Friends Stream — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
@@ -276,7 +276,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-animal-friends',
-    title: 'Bosque Animal Friends',
+    title: 'Woodland Animal Friends',
     description: 'Amigos del bosque en un bosque soleado — un zorro, un ciervo, un conejo, un oso que saluda, una ardilla con una bellota, un búho, un erizo y ratones entre árboles, flores, hongos y un pequeño arroyo.',
     category: 'woodland',
     categoryLabel: 'Bosque',
@@ -285,16 +285,16 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 años',
     image: '/images/woodland-animal-friends.webp',
-    alt: 'Bosque Animal Friends Póster gigante para colorear para niños de 4-7 años',
+    alt: 'Woodland Animal Friends Póster gigante para colorear para niños de 4-7 años',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/vhUCJ', // Bosque Animal Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/vhUCJ', // Woodland Animal Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-meadow',
-    title: 'Bosque Friends Meadow',
+    title: 'Woodland Friends Meadow',
     description: 'Tres amigos del bosque en un prado de flores — un zorro, un gatito y un ciervo con grandes cuernos negros — entre flores altas, con pájaros, mariposas, soles sonrientes, lunas y estrellas arriba.',
     category: 'woodland',
     categoryLabel: 'Bosque',
@@ -303,10 +303,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 años',
     image: '/images/woodland-friends-meadow.webp',
-    alt: 'Bosque Friends Meadow Póster gigante para colorear para niños de 4-7 años',
+    alt: 'Woodland Friends Meadow Póster gigante para colorear para niños de 4-7 años',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/xYXn0', // Bosque Friends Meadow — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/xYXn0', // Woodland Friends Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
@@ -366,7 +366,7 @@ const PRODUCTS = [
   },
   {
     id: 'farm-barn-friends',
-    title: 'Granja Barn Friends',
+    title: 'Farm Barn Friends',
     description: 'Amigos de la granja en un día lluvioso — una vaca frente a un granero, un gato, un pato con un paraguas, un conejo con zanahorias, un pollito, ranas con paraguas en un estanque, una morsa y un delfín, una oruga, mariposas y un gran sol.',
     category: 'farm',
     categoryLabel: 'Granja',
@@ -375,13 +375,193 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 años',
     image: '/images/farm-barn-friends.webp',
-    alt: 'Granja Barn Friends Póster gigante para colorear para niños de 4-7 años',
+    alt: 'Farm Barn Friends Póster gigante para colorear para niños de 4-7 años',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/2NvFM', // Granja Barn Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/2NvFM', // Farm Barn Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
+  {
+    id: 'lion-forest-portrait',
+    title: 'Lion Forest Portrait',
+    description: 'Un adorable cachorro de león en un bosque — un león con una gran melena redonda está en el medio, con árboles altos a ambos lados, un sol sonriente y nubes arriba, un baobab, una jirafa y un elefante a lo lejos, flores, helechos y huellas de patas por todas partes, y un arroyo con peces abajo.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari y Selva',
+    collection: 'Naturaleza y Animales',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 años',
+    image: '/images/lion-forest-portrait.webp',
+    alt: 'Lion Forest Portrait Póster gigante para colorear para niños de 4-7 años',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-friends-pond',
+    title: 'Safari Friends Pond',
+    description: 'Amigos del safari alrededor de un estanque — una cebra está a la izquierda, un elefante bebé está en el centro, una jirafa, un cachorro de tigre y un hipopótamo en el estanque llenan el frente, con un mono en una rama, un flamenco y un tucán arriba, un cocodrilo en el arroyo y un león sentado junto a un pequeño templo de piedra.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari y Selva',
+    collection: 'Naturaleza y Animales',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 años',
+    image: '/images/safari-friends-pond.webp',
+    alt: 'Safari Friends Pond Póster gigante para colorear para niños de 4-7 años',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'garden-pond-friends',
+    title: 'Garden Pond Friends',
+    description: 'Amigos del jardín junto a un estanque — un elefante con flores en el cuerpo está a la izquierda, un búho, un conejito con un huevo de lunares, un pájaro, un cangrejo, un patito, un pez, una tortuga y una hormiga comparten el jardín, con una casita para pájaros, una casita en forma de tetera, un cofre del tesoro lleno de flores, una medusa, juncos y un sol sonriente.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari y Selva',
+    collection: 'Naturaleza y Animales',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 años',
+    image: '/images/garden-pond-friends.webp',
+    alt: 'Garden Pond Friends Póster gigante para colorear para niños de 4-7 años',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'leopard-cubs-river',
+    title: 'Leopard Cubs River',
+    description: 'Cachorros de leopardo junto a un río — tres cachorros de leopardo moteados y un pequeño león están junto a un arroyo sinuoso, con palmeras, acacias, mariposas, una tortuga, pájaros, un sol sonriente y nubes arriba, y rocas y helechos por todas partes.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari y Selva',
+    collection: 'Naturaleza y Animales',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 años',
+    image: '/images/leopard-cubs-river.webp',
+    alt: 'Leopard Cubs River Póster gigante para colorear para niños de 4-7 años',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cub-friends',
+    title: 'Tiger Cub Friends',
+    description: 'Un cachorro de tigre y sus amigos — un cachorro de tigre se sienta junto a un arroyo en el medio, un elefante bebé está a la izquierda, un hipopótamo sonriente está a la derecha y un gran loro se sienta en una rama, con palmeras y nubes arriba.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari y Selva',
+    collection: 'Naturaleza y Animales',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 años',
+    image: '/images/tiger-cub-friends.webp',
+    alt: 'Tiger Cub Friends Póster gigante para colorear para niños de 4-7 años',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'giraffe-elephant-river',
+    title: 'Giraffe Elephant River',
+    description: 'Animales del safari junto a un río sinuoso — una jirafa alta está a la izquierda, un gran elefante y una cebra están en el medio, un león y un hipopótamo descansan a la derecha, un tigre se sienta junto a un gran baobab, con cálaos y pájaros en una rama, peces en el río, huellas de patas y un sol sonriente arriba.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari y Selva',
+    collection: 'Naturaleza y Animales',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 años',
+    image: '/images/giraffe-elephant-river.webp',
+    alt: 'Giraffe Elephant River Póster gigante para colorear para niños de 4-7 años',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cubs-savannah',
+    title: 'Tiger Cubs Savannah',
+    description: 'Cachorros de tigre en la sabana — un cachorro de tigre y un pequeño leopardo se sientan en una roca en el medio, una jirafa sonriente se asoma detrás de un gran árbol, una cebra está a la izquierda, los ciervos pastan detrás, y una serpiente, patos, tortugas y juncos altos llenan el estanque del frente, bajo un gran sol.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari y Selva',
+    collection: 'Naturaleza y Animales',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 años',
+    image: '/images/tiger-cubs-savannah.webp',
+    alt: 'Tiger Cubs Savannah Póster gigante para colorear para niños de 4-7 años',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-monument-friends',
+    title: 'Safari Monument Friends',
+    description: 'Amigos del safari junto a un monumento de piedra — una jirafa y un elefante están a la izquierda, un león se sienta en una piedra tallada en el medio bajo un gran monumento en forma de cara de león, un mono se sienta en un árbol, una cebra y una cigüeña están junto a un estanque, con suricatas, un pingüino, mariposas, montañas y un sol sonriente.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari y Selva',
+    collection: 'Naturaleza y Animales',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 años',
+    image: '/images/safari-monument-friends.webp',
+    alt: 'Safari Monument Friends Póster gigante para colorear para niños de 4-7 años',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'woodland-deer-friends',
+    title: 'Woodland Deer Friends',
+    description: 'Tres amigos del bosque en un bosque de flores — un ciervo con grandes cuernos negros, un gatito y un pequeño ciervo moteado están entre rosas, tulipanes y margaritas, con un pájaro, una mariposa, un sol sonriente, una luna sonriente y estrellas en el cielo, y huellas de patas a lo largo de un sendero.',
+    category: 'woodland',
+    categoryLabel: 'Bosque',
+    collection: 'Naturaleza y Animales',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 años',
+    image: '/images/woodland-deer-friends.webp',
+    alt: 'Woodland Deer Friends Póster gigante para colorear para niños de 4-7 años',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'elephant-lion-jungle',
+    title: 'Elephant Lion Jungle',
+    description: 'Una gran reunión en la selva, llena de pequeños detalles para colorear — un elefante sonriente con un mono y una rana en la cabeza está en el centro, un león, un hipopótamo, una jirafa, un loro, dos tucanes, un tapir y un perezoso llenan la selva, con serpientes, palmeras, flores y un gran sol.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari y Selva',
+    collection: 'Naturaleza y Animales',
+    collectionSlug: 'nature-wildlife',
+    age: '8-12',
+    ageLabel: '8-12 años',
+    image: '/images/elephant-lion-jungle.webp',
+    alt: 'Elephant Lion Jungle Póster gigante para colorear para niños de 8-12 años',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  }
 ];
 
 // The 5 collections, each with its categories (from the AQWAGEL plan)

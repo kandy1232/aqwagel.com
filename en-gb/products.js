@@ -7,7 +7,7 @@ const PRODUCTS = [
   {
     id: 'birthday-animal-parade',
     title: 'Birthday Animal Parade',
-    description: 'A birthday animal parade with an elephant holding a birthday cake with 3 candles in the centre, joined by a bear with a balloon, a bunny holding a gift, a bird, a turtle in a party hat, a duck with a cupcake, and a cat with bunting. Big simple shapes and large open areas to colour.',
+    description: 'A birthday animal parade with an elephant holding a birthday cake with 3 candles in the center, joined by a bear with a balloon, a bunny holding a gift, a bird, a turtle in a party hat, a duck with a cupcake, and a cat with bunting. Big simple shapes and large open areas to color.',
     category: 'birthday-party',
     categoryLabel: 'Birthday Party',
     collection: 'Celebrations & Holidays',
@@ -25,7 +25,7 @@ const PRODUCTS = [
   {
     id: 'rainbow-insect-garden',
     title: 'Rainbow Insect Garden',
-    description: 'A happy insect garden under a big rainbow, with a smiling sun, flowers and strawberries. Bees, butterflies, dragonflies, ladybugs, ants, snails, a spider in its web, a grasshopper and a little worm hide all through the scene, waiting to be coloured.',
+    description: 'A happy insect garden under a big rainbow, with a smiling sun, flowers and strawberries. Bees, butterflies, dragonflies, ladybugs, ants, snails, a spider in its web, a grasshopper and a little worm hide all through the scene, waiting to be colored.',
     category: 'insects-garden',
     categoryLabel: 'Insects & Garden',
     collection: 'Nature & Wildlife',
@@ -169,7 +169,7 @@ const PRODUCTS = [
   {
     id: 'safari-river-animals',
     title: 'Safari River Animals',
-    description: 'Safari animals by a river, full of fine details to colour — elephant, rhino, hippo, crocodile, flamingos, giraffe, lion, koala with her baby and a chameleon, with palm trees, mountains and lotus flowers.',
+    description: 'Safari animals by a river, full of fine details to color — elephant, rhino, hippo, crocodile, flamingos, giraffe, lion, koala with her baby and a chameleon, with palm trees, mountains and lotus flowers.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -382,6 +382,186 @@ const PRODUCTS = [
     formats: 'SVG + PDF',
     sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
+  {
+    id: 'lion-forest-portrait',
+    title: 'Lion Forest Portrait',
+    description: 'A giant black-and-white coloring poster of a cute lion cub in a forest. A lion with a big round mane stands in the middle, with tall trees on both sides, a smiling sun and clouds above, a baobab tree, a giraffe and an elephant in the distance, flowers, ferns and paw prints all around, and a stream with fish at the bottom.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: '/images/lion-forest-portrait.webp',
+    alt: 'Lion Forest Portrait giant colouring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-friends-pond',
+    title: 'Safari Friends Pond',
+    description: 'A giant black-and-white coloring poster of safari friends around a pond. A zebra stands on the left, a baby elephant stands in the center, a giraffe, a tiger cub and a hippo in the pond fill the front, with a monkey on a branch, a flamingo and a toucan above, a crocodile in the stream, and a lion sitting by a little stone temple.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: '/images/safari-friends-pond.webp',
+    alt: 'Safari Friends Pond giant colouring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'garden-pond-friends',
+    title: 'Garden Pond Friends',
+    description: 'A giant black-and-white coloring poster of garden friends by a pond. An elephant with flowers on its body stands on the left, an owl, a bunny holding a dotted egg, a bird, a crab, a duckling, a fish, a turtle and an ant share the garden, with a birdhouse, a teapot birdhouse, a treasure chest full of flowers, a jellyfish, reeds and a smiling sun.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: '/images/garden-pond-friends.webp',
+    alt: 'Garden Pond Friends giant colouring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'leopard-cubs-river',
+    title: 'Leopard Cubs River',
+    description: 'A giant black-and-white coloring poster of leopard cubs by a river. Three spotted leopard cubs and a little lion stand by a winding stream, with palm trees, acacia trees, butterflies, a turtle, birds, a smiling sun and clouds above, and rocks and ferns all around.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: '/images/leopard-cubs-river.webp',
+    alt: 'Leopard Cubs River giant colouring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cub-friends',
+    title: 'Tiger Cub Friends',
+    description: 'A giant black-and-white coloring poster of a tiger cub and its friends. A tiger cub sits by a stream in the middle, a baby elephant stands on the left, a smiling hippo stands on the right, and a big parrot sits on a branch, with palm trees and clouds above.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: '/images/tiger-cub-friends.webp',
+    alt: 'Tiger Cub Friends giant colouring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'giraffe-elephant-river',
+    title: 'Giraffe Elephant River',
+    description: 'A giant black-and-white coloring poster of safari animals by a winding river. A tall giraffe stands on the left, a big elephant and a zebra stand in the middle, a lion and a hippo rest on the right, a tiger sits by a big baobab tree, with hornbills and birds on a branch, fish in the river, paw prints and a smiling sun above.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: '/images/giraffe-elephant-river.webp',
+    alt: 'Giraffe Elephant River giant colouring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cubs-savannah',
+    title: 'Tiger Cubs Savannah',
+    description: 'A giant black-and-white coloring poster of tiger cubs on the savanna. A tiger cub and a little leopard sit on a rock in the middle, a smiling giraffe peeks from behind a big tree, a zebra stands on the left, deer graze behind, and a snake, ducks, turtles and tall reeds fill the pond at the front, under a big sun.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: '/images/tiger-cubs-savannah.webp',
+    alt: 'Tiger Cubs Savannah giant colouring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-monument-friends',
+    title: 'Safari Monument Friends',
+    description: 'A giant black-and-white coloring poster of safari friends at a stone monument. A giraffe and an elephant stand on the left, a lion sits on a carved stone in the middle under a big lion-face monument, a monkey sits in a tree, a zebra and a stork stand by a pond, with meerkats, a penguin, butterflies, mountains and a smiling sun.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: '/images/safari-monument-friends.webp',
+    alt: 'Safari Monument Friends giant colouring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'woodland-deer-friends',
+    title: 'Woodland Deer Friends',
+    description: 'A giant black-and-white coloring poster of three woodland friends in a flower forest. A deer with big black antlers, a kitten and a little spotted deer stand among roses, tulips and daisies, with a bird, a butterfly, a smiling sun, a smiling moon and stars in the sky, and paw prints along a path.',
+    category: 'woodland',
+    categoryLabel: 'Woodland',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: '/images/woodland-deer-friends.webp',
+    alt: 'Woodland Deer Friends giant colouring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'elephant-lion-jungle',
+    title: 'Elephant Lion Jungle',
+    description: 'A giant black-and-white coloring poster of a big jungle gathering, full of fine details to color. A smiling elephant with a monkey and a frog on its head stands in the center, a lion, a hippo, a giraffe, a parrot, two toucans, a tapir and a sloth fill the jungle, with snakes, palm trees, flowers and a big sun.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '8-12',
+    ageLabel: 'Ages 8-12',
+    image: '/images/elephant-lion-jungle.webp',
+    alt: 'Elephant Lion Jungle giant colouring poster for kids ages 8-12',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  }
 ];
 
 // The 5 collections, each with its categories (from the AQWAGEL plan)

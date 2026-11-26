@@ -186,7 +186,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-friends-stream',
-    title: 'Forêt Friends Stream',
+    title: 'Woodland Friends Stream',
     description: 'Des amis de la forêt près d\'un ruisseau sinueux — un cerf dans les arbres, un petit ours qui pêche, des renards qui se reposent, et un hibou, des oiseaux, des écureuils, un lapin, un hérisson et des souris parmi les champignons et les feuilles.',
     category: 'woodland',
     categoryLabel: 'Forêt',
@@ -195,10 +195,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/woodland-friends-stream.webp',
-    alt: 'Forêt Friends Stream Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Woodland Friends Stream Poster géant à colorier pour enfants de 4-7 ans',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/lU7fE', // Forêt Friends Stream — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
@@ -276,7 +276,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-animal-friends',
-    title: 'Forêt Animal Friends',
+    title: 'Woodland Animal Friends',
     description: 'Des amis de la forêt dans une forêt ensoleillée — un renard, un cerf, un lapin, un ours qui fait signe, un écureuil avec un gland, un hibou, un hérisson et des souris parmi les arbres, les fleurs, les champignons et un petit ruisseau.',
     category: 'woodland',
     categoryLabel: 'Forêt',
@@ -285,16 +285,16 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/woodland-animal-friends.webp',
-    alt: 'Forêt Animal Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Woodland Animal Friends Poster géant à colorier pour enfants de 4-7 ans',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/vhUCJ', // Forêt Animal Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/vhUCJ', // Woodland Animal Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-meadow',
-    title: 'Forêt Friends Meadow',
+    title: 'Woodland Friends Meadow',
     description: 'Trois amis de la forêt dans un pré fleuri — un renard, un chaton et un cerf avec de grands bois noirs — parmi les hautes fleurs, avec des oiseaux, des papillons, des soleils souriants, des lunes et des étoiles au-dessus.',
     category: 'woodland',
     categoryLabel: 'Forêt',
@@ -303,10 +303,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/woodland-friends-meadow.webp',
-    alt: 'Forêt Friends Meadow Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Woodland Friends Meadow Poster géant à colorier pour enfants de 4-7 ans',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/xYXn0', // Forêt Friends Meadow — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/xYXn0', // Woodland Friends Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
@@ -366,7 +366,7 @@ const PRODUCTS = [
   },
   {
     id: 'farm-barn-friends',
-    title: 'Ferme Barn Friends',
+    title: 'Farm Barn Friends',
     description: 'Des amis de la ferme un jour de pluie — une vache devant une grange, un chat, un canard avec un parapluie, un lapin avec des carottes, un poussin, des grenouilles avec des parapluies dans un étang, un morse et un dauphin, une chenille, des papillons et un grand soleil.',
     category: 'farm',
     categoryLabel: 'Ferme',
@@ -375,13 +375,193 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/farm-barn-friends.webp',
-    alt: 'Ferme Barn Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Farm Barn Friends Poster géant à colorier pour enfants de 4-7 ans',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/2NvFM', // Ferme Barn Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/2NvFM', // Farm Barn Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
+  {
+    id: 'lion-forest-portrait',
+    title: 'Lion Forest Portrait',
+    description: 'Un adorable lionceau dans une forêt — un lion avec une grande crinière ronde se tient au milieu, avec de grands arbres des deux côtés, un soleil souriant et des nuages au-dessus, un baobab, une girafe et un éléphant au loin, des fleurs, des fougères et des traces de pattes partout, et un ruisseau avec des poissons en bas.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Animaux',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 ans',
+    image: '/images/lion-forest-portrait.webp',
+    alt: 'Lion Forest Portrait Poster géant à colorier pour enfants de 4-7 ans',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-friends-pond',
+    title: 'Safari Friends Pond',
+    description: 'Des amis du safari autour d\'un étang — un zèbre se tient à gauche, un bébé éléphant se tient au centre, une girafe, un bébé tigre et un hippopotame dans l\'étang remplissent le devant, avec un singe sur une branche, un flamant rose et un toucan au-dessus, un crocodile dans le ruisseau et un lion assis près d\'un petit temple en pierre.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Animaux',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 ans',
+    image: '/images/safari-friends-pond.webp',
+    alt: 'Safari Friends Pond Poster géant à colorier pour enfants de 4-7 ans',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'garden-pond-friends',
+    title: 'Garden Pond Friends',
+    description: 'Des amis du jardin près d\'un étang — un éléphant avec des fleurs sur le corps se tient à gauche, un hibou, un lapin tenant un œuf à pois, un oiseau, un crabe, un caneton, un poisson, une tortue et une fourmi partagent le jardin, avec un nichoir, un nichoir en forme de théière, un coffre au trésor plein de fleurs, une méduse, des roseaux et un soleil souriant.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Animaux',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 ans',
+    image: '/images/garden-pond-friends.webp',
+    alt: 'Garden Pond Friends Poster géant à colorier pour enfants de 4-7 ans',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'leopard-cubs-river',
+    title: 'Leopard Cubs River',
+    description: 'Des bébés léopards près d\'une rivière — trois bébés léopards tachetés et un petit lion se tiennent près d\'un ruisseau sinueux, avec des palmiers, des acacias, des papillons, une tortue, des oiseaux, un soleil souriant et des nuages au-dessus, et des rochers et des fougères tout autour.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Animaux',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 ans',
+    image: '/images/leopard-cubs-river.webp',
+    alt: 'Leopard Cubs River Poster géant à colorier pour enfants de 4-7 ans',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cub-friends',
+    title: 'Tiger Cub Friends',
+    description: 'Un bébé tigre et ses amis — un bébé tigre est assis près d\'un ruisseau au milieu, un bébé éléphant se tient à gauche, un hippopotame souriant se tient à droite et un grand perroquet est perché sur une branche, avec des palmiers et des nuages au-dessus.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Animaux',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 ans',
+    image: '/images/tiger-cub-friends.webp',
+    alt: 'Tiger Cub Friends Poster géant à colorier pour enfants de 4-7 ans',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'giraffe-elephant-river',
+    title: 'Giraffe Elephant River',
+    description: 'Des animaux du safari près d\'une rivière sinueuse — une grande girafe se tient à gauche, un grand éléphant et un zèbre se tiennent au milieu, un lion et un hippopotame se reposent à droite, un tigre est assis près d\'un grand baobab, avec des calaos et des oiseaux sur une branche, des poissons dans la rivière, des traces de pattes et un soleil souriant au-dessus.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Animaux',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 ans',
+    image: '/images/giraffe-elephant-river.webp',
+    alt: 'Giraffe Elephant River Poster géant à colorier pour enfants de 4-7 ans',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cubs-savannah',
+    title: 'Tiger Cubs Savannah',
+    description: 'Des bébés tigres dans la savane — un bébé tigre et un petit léopard sont assis sur un rocher au milieu, une girafe souriante regarde derrière un grand arbre, un zèbre se tient à gauche, des cerfs broutent derrière, et un serpent, des canards, des tortues et de grands roseaux remplissent l\'étang devant, sous un grand soleil.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Animaux',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 ans',
+    image: '/images/tiger-cubs-savannah.webp',
+    alt: 'Tiger Cubs Savannah Poster géant à colorier pour enfants de 4-7 ans',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-monument-friends',
+    title: 'Safari Monument Friends',
+    description: 'Des amis du safari près d\'un monument en pierre — une girafe et un éléphant se tiennent à gauche, un lion est assis sur une pierre sculptée au milieu sous un grand monument en forme de tête de lion, un singe est assis dans un arbre, un zèbre et une cigogne se tiennent près d\'un étang, avec des suricates, un pingouin, des papillons, des montagnes et un soleil souriant.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Animaux',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 ans',
+    image: '/images/safari-monument-friends.webp',
+    alt: 'Safari Monument Friends Poster géant à colorier pour enfants de 4-7 ans',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'woodland-deer-friends',
+    title: 'Woodland Deer Friends',
+    description: 'Trois amis de la forêt dans une forêt de fleurs — un cerf avec de grands bois noirs, un chaton et un petit cerf tacheté se tiennent parmi des roses, des tulipes et des marguerites, avec un oiseau, un papillon, un soleil souriant, une lune souriante et des étoiles dans le ciel, et des traces de pattes le long d\'un chemin.',
+    category: 'woodland',
+    categoryLabel: 'Forêt',
+    collection: 'Nature & Animaux',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 ans',
+    image: '/images/woodland-deer-friends.webp',
+    alt: 'Woodland Deer Friends Poster géant à colorier pour enfants de 4-7 ans',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'elephant-lion-jungle',
+    title: 'Elephant Lion Jungle',
+    description: 'Un grand rassemblement dans la jungle, plein de petits détails à colorier — un éléphant souriant avec un singe et une grenouille sur la tête se tient au centre, un lion, un hippopotame, une girafe, un perroquet, deux toucans, un tapir et un paresseux remplissent la jungle, avec des serpents, des palmiers, des fleurs et un grand soleil.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Animaux',
+    collectionSlug: 'nature-wildlife',
+    age: '8-12',
+    ageLabel: '8-12 ans',
+    image: '/images/elephant-lion-jungle.webp',
+    alt: 'Elephant Lion Jungle Poster géant à colorier pour enfants de 8-12 ans',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  }
 ];
 
 // The 5 collections, each with its categories (from the AQWAGEL plan)

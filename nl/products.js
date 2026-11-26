@@ -186,7 +186,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-friends-stream',
-    title: 'Bos Friends Stream',
+    title: 'Woodland Friends Stream',
     description: 'Bosvrienden bij een kronkelende beek — een hert tussen de bomen, een kleine beer die vist, vossen die rusten, en een uil, vogels, eekhoorns, een konijn, een egel en muizen tussen de paddenstoelen en bladeren.',
     category: 'woodland',
     categoryLabel: 'Bos',
@@ -195,10 +195,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/woodland-friends-stream.webp',
-    alt: 'Bos Friends Stream Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Woodland Friends Stream Reuze kleurposter voor kinderen van 4-7 jaar',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/lU7fE', // Bos Friends Stream — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
@@ -276,7 +276,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-animal-friends',
-    title: 'Bos Animal Friends',
+    title: 'Woodland Animal Friends',
     description: 'Bosvrienden in een zonnig bos — een vos, een hert, een konijn, een zwaaiende beer, een eekhoorn met een eikel, een uil, een egel en muizen tussen bomen, bloemen, paddenstoelen en een kleine beek.',
     category: 'woodland',
     categoryLabel: 'Bos',
@@ -285,16 +285,16 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/woodland-animal-friends.webp',
-    alt: 'Bos Animal Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Woodland Animal Friends Reuze kleurposter voor kinderen van 4-7 jaar',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/vhUCJ', // Bos Animal Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/vhUCJ', // Woodland Animal Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-meadow',
-    title: 'Bos Friends Meadow',
+    title: 'Woodland Friends Meadow',
     description: 'Drie bosvrienden in een bloemenweide — een vos, een kitten en een hert met grote zwarte geweien — tussen hoge bloemen, met vogels, vlinders, lachende zonnen, manen en sterren erboven.',
     category: 'woodland',
     categoryLabel: 'Bos',
@@ -303,10 +303,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/woodland-friends-meadow.webp',
-    alt: 'Bos Friends Meadow Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Woodland Friends Meadow Reuze kleurposter voor kinderen van 4-7 jaar',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/xYXn0', // Bos Friends Meadow — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/xYXn0', // Woodland Friends Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
@@ -366,7 +366,7 @@ const PRODUCTS = [
   },
   {
     id: 'farm-barn-friends',
-    title: 'Boerderij Barn Friends',
+    title: 'Farm Barn Friends',
     description: 'Boerderijvrienden op een regenachtige dag — een koe voor een schuur, een kat, een eend met een paraplu, een konijn met wortels, een kuiken, kikkers met paraplu\'s in een vijver, een walrus en een dolfijn, een rups, vlinders en een grote zon.',
     category: 'farm',
     categoryLabel: 'Boerderij',
@@ -375,13 +375,193 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/farm-barn-friends.webp',
-    alt: 'Boerderij Barn Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Farm Barn Friends Reuze kleurposter voor kinderen van 4-7 jaar',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/2NvFM', // Boerderij Barn Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/2NvFM', // Farm Barn Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
+  {
+    id: 'lion-forest-portrait',
+    title: 'Lion Forest Portrait',
+    description: 'Een schattige leeuwenwelp in een bos — een leeuw met een grote ronde manen staat in het midden, met hoge bomen aan beide kanten, een lachende zon en wolken erboven, een baobabboom, een giraf en een olifant in de verte, bloemen, varens en pootafdrukken overal, en een beek met vissen onderaan.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Natuur & Dieren',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 jaar',
+    image: '/images/lion-forest-portrait.webp',
+    alt: 'Lion Forest Portrait Reuze kleurposter voor kinderen van 4-7 jaar',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-friends-pond',
+    title: 'Safari Friends Pond',
+    description: 'Safarivrienden rond een vijver — een zebra staat links, een babyolifant staat in het midden, een giraf, een tijgerwelp en een nijlpaard in de vijver vullen de voorkant, met een aap op een tak, een flamingo en een toekan erboven, een krokodil in de beek en een leeuw die bij een klein stenen tempeltje zit.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Natuur & Dieren',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 jaar',
+    image: '/images/safari-friends-pond.webp',
+    alt: 'Safari Friends Pond Reuze kleurposter voor kinderen van 4-7 jaar',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'garden-pond-friends',
+    title: 'Garden Pond Friends',
+    description: 'Tuinvrienden bij een vijver — een olifant met bloemen op zijn lichaam staat links, een uil, een konijn met een gestippeld ei, een vogel, een krab, een eendje, een vis, een schildpad en een mier delen de tuin, met een vogelhuisje, een theepot-vogelhuisje, een schatkist vol bloemen, een kwal, riet en een lachende zon.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Natuur & Dieren',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 jaar',
+    image: '/images/garden-pond-friends.webp',
+    alt: 'Garden Pond Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'leopard-cubs-river',
+    title: 'Leopard Cubs River',
+    description: 'Luipaardwelpen bij een rivier — drie gevlekte luipaardwelpen en een kleine leeuw staan bij een kronkelende beek, met palmbomen, acacia\'s, vlinders, een schildpad, vogels, een lachende zon en wolken erboven, en rotsen en varens overal.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Natuur & Dieren',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 jaar',
+    image: '/images/leopard-cubs-river.webp',
+    alt: 'Leopard Cubs River Reuze kleurposter voor kinderen van 4-7 jaar',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cub-friends',
+    title: 'Tiger Cub Friends',
+    description: 'Een tijgerwelp en zijn vrienden — een tijgerwelp zit bij een beek in het midden, een babyolifant staat links, een lachend nijlpaard staat rechts en een grote papegaai zit op een tak, met palmbomen en wolken erboven.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Natuur & Dieren',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 jaar',
+    image: '/images/tiger-cub-friends.webp',
+    alt: 'Tiger Cub Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'giraffe-elephant-river',
+    title: 'Giraffe Elephant River',
+    description: 'Safaridieren bij een kronkelende rivier — een hoge giraf staat links, een grote olifant en een zebra staan in het midden, een leeuw en een nijlpaard rusten rechts uit, een tijger zit bij een grote baobabboom, met neushoornvogels en vogels op een tak, vissen in de rivier, pootafdrukken en een lachende zon erboven.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Natuur & Dieren',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 jaar',
+    image: '/images/giraffe-elephant-river.webp',
+    alt: 'Giraffe Elephant River Reuze kleurposter voor kinderen van 4-7 jaar',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cubs-savannah',
+    title: 'Tiger Cubs Savannah',
+    description: 'Tijgerwelpen op de savanne — een tijgerwelp en een kleine luipaard zitten op een rots in het midden, een lachende giraf kijkt achter een grote boom vandaan, een zebra staat links, herten grazen erachter, en een slang, eenden, schildpadden en hoog riet vullen de vijver vooraan, onder een grote zon.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Natuur & Dieren',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 jaar',
+    image: '/images/tiger-cubs-savannah.webp',
+    alt: 'Tiger Cubs Savannah Reuze kleurposter voor kinderen van 4-7 jaar',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-monument-friends',
+    title: 'Safari Monument Friends',
+    description: 'Safarivrienden bij een stenen monument — een giraf en een olifant staan links, een leeuw zit op een gebeeldhouwde steen in het midden onder een groot monument in de vorm van een leeuwengezicht, een aap zit in een boom, een zebra en een ooievaar staan bij een vijver, met stokstaartjes, een pinguïn, vlinders, bergen en een lachende zon.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Natuur & Dieren',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 jaar',
+    image: '/images/safari-monument-friends.webp',
+    alt: 'Safari Monument Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'woodland-deer-friends',
+    title: 'Woodland Deer Friends',
+    description: 'Drie bosvrienden in een bloemenbos — een hert met een groot zwart gewei, een katje en een klein gevlekt hert staan tussen rozen, tulpen en madeliefjes, met een vogel, een vlinder, een lachende zon, een lachende maan en sterren aan de hemel, en pootafdrukken langs een pad.',
+    category: 'woodland',
+    categoryLabel: 'Bos',
+    collection: 'Natuur & Dieren',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 jaar',
+    image: '/images/woodland-deer-friends.webp',
+    alt: 'Woodland Deer Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'elephant-lion-jungle',
+    title: 'Elephant Lion Jungle',
+    description: 'Een grote junglebijeenkomst vol fijne details om in te kleuren — een lachende olifant met een aap en een kikker op zijn hoofd staat in het midden, een leeuw, een nijlpaard, een giraf, een papegaai, twee toekans, een tapir en een luiaard vullen de jungle, met slangen, palmbomen, bloemen en een grote zon.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Natuur & Dieren',
+    collectionSlug: 'nature-wildlife',
+    age: '8-12',
+    ageLabel: '8-12 jaar',
+    image: '/images/elephant-lion-jungle.webp',
+    alt: 'Elephant Lion Jungle Reuze kleurposter voor kinderen van 8-12 jaar',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  }
 ];
 
 // The 5 collections, each with its categories (from the AQWAGEL plan)

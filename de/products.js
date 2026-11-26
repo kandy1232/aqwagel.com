@@ -186,7 +186,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-friends-stream',
-    title: 'Wald Friends Stream',
+    title: 'Woodland Friends Stream',
     description: 'Waldfreunde an einem gewundenen Bach — ein Reh zwischen den Bäumen, ein kleiner Bär beim Angeln, Füchse beim Ausruhen, und eine Eule, Vögel, Eichhörnchen, ein Hase, ein Igel und Mäuse zwischen den Pilzen und Blättern.',
     category: 'woodland',
     categoryLabel: 'Wald',
@@ -195,10 +195,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/woodland-friends-stream.webp',
-    alt: 'Wald Friends Stream Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Woodland Friends Stream Riesiges Ausmalposter für Kinder, Alter 4–7',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/lU7fE', // Wald Friends Stream — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
@@ -276,7 +276,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-animal-friends',
-    title: 'Wald Animal Friends',
+    title: 'Woodland Animal Friends',
     description: 'Waldfreunde in einem sonnigen Wald — ein Fuchs, ein Reh, ein Hase, ein winkender Bär, ein Eichhörnchen mit einer Eichel, eine Eule, ein Igel und Mäuse zwischen Bäumen, Blumen, Pilzen und einem kleinen Bach.',
     category: 'woodland',
     categoryLabel: 'Wald',
@@ -285,16 +285,16 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/woodland-animal-friends.webp',
-    alt: 'Wald Animal Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Woodland Animal Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/vhUCJ', // Wald Animal Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/vhUCJ', // Woodland Animal Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-meadow',
-    title: 'Wald Friends Meadow',
+    title: 'Woodland Friends Meadow',
     description: 'Drei Waldfreunde auf einer Blumenwiese — ein Fuchs, ein Kätzchen und ein Hirsch mit großen schwarzen Geweihen — zwischen hohen Blumen, mit Vögeln, Schmetterlingen, lächelnden Sonnen, Monden und Sternen darüber.',
     category: 'woodland',
     categoryLabel: 'Wald',
@@ -303,10 +303,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/woodland-friends-meadow.webp',
-    alt: 'Wald Friends Meadow Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Woodland Friends Meadow Riesiges Ausmalposter für Kinder, Alter 4–7',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/xYXn0', // Wald Friends Meadow — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/xYXn0', // Woodland Friends Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
@@ -366,7 +366,7 @@ const PRODUCTS = [
   },
   {
     id: 'farm-barn-friends',
-    title: 'Bauernhof Barn Friends',
+    title: 'Farm Barn Friends',
     description: 'Bauernfreunde an einem regnerischen Tag — eine Kuh vor einer Scheune, eine Katze, eine Ente mit einem Regenschirm, ein Hase mit Karotten, ein Küken, Frösche mit Regenschirmen in einem Teich, ein Walross und ein Delfin, eine Raupe, Schmetterlinge und eine große Sonne.',
     category: 'farm',
     categoryLabel: 'Bauernhof',
@@ -375,13 +375,193 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/farm-barn-friends.webp',
-    alt: 'Bauernhof Barn Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Farm Barn Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/2NvFM', // Bauernhof Barn Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/2NvFM', // Farm Barn Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
+  {
+    id: 'lion-forest-portrait',
+    title: 'Lion Forest Portrait',
+    description: 'Ein süßes Löwenjunges in einem Wald — ein Löwe mit einer großen runden Mähne steht in der Mitte, mit hohen Bäumen auf beiden Seiten, einer lächelnden Sonne und Wolken darüber, einem Baobab-Baum, einer Giraffe und einem Elefanten in der Ferne, Blumen, Farnen und Pfotenabdrücken überall und einem Bach mit Fischen unten.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Dschungel',
+    collection: 'Natur & Tierwelt',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Alter 4–7',
+    image: '/images/lion-forest-portrait.webp',
+    alt: 'Lion Forest Portrait Riesiges Ausmalposter für Kinder, Alter 4–7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-friends-pond',
+    title: 'Safari Friends Pond',
+    description: 'Safarifreunde um einen Teich — ein Zebra steht links, ein Babyelefant steht in der Mitte, eine Giraffe, ein Tigerjunges und ein Nilpferd im Teich füllen den Vordergrund, mit einem Affen auf einem Ast, einem Flamingo und einem Tukan darüber, einem Krokodil im Bach und einem Löwen, der bei einem kleinen Steintempel sitzt.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Dschungel',
+    collection: 'Natur & Tierwelt',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Alter 4–7',
+    image: '/images/safari-friends-pond.webp',
+    alt: 'Safari Friends Pond Riesiges Ausmalposter für Kinder, Alter 4–7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'garden-pond-friends',
+    title: 'Garden Pond Friends',
+    description: 'Gartenfreunde an einem Teich — ein Elefant mit Blumen auf dem Körper steht links, eine Eule, ein Hase mit einem gepunkteten Ei, ein Vogel, eine Krabbe, ein Entlein, ein Fisch, eine Schildkröte und eine Ameise teilen sich den Garten, mit einem Vogelhaus, einem Teekannen-Vogelhaus, einer Schatztruhe voller Blumen, einer Qualle, Schilf und einer lächelnden Sonne.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Dschungel',
+    collection: 'Natur & Tierwelt',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Alter 4–7',
+    image: '/images/garden-pond-friends.webp',
+    alt: 'Garden Pond Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'leopard-cubs-river',
+    title: 'Leopard Cubs River',
+    description: 'Leopardenjunge an einem Fluss — drei gefleckte Leopardenjunge und ein kleiner Löwe stehen an einem gewundenen Bach, mit Palmen, Akazien, Schmetterlingen, einer Schildkröte, Vögeln, einer lächelnden Sonne und Wolken darüber und Felsen und Farnen überall.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Dschungel',
+    collection: 'Natur & Tierwelt',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Alter 4–7',
+    image: '/images/leopard-cubs-river.webp',
+    alt: 'Leopard Cubs River Riesiges Ausmalposter für Kinder, Alter 4–7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cub-friends',
+    title: 'Tiger Cub Friends',
+    description: 'Ein Tigerjunges und seine Freunde — ein Tigerjunges sitzt an einem Bach in der Mitte, ein Babyelefant steht links, ein lächelndes Nilpferd steht rechts und ein großer Papagei sitzt auf einem Ast, mit Palmen und Wolken darüber.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Dschungel',
+    collection: 'Natur & Tierwelt',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Alter 4–7',
+    image: '/images/tiger-cub-friends.webp',
+    alt: 'Tiger Cub Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'giraffe-elephant-river',
+    title: 'Giraffe Elephant River',
+    description: 'Safaritiere an einem gewundenen Fluss — eine große Giraffe steht links, ein großer Elefant und ein Zebra stehen in der Mitte, ein Löwe und ein Nilpferd ruhen sich rechts aus, ein Tiger sitzt bei einem großen Baobab-Baum, mit Nashornvögeln und Vögeln auf einem Ast, Fischen im Fluss, Pfotenabdrücken und einer lächelnden Sonne darüber.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Dschungel',
+    collection: 'Natur & Tierwelt',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Alter 4–7',
+    image: '/images/giraffe-elephant-river.webp',
+    alt: 'Giraffe Elephant River Riesiges Ausmalposter für Kinder, Alter 4–7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cubs-savannah',
+    title: 'Tiger Cubs Savannah',
+    description: 'Tigerjunge in der Savanne — ein Tigerjunges und ein kleiner Leopard sitzen auf einem Felsen in der Mitte, eine lächelnde Giraffe lugt hinter einem großen Baum hervor, ein Zebra steht links, Hirsche grasen dahinter und eine Schlange, Enten, Schildkröten und hohes Schilf füllen den Teich vorne unter einer großen Sonne.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Dschungel',
+    collection: 'Natur & Tierwelt',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Alter 4–7',
+    image: '/images/tiger-cubs-savannah.webp',
+    alt: 'Tiger Cubs Savannah Riesiges Ausmalposter für Kinder, Alter 4–7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-monument-friends',
+    title: 'Safari Monument Friends',
+    description: 'Safarifreunde an einem Steinmonument — eine Giraffe und ein Elefant stehen links, ein Löwe sitzt auf einem geschnitzten Stein in der Mitte unter einem großen Löwengesicht-Monument, ein Affe sitzt in einem Baum, ein Zebra und ein Storch stehen an einem Teich, mit Erdmännchen, einem Pinguin, Schmetterlingen, Bergen und einer lächelnden Sonne.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Dschungel',
+    collection: 'Natur & Tierwelt',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Alter 4–7',
+    image: '/images/safari-monument-friends.webp',
+    alt: 'Safari Monument Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'woodland-deer-friends',
+    title: 'Woodland Deer Friends',
+    description: 'Drei Waldfreunde in einem Blumenwald — ein Hirsch mit großen schwarzen Geweihen, ein Kätzchen und ein kleines geflecktes Reh stehen zwischen Rosen, Tulpen und Gänseblümchen, mit einem Vogel, einem Schmetterling, einer lächelnden Sonne, einem lächelnden Mond und Sternen am Himmel und Pfotenabdrücken entlang eines Weges.',
+    category: 'woodland',
+    categoryLabel: 'Wald',
+    collection: 'Natur & Tierwelt',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Alter 4–7',
+    image: '/images/woodland-deer-friends.webp',
+    alt: 'Woodland Deer Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'elephant-lion-jungle',
+    title: 'Elephant Lion Jungle',
+    description: 'Ein großes Dschungeltreffen voller feiner Details zum Ausmalen — ein lächelnder Elefant mit einem Affen und einem Frosch auf dem Kopf steht in der Mitte, ein Löwe, ein Nilpferd, eine Giraffe, ein Papagei, zwei Tukane, ein Tapir und ein Faultier füllen den Dschungel, mit Schlangen, Palmen, Blumen und einer großen Sonne.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Dschungel',
+    collection: 'Natur & Tierwelt',
+    collectionSlug: 'nature-wildlife',
+    age: '8-12',
+    ageLabel: 'Alter 8–12',
+    image: '/images/elephant-lion-jungle.webp',
+    alt: 'Elephant Lion Jungle Riesiges Ausmalposter für Kinder, Alter 8–12',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  }
 ];
 
 // The 5 collections, each with its categories (from the AQWAGEL plan)

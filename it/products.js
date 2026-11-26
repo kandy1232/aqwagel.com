@@ -186,7 +186,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-friends-stream',
-    title: 'Bosco Friends Stream',
+    title: 'Woodland Friends Stream',
     description: 'Amici del bosco vicino a un ruscello sinuoso — un cervo tra gli alberi, un orsacchiotto che pesca, volpi che riposano, e un gufo, uccelli, scoiattoli, un coniglio, un riccio e topi tra funghi e foglie.',
     category: 'woodland',
     categoryLabel: 'Bosco',
@@ -195,10 +195,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 anni',
     image: '/images/woodland-friends-stream.webp',
-    alt: 'Bosco Friends Stream Poster gigante da colorare per bambini di 4-7 anni',
+    alt: 'Woodland Friends Stream Poster gigante da colorare per bambini di 4-7 anni',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/lU7fE', // Bosco Friends Stream — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
@@ -276,7 +276,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-animal-friends',
-    title: 'Bosco Animal Friends',
+    title: 'Woodland Animal Friends',
     description: 'Amici del bosco in un bosco soleggiato — una volpe, un cervo, un coniglio, un orso che saluta, uno scoiattolo con una ghianda, un gufo, un riccio e topi tra alberi, fiori, funghi e un piccolo ruscello.',
     category: 'woodland',
     categoryLabel: 'Bosco',
@@ -285,16 +285,16 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 anni',
     image: '/images/woodland-animal-friends.webp',
-    alt: 'Bosco Animal Friends Poster gigante da colorare per bambini di 4-7 anni',
+    alt: 'Woodland Animal Friends Poster gigante da colorare per bambini di 4-7 anni',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/vhUCJ', // Bosco Animal Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/vhUCJ', // Woodland Animal Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-meadow',
-    title: 'Bosco Friends Meadow',
+    title: 'Woodland Friends Meadow',
     description: 'Tre amici del bosco in un prato fiorito — una volpe, un gattino e un cervo con grandi corna nere — tra fiori alti, con uccelli, farfalle, soli sorridenti, lune e stelle sopra.',
     category: 'woodland',
     categoryLabel: 'Bosco',
@@ -303,10 +303,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 anni',
     image: '/images/woodland-friends-meadow.webp',
-    alt: 'Bosco Friends Meadow Poster gigante da colorare per bambini di 4-7 anni',
+    alt: 'Woodland Friends Meadow Poster gigante da colorare per bambini di 4-7 anni',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/xYXn0', // Bosco Friends Meadow — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/xYXn0', // Woodland Friends Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
@@ -366,7 +366,7 @@ const PRODUCTS = [
   },
   {
     id: 'farm-barn-friends',
-    title: 'Fattoria Barn Friends',
+    title: 'Farm Barn Friends',
     description: 'Amici della fattoria in un giorno di pioggia — una mucca davanti a un fienile, un gatto, un\'anatra con un ombrello, un coniglio con carote, un pulcino, rane con ombrelli in uno stagno, un tricheco e un delfino, un bruco, farfalle e un grande sole.',
     category: 'farm',
     categoryLabel: 'Fattoria',
@@ -375,13 +375,193 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 anni',
     image: '/images/farm-barn-friends.webp',
-    alt: 'Fattoria Barn Friends Poster gigante da colorare per bambini di 4-7 anni',
+    alt: 'Farm Barn Friends Poster gigante da colorare per bambini di 4-7 anni',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/2NvFM', // Fattoria Barn Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/2NvFM', // Farm Barn Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
+  {
+    id: 'lion-forest-portrait',
+    title: 'Lion Forest Portrait',
+    description: 'Un adorabile cucciolo di leone in una foresta — un leone con una grande criniera rotonda sta in mezzo, con alberi alti su entrambi i lati, un sole sorridente e nuvole sopra, un baobab, una giraffa e un elefante in lontananza, fiori, felci e impronte di zampe ovunque, e un ruscello con pesci in basso.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Giungla',
+    collection: 'Natura & Animali',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 anni',
+    image: '/images/lion-forest-portrait.webp',
+    alt: 'Lion Forest Portrait Poster gigante da colorare per bambini di 4-7 anni',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-friends-pond',
+    title: 'Safari Friends Pond',
+    description: 'Amici del safari intorno a uno stagno — una zebra sta a sinistra, un elefantino sta al centro, una giraffa, un cucciolo di tigre e un ippopotamo nello stagno riempiono la parte anteriore, con una scimmia su un ramo, un fenicottero e un tucano sopra, un coccodrillo nel ruscello e un leone seduto vicino a un piccolo tempio di pietra.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Giungla',
+    collection: 'Natura & Animali',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 anni',
+    image: '/images/safari-friends-pond.webp',
+    alt: 'Safari Friends Pond Poster gigante da colorare per bambini di 4-7 anni',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'garden-pond-friends',
+    title: 'Garden Pond Friends',
+    description: 'Amici del giardino vicino a uno stagno — un elefante con fiori sul corpo sta a sinistra, un gufo, un coniglietto che tiene un uovo a pois, un uccello, un granchio, un anatroccolo, un pesce, una tartaruga e una formica condividono il giardino, con una casetta per uccelli, una casetta a forma di teiera, un forziere pieno di fiori, una medusa, canne e un sole sorridente.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Giungla',
+    collection: 'Natura & Animali',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 anni',
+    image: '/images/garden-pond-friends.webp',
+    alt: 'Garden Pond Friends Poster gigante da colorare per bambini di 4-7 anni',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'leopard-cubs-river',
+    title: 'Leopard Cubs River',
+    description: 'Cuccioli di leopardo vicino a un fiume — tre cuccioli di leopardo maculati e un piccolo leone stanno vicino a un ruscello tortuoso, con palme, acacie, farfalle, una tartaruga, uccelli, un sole sorridente e nuvole sopra, e rocce e felci tutt\'intorno.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Giungla',
+    collection: 'Natura & Animali',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 anni',
+    image: '/images/leopard-cubs-river.webp',
+    alt: 'Leopard Cubs River Poster gigante da colorare per bambini di 4-7 anni',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cub-friends',
+    title: 'Tiger Cub Friends',
+    description: 'Un cucciolo di tigre e i suoi amici — un cucciolo di tigre siede vicino a un ruscello al centro, un elefantino sta a sinistra, un ippopotamo sorridente sta a destra e un grande pappagallo siede su un ramo, con palme e nuvole sopra.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Giungla',
+    collection: 'Natura & Animali',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 anni',
+    image: '/images/tiger-cub-friends.webp',
+    alt: 'Tiger Cub Friends Poster gigante da colorare per bambini di 4-7 anni',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'giraffe-elephant-river',
+    title: 'Giraffe Elephant River',
+    description: 'Animali del safari vicino a un fiume tortuoso — una giraffa alta sta a sinistra, un grande elefante e una zebra stanno al centro, un leone e un ippopotamo riposano a destra, una tigre siede vicino a un grande baobab, con buceri e uccelli su un ramo, pesci nel fiume, impronte di zampe e un sole sorridente sopra.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Giungla',
+    collection: 'Natura & Animali',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 anni',
+    image: '/images/giraffe-elephant-river.webp',
+    alt: 'Giraffe Elephant River Poster gigante da colorare per bambini di 4-7 anni',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'tiger-cubs-savannah',
+    title: 'Tiger Cubs Savannah',
+    description: 'Cuccioli di tigre nella savana — un cucciolo di tigre e un piccolo leopardo siedono su una roccia al centro, una giraffa sorridente sbircia da dietro un grande albero, una zebra sta a sinistra, i cervi pascolano dietro, e un serpente, anatre, tartarughe e alte canne riempiono lo stagno davanti, sotto un grande sole.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Giungla',
+    collection: 'Natura & Animali',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 anni',
+    image: '/images/tiger-cubs-savannah.webp',
+    alt: 'Tiger Cubs Savannah Poster gigante da colorare per bambini di 4-7 anni',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-monument-friends',
+    title: 'Safari Monument Friends',
+    description: 'Amici del safari vicino a un monumento di pietra — una giraffa e un elefante stanno a sinistra, un leone siede su una pietra scolpita al centro sotto un grande monumento a forma di faccia di leone, una scimmia siede su un albero, una zebra e una cicogna stanno vicino a uno stagno, con suricati, un pinguino, farfalle, montagne e un sole sorridente.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Giungla',
+    collection: 'Natura & Animali',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 anni',
+    image: '/images/safari-monument-friends.webp',
+    alt: 'Safari Monument Friends Poster gigante da colorare per bambini di 4-7 anni',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'woodland-deer-friends',
+    title: 'Woodland Deer Friends',
+    description: 'Tre amici del bosco in una foresta di fiori — un cervo con grandi corna nere, un gattino e un piccolo cerbiatto maculato stanno tra rose, tulipani e margherite, con un uccello, una farfalla, un sole sorridente, una luna sorridente e stelle nel cielo, e impronte di zampe lungo un sentiero.',
+    category: 'woodland',
+    categoryLabel: 'Bosco',
+    collection: 'Natura & Animali',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 anni',
+    image: '/images/woodland-deer-friends.webp',
+    alt: 'Woodland Deer Friends Poster gigante da colorare per bambini di 4-7 anni',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'elephant-lion-jungle',
+    title: 'Elephant Lion Jungle',
+    description: 'Un grande raduno nella giungla, pieno di piccoli dettagli da colorare — un elefante sorridente con una scimmia e una rana sulla testa sta al centro, un leone, un ippopotamo, una giraffa, un pappagallo, due tucani, un tapiro e un bradipo riempiono la giungla, con serpenti, palme, fiori e un grande sole.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Giungla',
+    collection: 'Natura & Animali',
+    collectionSlug: 'nature-wildlife',
+    age: '8-12',
+    ageLabel: '8-12 anni',
+    image: '/images/elephant-lion-jungle.webp',
+    alt: 'Elephant Lion Jungle Poster gigante da colorare per bambini di 8-12 anni',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  }
 ];
 
 // The 5 collections, each with its categories (from the AQWAGEL plan)

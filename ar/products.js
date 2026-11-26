@@ -186,7 +186,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-friends-stream',
-    title: 'الغابة Friends Stream',
+    title: 'Woodland Friends Stream',
     description: 'أصدقاء الغابة بجانب جدول متعرج — غزال بين الأشجار، ودب صغير يصطاد، وثعالب تستريح، وبومة وطيور وسناجب وأرنب وقنفذ وفئران بين الفطر والأوراق.',
     category: 'woodland',
     categoryLabel: 'الغابة',
@@ -195,10 +195,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/woodland-friends-stream.webp',
-    alt: 'الغابة Friends Stream ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Woodland Friends Stream ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/lU7fE', // الغابة Friends Stream — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
@@ -276,7 +276,7 @@ const PRODUCTS = [
   },
   {
     id: 'woodland-animal-friends',
-    title: 'الغابة Animal Friends',
+    title: 'Woodland Animal Friends',
     description: 'أصدقاء الغابة في غابة مشمسة — ثعلب وغزال وأرنب ودب يلوح وسنجاب يحمل جوزة بلوط وبومة وقنفذ وفئران بين الأشجار والزهور والفطر وجدول صغير.',
     category: 'woodland',
     categoryLabel: 'الغابة',
@@ -285,16 +285,16 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/woodland-animal-friends.webp',
-    alt: 'الغابة Animal Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Woodland Animal Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/vhUCJ', // الغابة Animal Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/vhUCJ', // Woodland Animal Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'woodland-friends-meadow',
-    title: 'الغابة Friends Meadow',
+    title: 'Woodland Friends Meadow',
     description: 'ثلاثة أصدقاء من الغابة في مرج زهور — ثعلب وقطة صغيرة وغزال بقرون سوداء كبيرة — بين زهور طويلة، مع طيور وفراشات وشموس مبتسمة وأقمار ونجوم في الأعلى.',
     category: 'woodland',
     categoryLabel: 'الغابة',
@@ -303,10 +303,10 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/woodland-friends-meadow.webp',
-    alt: 'الغابة Friends Meadow ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Woodland Friends Meadow ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/xYXn0', // الغابة Friends Meadow — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/xYXn0', // Woodland Friends Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
@@ -366,7 +366,7 @@ const PRODUCTS = [
   },
   {
     id: 'farm-barn-friends',
-    title: 'المزرعة Barn Friends',
+    title: 'Farm Barn Friends',
     description: 'أصدقاء المزرعة في يوم ممطر — بقرة أمام حظيرة، وقطة، وبطة تحمل مظلة، وأرنب يحمل جزرًا، وكتكوت، وضفادع تحمل مظلات في بركة، وفظ ودلفين، ويسروع، وفراشات وشمس كبيرة.',
     category: 'farm',
     categoryLabel: 'المزرعة',
@@ -375,13 +375,193 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/farm-barn-friends.webp',
-    alt: 'المزرعة Barn Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Farm Barn Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
     price: '1.00',
     priceCurrency: 'USD',
-    payhipUrl: 'https://payhip.com/b/2NvFM', // المزرعة Barn Friends — live Payhip product, verified 26 Nov 2026
+    payhipUrl: 'https://payhip.com/b/2NvFM', // Farm Barn Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
+  {
+    id: 'lion-forest-portrait',
+    title: 'Lion Forest Portrait',
+    description: 'شبل أسد لطيف في غابة — أسد ذو لبدة كبيرة مستديرة يقف في المنتصف، مع أشجار طويلة على الجانبين، وشمس مبتسمة وغيوم في الأعلى، وشجرة باوباب، وزرافة وفيل في البعيد، وزهور وسراخس وآثار أقدام في كل مكان، وجدول فيه أسماك في الأسفل.',
+    category: 'safari-jungle',
+    categoryLabel: 'السفاري والغابة',
+    collection: 'الطبيعة والحياة البرية',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 سنوات',
+    image: '/images/lion-forest-portrait.webp',
+    alt: 'Lion Forest Portrait ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+  {
+    id: 'safari-friends-pond',
+    title: 'Safari Friends Pond',
+    description: 'أصدقاء السفاري حول بركة — حمار وحشي يقف على اليسار، وفيل صغير يقف في المنتصف، وزرافة وشبل نمر وفرس نهر في البركة يملؤون المقدمة، مع قرد على غصن، وطائر فلامنغو وطائر طوقان في الأعلى، وتمساح في الجدول، وأسد يجلس بجانب معبد حجري صغير.',
+    category: 'safari-jungle',
+    categoryLabel: 'السفاري والغابة',
+    collection: 'الطبيعة والحياة البرية',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 سنوات',
+    image: '/images/safari-friends-pond.webp',
+    alt: 'Safari Friends Pond ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+  {
+    id: 'garden-pond-friends',
+    title: 'Garden Pond Friends',
+    description: 'أصدقاء الحديقة بجانب بركة — فيل عليه زهور يقف على اليسار، وبومة وأرنب يحمل بيضة منقطة وطائر وسرطان البحر وبطة صغيرة وسمكة وسلحفاة ونملة يتشاركون الحديقة، مع بيت للطيور وبيت طيور على شكل إبريق شاي وصندوق كنز مليء بالزهور وقنديل بحر وقصب وشمس مبتسمة.',
+    category: 'safari-jungle',
+    categoryLabel: 'السفاري والغابة',
+    collection: 'الطبيعة والحياة البرية',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 سنوات',
+    image: '/images/garden-pond-friends.webp',
+    alt: 'Garden Pond Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+  {
+    id: 'leopard-cubs-river',
+    title: 'Leopard Cubs River',
+    description: 'أشبال فهود بجانب نهر — ثلاثة أشبال فهود مرقطة وأسد صغير يقفون بجانب جدول متعرج، مع أشجار نخيل وأشجار أكاسيا وفراشات وسلحفاة وطيور وشمس مبتسمة وغيوم في الأعلى، وصخور وسراخس في كل مكان.',
+    category: 'safari-jungle',
+    categoryLabel: 'السفاري والغابة',
+    collection: 'الطبيعة والحياة البرية',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 سنوات',
+    image: '/images/leopard-cubs-river.webp',
+    alt: 'Leopard Cubs River ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+  {
+    id: 'tiger-cub-friends',
+    title: 'Tiger Cub Friends',
+    description: 'شبل نمر وأصدقاؤه — شبل نمر يجلس بجانب جدول في المنتصف، وفيل صغير يقف على اليسار، وفرس نهر مبتسم يقف على اليمين، وببغاء كبير يجلس على غصن، مع أشجار نخيل وغيوم في الأعلى.',
+    category: 'safari-jungle',
+    categoryLabel: 'السفاري والغابة',
+    collection: 'الطبيعة والحياة البرية',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 سنوات',
+    image: '/images/tiger-cub-friends.webp',
+    alt: 'Tiger Cub Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+  {
+    id: 'giraffe-elephant-river',
+    title: 'Giraffe Elephant River',
+    description: 'حيوانات السفاري بجانب نهر متعرج — زرافة طويلة تقف على اليسار، وفيل كبير وحمار وحشي يقفان في المنتصف، وأسد وفرس نهر يستريحان على اليمين، ونمر يجلس بجانب شجرة باوباب كبيرة، مع طيور أبو قرن وطيور على غصن، وأسماك في النهر، وآثار أقدام وشمس مبتسمة في الأعلى.',
+    category: 'safari-jungle',
+    categoryLabel: 'السفاري والغابة',
+    collection: 'الطبيعة والحياة البرية',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 سنوات',
+    image: '/images/giraffe-elephant-river.webp',
+    alt: 'Giraffe Elephant River ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+  {
+    id: 'tiger-cubs-savannah',
+    title: 'Tiger Cubs Savannah',
+    description: 'أشبال نمور في السافانا — شبل نمر وفهد صغير يجلسان على صخرة في المنتصف، وزرافة مبتسمة تطل من خلف شجرة كبيرة، وحمار وحشي يقف على اليسار، وغزلان ترعى خلفهما، وثعبان وبط وسلاحف وقصب طويل يملؤون البركة في المقدمة، تحت شمس كبيرة.',
+    category: 'safari-jungle',
+    categoryLabel: 'السفاري والغابة',
+    collection: 'الطبيعة والحياة البرية',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 سنوات',
+    image: '/images/tiger-cubs-savannah.webp',
+    alt: 'Tiger Cubs Savannah ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+  {
+    id: 'safari-monument-friends',
+    title: 'Safari Monument Friends',
+    description: 'أصدقاء السفاري عند نصب حجري — زرافة وفيل يقفان على اليسار، وأسد يجلس على حجر منحوت في المنتصف تحت نصب كبير على شكل وجه أسد، وقرد يجلس في شجرة، وحمار وحشي ولقلق يقفان بجانب بركة، مع سرقاط وطائر بطريق وفراشات وجبال وشمس مبتسمة.',
+    category: 'safari-jungle',
+    categoryLabel: 'السفاري والغابة',
+    collection: 'الطبيعة والحياة البرية',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 سنوات',
+    image: '/images/safari-monument-friends.webp',
+    alt: 'Safari Monument Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+  {
+    id: 'woodland-deer-friends',
+    title: 'Woodland Deer Friends',
+    description: 'ثلاثة أصدقاء من الغابة في غابة من الزهور — غزال ذو قرون سوداء كبيرة وقطة صغيرة وغزال صغير مرقط يقفون بين الورود والزنبق والأقحوان، مع طائر وفراشة وشمس مبتسمة وقمر مبتسم ونجوم في السماء، وآثار أقدام على طول طريق.',
+    category: 'woodland',
+    categoryLabel: 'الغابة',
+    collection: 'الطبيعة والحياة البرية',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: '4-7 سنوات',
+    image: '/images/woodland-deer-friends.webp',
+    alt: 'Woodland Deer Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+  {
+    id: 'elephant-lion-jungle',
+    title: 'Elephant Lion Jungle',
+    description: 'تجمع كبير في الغابة مليء بتفاصيل دقيقة للتلوين — فيل مبتسم مع قرد وضفدع على رأسه يقف في المنتصف، وأسد وفرس نهر وزرافة وببغاء وطائرا طوقان وتابير وكسلان يملؤون الغابة، مع ثعابين وأشجار نخيل وزهور وشمس كبيرة.',
+    category: 'safari-jungle',
+    categoryLabel: 'السفاري والغابة',
+    collection: 'الطبيعة والحياة البرية',
+    collectionSlug: 'nature-wildlife',
+    age: '8-12',
+    ageLabel: '8-12 سنة',
+    image: '/images/elephant-lion-jungle.webp',
+    alt: 'Elephant Lion Jungle ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  }
 ];
 
 // The 5 collections, each with its categories (from the AQWAGEL plan)
