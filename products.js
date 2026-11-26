@@ -111,7 +111,97 @@ const PRODUCTS = [
     payhipUrl: 'https://payhip.com/b/5pKUH', // Lion Mandala Safari — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
     sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
-  }
+  },
+  {
+    id: 'animal-friends-stream',
+    title: 'Animal Friends Stream',
+    description: 'Baby animals gather by a winding stream under a big leafy tree — a lion cub, zebra foal, giraffe calf, elephant calf and baby hippo, with a monkey, a bird, a turtle, fish, butterflies and a ladybug.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: 'images/animal-friends-stream.webp',
+    alt: 'Animal Friends Stream giant coloring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/iGTk0', // Animal Friends Stream — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'kitten-garden-swing',
+    title: 'Kitten Garden Swing',
+    description: 'A happy kitten swings in a flower garden with a smiling tree, bunnies, deer, birds, butterflies and mushrooms, and a little pond with frogs and fish under a starry sky.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: 'images/kitten-garden-swing.webp',
+    alt: 'Kitten Garden Swing giant coloring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/fNbBy', // Kitten Garden Swing — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'kittens-moonlight-garden',
+    title: 'Kittens Moonlight Garden',
+    description: 'Two kittens play in a moonlit garden — one on a tree branch, one climbing a ladder — under a smiling crescent moon, stars and hearts, with tulips, daisies and a stone path.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: 'images/kittens-moonlight-garden.webp',
+    alt: 'Kittens Moonlight Garden giant coloring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/hkoI5', // Kittens Moonlight Garden — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'safari-river-animals',
+    title: 'Safari River Animals',
+    description: 'Safari animals by a river, full of fine details to colour — elephant, rhino, hippo, crocodile, flamingos, giraffe, lion, koala with her baby and a chameleon, with palm trees, mountains and lotus flowers.',
+    category: 'safari-jungle',
+    categoryLabel: 'Safari & Jungle',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '8-12',
+    ageLabel: 'Ages 8-12',
+    image: 'images/safari-river-animals.webp',
+    alt: 'Safari River Animals giant coloring poster for kids ages 8-12',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/AqtgD', // Safari River Animals — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'woodland-friends-stream',
+    title: 'Woodland Friends Stream',
+    description: 'Woodland friends by a winding stream — a deer in the trees, a little bear fishing, foxes resting, and an owl, birds, squirrels, a rabbit, a hedgehog and mice among the mushrooms and leaves.',
+    category: 'woodland',
+    categoryLabel: 'Woodland',
+    collection: 'Nature & Wildlife',
+    collectionSlug: 'nature-wildlife',
+    age: '4-7',
+    ageLabel: 'Ages 4-7',
+    image: 'images/woodland-friends-stream.webp',
+    alt: 'Woodland Friends Stream giant coloring poster for kids ages 4-7',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
 ];
 
 // The 5 collections, each with its categories (from the AQWAGEL plan)
