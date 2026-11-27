@@ -1,6 +1,6 @@
-// AQWAGEL — Giant Coloring Posters
+// AQWAGEL — Giant Coloring Pages
 // Digital downloads only. Target countries: UAE, Saudi Arabia. (Locale ar of aqwagel.com)
-// Price: $1.00 USD for every poster, all ages.
+// Price: $1.00 USD for every coloring page, all ages.
 // Buy Now opens the Payhip product page.
 
 const PRODUCTS = [
@@ -15,12 +15,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/birthday-animal-parade.webp',
-    alt: 'Birthday Animal Parade ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Birthday Animal Parade صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Z3TY6', // Birthday Animal Parade — live Payhip product, verified 25 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'rainbow-insect-garden',
@@ -33,12 +33,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/rainbow-insect-garden.webp',
-    alt: 'Rainbow Insect Garden ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Rainbow Insect Garden صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/1XUHo', // Rainbow Insect Garden — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'safari-friends-river',
@@ -51,12 +51,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/safari-friends-river.webp',
-    alt: 'Safari Friends River ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Safari Friends River صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/UA8vp', // Safari Friends River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'safari-animal-meadow',
@@ -69,12 +69,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/safari-animal-meadow.webp',
-    alt: 'Safari Animal Meadow ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Safari Animal Meadow صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Rarwk', // Safari Animal Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'barn-safari-friends',
@@ -87,12 +87,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/barn-safari-friends.webp',
-    alt: 'Barn Safari Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Barn Safari Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/7oYLX', // Barn Safari Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'lion-mandala-safari',
@@ -105,12 +105,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/lion-mandala-safari.webp',
-    alt: 'Lion Mandala Safari ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Lion Mandala Safari صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5pKUH', // Lion Mandala Safari — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'animal-friends-stream',
@@ -123,12 +123,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/animal-friends-stream.webp',
-    alt: 'Animal Friends Stream ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Animal Friends Stream صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/iGTk0', // Animal Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'kitten-garden-swing',
@@ -141,12 +141,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/kitten-garden-swing.webp',
-    alt: 'Kitten Garden Swing ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Kitten Garden Swing صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/fNbBy', // Kitten Garden Swing — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'kittens-moonlight-garden',
@@ -159,12 +159,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/kittens-moonlight-garden.webp',
-    alt: 'Kittens Moonlight Garden ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Kittens Moonlight Garden صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/hkoI5', // Kittens Moonlight Garden — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'safari-river-animals',
@@ -177,12 +177,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/safari-river-animals.webp',
-    alt: 'Safari River Animals ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Safari River Animals صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/AqtgD', // Safari River Animals — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'woodland-friends-stream',
@@ -195,12 +195,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/woodland-friends-stream.webp',
-    alt: 'Woodland Friends Stream ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Woodland Friends Stream صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'giraffe-safari-friends',
@@ -213,12 +213,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/giraffe-safari-friends.webp',
-    alt: 'Giraffe Safari Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Giraffe Safari Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dtCA7', // Giraffe Safari Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'bear-safari-jeep',
@@ -231,12 +231,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/bear-safari-jeep.webp',
-    alt: 'Bear Safari Jeep ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Bear Safari Jeep صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/BV4af', // Bear Safari Jeep — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'giraffe-zebra-savanna',
@@ -249,12 +249,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/giraffe-zebra-savanna.webp',
-    alt: 'Giraffe Zebra Savanna ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Giraffe Zebra Savanna صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/JzuRr', // Giraffe Zebra Savanna — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'elephant-lion-savanna',
@@ -267,12 +267,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/elephant-lion-savanna.webp',
-    alt: 'Elephant Lion Savanna ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Elephant Lion Savanna صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/SDs1W', // Elephant Lion Savanna — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'woodland-animal-friends',
@@ -285,12 +285,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/woodland-animal-friends.webp',
-    alt: 'Woodland Animal Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Woodland Animal Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/vhUCJ', // Woodland Animal Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'woodland-friends-meadow',
@@ -303,12 +303,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/woodland-friends-meadow.webp',
-    alt: 'Woodland Friends Meadow ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Woodland Friends Meadow صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/xYXn0', // Woodland Friends Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'safari-animal-gathering',
@@ -321,12 +321,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/safari-animal-gathering.webp',
-    alt: 'Safari Animal Gathering ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Safari Animal Gathering صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/2XfIB', // Safari Animal Gathering — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'elephant-hippo-friends',
@@ -339,12 +339,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/elephant-hippo-friends.webp',
-    alt: 'Elephant Hippo Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Elephant Hippo Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/jNdDi', // Elephant Hippo Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'jungle-animal-pond',
@@ -357,12 +357,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/jungle-animal-pond.webp',
-    alt: 'Jungle Animal Pond ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Jungle Animal Pond صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/0FGfy', // Jungle Animal Pond — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'farm-barn-friends',
@@ -375,12 +375,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/farm-barn-friends.webp',
-    alt: 'Farm Barn Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Farm Barn Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/2NvFM', // Farm Barn Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'lion-forest-portrait',
@@ -393,12 +393,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/lion-forest-portrait.webp',
-    alt: 'Lion Forest Portrait ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Lion Forest Portrait صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'safari-friends-pond',
@@ -411,12 +411,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/safari-friends-pond.webp',
-    alt: 'Safari Friends Pond ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Safari Friends Pond صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'garden-pond-friends',
@@ -429,12 +429,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/garden-pond-friends.webp',
-    alt: 'Garden Pond Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Garden Pond Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'leopard-cubs-river',
@@ -447,12 +447,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/leopard-cubs-river.webp',
-    alt: 'Leopard Cubs River ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Leopard Cubs River صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'tiger-cub-friends',
@@ -465,12 +465,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/tiger-cub-friends.webp',
-    alt: 'Tiger Cub Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Tiger Cub Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'giraffe-elephant-river',
@@ -483,12 +483,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/giraffe-elephant-river.webp',
-    alt: 'Giraffe Elephant River ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Giraffe Elephant River صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'tiger-cubs-savannah',
@@ -501,12 +501,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/tiger-cubs-savannah.webp',
-    alt: 'Tiger Cubs Savannah ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Tiger Cubs Savannah صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'safari-monument-friends',
@@ -519,12 +519,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/safari-monument-friends.webp',
-    alt: 'Safari Monument Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Safari Monument Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'woodland-deer-friends',
@@ -537,12 +537,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/woodland-deer-friends.webp',
-    alt: 'Woodland Deer Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Woodland Deer Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'elephant-lion-jungle',
@@ -555,12 +555,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/elephant-lion-jungle.webp',
-    alt: 'Elephant Lion Jungle ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Elephant Lion Jungle صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'safari-pyramid-adventure',
@@ -573,12 +573,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/safari-pyramid-adventure.webp',
-    alt: 'Safari Pyramid Adventure ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Safari Pyramid Adventure صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/gIXqk', // Safari Pyramid Adventure — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'safari-adventure-scene',
@@ -591,12 +591,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/safari-adventure-scene.webp',
-    alt: 'Safari Adventure Scene ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Safari Adventure Scene صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/A5XIE', // Safari Adventure Scene — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'bear-picnic-forest',
@@ -609,12 +609,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/bear-picnic-forest.webp',
-    alt: 'Bear Picnic Forest ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Bear Picnic Forest صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/rT9f4', // Bear Picnic Forest — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'giraffe-rainbow-friends',
@@ -627,12 +627,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/giraffe-rainbow-friends.webp',
-    alt: 'Giraffe Rainbow Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Giraffe Rainbow Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5gaNW', // Giraffe Rainbow Friends — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'elephant-monkey-river',
@@ -645,12 +645,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/elephant-monkey-river.webp',
-    alt: 'Elephant Monkey River ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Elephant Monkey River صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Gq3UK', // Elephant Monkey River — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'sloth-jungle-friends',
@@ -663,12 +663,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/sloth-jungle-friends.webp',
-    alt: 'Sloth Jungle Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Sloth Jungle Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/LweK8', // Sloth Jungle Friends — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'winter-deer-mountains',
@@ -681,12 +681,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/winter-deer-mountains.webp',
-    alt: 'Winter Deer Mountains ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Winter Deer Mountains صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/XrliN', // Winter Deer Mountains — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'dense-safari-scene',
@@ -699,12 +699,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/dense-safari-scene.webp',
-    alt: 'Dense Safari Scene ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Dense Safari Scene صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/q4z5H', // Dense Safari Scene — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'jungle-animal-parade',
@@ -717,12 +717,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/jungle-animal-parade.webp',
-    alt: 'Jungle Animal Parade ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Jungle Animal Parade صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/MqxZ1', // Jungle Animal Parade — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'forest-friends-gathering',
@@ -735,17 +735,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/forest-friends-gathering.webp',
-    alt: 'Forest Friends Gathering ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Forest Friends Gathering صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/cmX3K', // Forest Friends Gathering — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'cute-dinosaur-forest',
     title: 'Cute Dinosaur Forest',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لديناصور صغير لطيف في غابة مزدحمة، مليء بتفاصيل دقيقة للتلوين. ديناصور صغير مبتسم كبير يقف في الوسط، وستيغوصور يمشي أسفله، وفيل وفرس نهر وكوالا في شجرة وسلاحف وقطط وقرود وأسد وثعالب تملأ الغابة، مع أزهار وأشجار وجدول متعرج من حولها.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لديناصور صغير لطيف في غابة مزدحمة، مليء بتفاصيل دقيقة للتلوين. ديناصور صغير مبتسم كبير يقف في الوسط، وستيغوصور يمشي أسفله، وفيل وفرس نهر وكوالا في شجرة وسلاحف وقطط وقرود وأسد وثعالب تملأ الغابة، مع أزهار وأشجار وجدول متعرج من حولها.',
     category: 'dinosaur',
     categoryLabel: 'الديناصور',
     collection: 'الطبيعة والحياة البرية',
@@ -753,17 +753,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/cute-dinosaur-forest.webp',
-    alt: 'Cute Dinosaur Forest ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Cute Dinosaur Forest صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/KpBZ4',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'elephant-jungle-river',
     title: 'Elephant Jungle River',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لفيل بجانب نهر في الغابة، مليء بتفاصيل دقيقة للتلوين. فيل ببطانية منقوشة يقف بجانب نهر متعرج تحت شجرة كبيرة، وقط مع فنجان شاي يجلس على غصن، وأرنب يقرأ الكتب في مكتبة من جذع شجرة، وثعلب يجلس بجانب نار المخيم، مع شمس مبتسمة وجبال وفطر وأزهار وأسماك في النهر.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لفيل بجانب نهر في الغابة، مليء بتفاصيل دقيقة للتلوين. فيل ببطانية منقوشة يقف بجانب نهر متعرج تحت شجرة كبيرة، وقط مع فنجان شاي يجلس على غصن، وأرنب يقرأ الكتب في مكتبة من جذع شجرة، وثعلب يجلس بجانب نار المخيم، مع شمس مبتسمة وجبال وفطر وأزهار وأسماك في النهر.',
     category: 'safari-jungle',
     categoryLabel: 'السفاري والغابة',
     collection: 'الطبيعة والحياة البرية',
@@ -771,17 +771,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/elephant-jungle-river.webp',
-    alt: 'Elephant Jungle River ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Elephant Jungle River صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/ntkEH',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'tiger-forest-adventure',
     title: 'Tiger Forest Adventure',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لنمر في جدول الغابة، مليء بتفاصيل دقيقة للتلوين. نمر كبير يقف بجانب جدول، وقردان يلعبان في الأشجار، وطيور وفراشات تطير فوقه، وسلحفاة وأسماك تسبح في الماء، مع أشجار كبيرة وجبال وأزهار وحجارة ملساء من حولها.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لنمر في جدول الغابة، مليء بتفاصيل دقيقة للتلوين. نمر كبير يقف بجانب جدول، وقردان يلعبان في الأشجار، وطيور وفراشات تطير فوقه، وسلحفاة وأسماك تسبح في الماء، مع أشجار كبيرة وجبال وأزهار وحجارة ملساء من حولها.',
     category: 'safari-jungle',
     categoryLabel: 'السفاري والغابة',
     collection: 'الطبيعة والحياة البرية',
@@ -789,17 +789,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/tiger-forest-adventure.webp',
-    alt: 'Tiger Forest Adventure ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Tiger Forest Adventure صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/rfF6D',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'moonlight-forest-campfire',
     title: 'Moonlight Forest Campfire',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لأصدقاء الغابة حول نار المخيم ليلاً، مليء بتفاصيل دقيقة للتلوين. غزال وقنفذ وسناجب وثعلب ودب وغرير يجتمعون حول نار المخيم تحت هلال، مع بومة في شجرة وراكون على غصن ونجوم وأشجار صنوبر وجبال وفطر وأزهار.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لأصدقاء الغابة حول نار المخيم ليلاً، مليء بتفاصيل دقيقة للتلوين. غزال وقنفذ وسناجب وثعلب ودب وغرير يجتمعون حول نار المخيم تحت هلال، مع بومة في شجرة وراكون على غصن ونجوم وأشجار صنوبر وجبال وفطر وأزهار.',
     category: 'woodland',
     categoryLabel: 'الغابة',
     collection: 'الطبيعة والحياة البرية',
@@ -807,17 +807,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/moonlight-forest-campfire.webp',
-    alt: 'Moonlight Forest Campfire ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Moonlight Forest Campfire صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/9GAY2',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'treehouse-animal-home',
     title: 'Treehouse Animal Home',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لبيت شجرة في الغابة، مليء بتفاصيل دقيقة للتلوين. بيتا شجرة يربطهما جسر حبال وسلم يضمان قرداً وأسوداً وفيلاً صغيراً ووحيدي قرن وحماراً وحشياً وليمورات، مع زرافة وفرس نهر في بركة وفراشات وشمس منقوشة وأزهار من حولها.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لبيت شجرة في الغابة، مليء بتفاصيل دقيقة للتلوين. بيتا شجرة يربطهما جسر حبال وسلم يضمان قرداً وأسوداً وفيلاً صغيراً ووحيدي قرن وحماراً وحشياً وليمورات، مع زرافة وفرس نهر في بركة وفراشات وشمس منقوشة وأزهار من حولها.',
     category: 'woodland',
     categoryLabel: 'الغابة',
     collection: 'الطبيعة والحياة البرية',
@@ -825,17 +825,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/treehouse-animal-home.webp',
-    alt: 'Treehouse Animal Home ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Treehouse Animal Home صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5UCoD',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'reindeer-herd-tundra',
     title: 'Reindeer Herd Tundra',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لقطيع رنة في التندرا، مليء بتفاصيل دقيقة للتلوين. رنة بقرون كبيرة وصغارها ترعى في التندرا الثلجية، مع شمس كبيرة وجبال وصخور وجدول ونباتات صغيرة وأضواء شمالية دوامة في السماء.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لقطيع رنة في التندرا، مليء بتفاصيل دقيقة للتلوين. رنة بقرون كبيرة وصغارها ترعى في التندرا الثلجية، مع شمس كبيرة وجبال وصخور وجدول ونباتات صغيرة وأضواء شمالية دوامة في السماء.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -843,17 +843,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/reindeer-herd-tundra.webp',
-    alt: 'Reindeer Herd Tundra ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Reindeer Herd Tundra صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/gN1nk',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'reindeer-classroom-learning',
     title: 'Reindeer Classroom Learning',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لرنة لطيفة تتعلم في فصل دراسي، مليء بتفاصيل دقيقة للتلوين. أربعة رنة يجلسون على مقاعد يقرأون ويكتبون ويرسمون، مع سبورة تقول LEARNING IS FUN وأرقام وكرة أرضية وكتب وحقائب مدرسية وندف ثلج وأعلام.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لرنة لطيفة تتعلم في فصل دراسي، مليء بتفاصيل دقيقة للتلوين. أربعة رنة يجلسون على مقاعد يقرأون ويكتبون ويرسمون، مع سبورة تقول LEARNING IS FUN وأرقام وكرة أرضية وكتب وحقائب مدرسية وندف ثلج وأعلام.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -861,17 +861,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/reindeer-classroom-learning.webp',
-    alt: 'Reindeer Classroom Learning ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Reindeer Classroom Learning صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/sR6K5',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'cozy-igloo-village',
     title: 'Cozy Igloo Village',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لقرية أكواخ ثلجية دافئة في الثلج. أكواخ ثلجية كبيرة بنوافذ مستديرة تقف بين أشجار الصنوبر والجبال، وفظ مع صغاره وذئاب تبني بمكعبات الثلج ورجال ثلج وحوت في بركة وطيور على الأسطح، مع ندف ثلج تتساقط من حولها.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لقرية أكواخ ثلجية دافئة في الثلج. أكواخ ثلجية كبيرة بنوافذ مستديرة تقف بين أشجار الصنوبر والجبال، وفظ مع صغاره وذئاب تبني بمكعبات الثلج ورجال ثلج وحوت في بركة وطيور على الأسطح، مع ندف ثلج تتساقط من حولها.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -879,17 +879,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/cozy-igloo-village.webp',
-    alt: 'Cozy Igloo Village ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Cozy Igloo Village صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/nfCgB',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'polar-bears-arctic-ocean',
     title: 'Polar Bears Arctic Ocean',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لدببة قطبية في المحيط القطبي الشمالي، مليء بتفاصيل دقيقة للتلوين. أم دب قطبي مع شبلين تقف على جرف جليدي، وكراكي وحيتان بيلوغا تسبح في أمواج دوامة، وفظ وفقمة وثعالب قطبية تستريح على طوافات جليدية، مع طيور بحر وشمس كبيرة وجبال وجبال جليدية.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لدببة قطبية في المحيط القطبي الشمالي، مليء بتفاصيل دقيقة للتلوين. أم دب قطبي مع شبلين تقف على جرف جليدي، وكراكي وحيتان بيلوغا تسبح في أمواج دوامة، وفظ وفقمة وثعالب قطبية تستريح على طوافات جليدية، مع طيور بحر وشمس كبيرة وجبال وجبال جليدية.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -897,17 +897,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/polar-bears-arctic-ocean.webp',
-    alt: 'Polar Bears Arctic Ocean ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Polar Bears Arctic Ocean صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dEMNV',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'arctic-village-igloo-houses',
     title: 'Arctic Village Igloo Houses',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لقرية قطبية من بيوت الأكواخ الثلجية، مليء بتفاصيل دقيقة للتلوين. دب قطبي ساعي بريد على زلاجة تجرها كلاب الهاسكي يوصل البريد أمام أكواخ ثلجية تحمل أسماء عائلة بطريق وعائلة فقمة وعائلة رنة وعائلة دب قطبي وعائلة فظ، مع بومة تحمل طرداً ولافتة قرية وهلال وأضواء شمالية وندف ثلج وأشجار صنوبر.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لقرية قطبية من بيوت الأكواخ الثلجية، مليء بتفاصيل دقيقة للتلوين. دب قطبي ساعي بريد على زلاجة تجرها كلاب الهاسكي يوصل البريد أمام أكواخ ثلجية تحمل أسماء عائلة بطريق وعائلة فقمة وعائلة رنة وعائلة دب قطبي وعائلة فظ، مع بومة تحمل طرداً ولافتة قرية وهلال وأضواء شمالية وندف ثلج وأشجار صنوبر.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -915,17 +915,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/arctic-village-igloo-houses.webp',
-    alt: 'Arctic Village Igloo Houses ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Arctic Village Igloo Houses صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/P6CO4',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'arctic-aurora-science-exploration',
     title: 'Arctic Aurora Science Exploration',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لبعثة علمية قطبية تحت الأضواء الشمالية، مليء بتفاصيل دقيقة للتلوين. علماء بطائرة مسيّرة ومسبار يستكشفون الجليد بجانب غواصة وحيتان بيلوغا، مع قاعدة مراقبة قطبية وخيمة ودراجة ثلجية وبومة وأيائل ومجموعات نجوم، وملصقات تشرح كيف يتشكل الشفق.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لبعثة علمية قطبية تحت الأضواء الشمالية، مليء بتفاصيل دقيقة للتلوين. علماء بطائرة مسيّرة ومسبار يستكشفون الجليد بجانب غواصة وحيتان بيلوغا، مع قاعدة مراقبة قطبية وخيمة ودراجة ثلجية وبومة وأيائل ومجموعات نجوم، وملصقات تشرح كيف يتشكل الشفق.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -933,17 +933,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/arctic-aurora-science-exploration.webp',
-    alt: 'Arctic Aurora Science Exploration ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Arctic Aurora Science Exploration صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dHMQ4',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'welcome-arctic-igloo-facts',
     title: 'Welcome Arctic Igloo Facts',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لكوخ ثلجي كبير في القطب الشمالي، مع حقائق ممتعة للتلوين والتعلم. بومة فوق الكوخ تحمل علماً مكتوباً عليه Welcome to the Arctic، وطفل مبتسم يحمل سمكة، ودب قطبي صغير وفظ يجلسان على الجليد، وكركدن البحر يقفز من الماء، وكلاب الهاسكي تجر زلاجة، وثعالب ورنة وفقمة يلعبون في الثلج تحت القمر.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لكوخ ثلجي كبير في القطب الشمالي، مع حقائق ممتعة للتلوين والتعلم. بومة فوق الكوخ تحمل علماً مكتوباً عليه Welcome to the Arctic، وطفل مبتسم يحمل سمكة، ودب قطبي صغير وفظ يجلسان على الجليد، وكركدن البحر يقفز من الماء، وكلاب الهاسكي تجر زلاجة، وثعالب ورنة وفقمة يلعبون في الثلج تحت القمر.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -951,17 +951,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/welcome-arctic-igloo-facts.webp',
-    alt: 'Welcome Arctic Igloo Facts ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Welcome Arctic Igloo Facts صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/YaFZm',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'arctic-star-talent-show',
     title: 'Arctic Star Talent Show',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لعرض مواهب كبير في القطب الشمالي، مليء بتفاصيل دقيقة للتلوين. حوت ساحر يؤدي على المسرح، وسلحفاة تروي النكات، وبيلوغا يغني، ونمور ثلجية ترقص، وفرقة حية تعزف، وثعلب الماء يرسم، وبطاريق تحافظ على توازنها، وحكام وجمهور من الفظات والفقمات والأيائل والثعالب يشاهدون تحت الأضواء الشمالية.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لعرض مواهب كبير في القطب الشمالي، مليء بتفاصيل دقيقة للتلوين. حوت ساحر يؤدي على المسرح، وسلحفاة تروي النكات، وبيلوغا يغني، ونمور ثلجية ترقص، وفرقة حية تعزف، وثعلب الماء يرسم، وبطاريق تحافظ على توازنها، وحكام وجمهور من الفظات والفقمات والأيائل والثعالب يشاهدون تحت الأضواء الشمالية.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -969,17 +969,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/arctic-star-talent-show.webp',
-    alt: 'Arctic Star Talent Show ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Arctic Star Talent Show صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/fyCsJ',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'snow-festival-igloo-friends',
     title: 'Snow Festival Igloo Friends',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لمهرجان ثلجي عند كوخ ثلجي كبير بنقوش نجوم. بطريق بقبعة حفلة ودب قطبي بربطة عنق يحملان نجوماً، وأرنب يحمل سلة، وفقمة تصفق قرب بركة متجمدة، وبومة على غصن تقول إنه لا توجد ندفتا ثلج متطابقتان، مع أشجار صنوبر وثلج يتساقط حولها.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لمهرجان ثلجي عند كوخ ثلجي كبير بنقوش نجوم. بطريق بقبعة حفلة ودب قطبي بربطة عنق يحملان نجوماً، وأرنب يحمل سلة، وفقمة تصفق قرب بركة متجمدة، وبومة على غصن تقول إنه لا توجد ندفتا ثلج متطابقتان، مع أشجار صنوبر وثلج يتساقط حولها.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -987,17 +987,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/snow-festival-igloo-friends.webp',
-    alt: 'Snow Festival Igloo Friends ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Snow Festival Igloo Friends صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/1sle2',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'owl-night-school-arctic',
     title: 'Owl Night School Arctic',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لبوم في مدرسة ليلية في القطب الشمالي. بومة معلمة بقبعة تخرج تشير إلى سبورة نجوم، وأربع بومات صغيرة تقرأ وتكتب وتنظر من خلال عدسة مكبرة، وبومة صغيرة تنام في عش، مع قمر كبير وندف ثلج وفانوس وأشجار صنوبر.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لبوم في مدرسة ليلية في القطب الشمالي. بومة معلمة بقبعة تخرج تشير إلى سبورة نجوم، وأربع بومات صغيرة تقرأ وتكتب وتنظر من خلال عدسة مكبرة، وبومة صغيرة تنام في عش، مع قمر كبير وندف ثلج وفانوس وأشجار صنوبر.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -1005,17 +1005,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/owl-night-school-arctic.webp',
-    alt: 'Owl Night School Arctic ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Owl Night School Arctic صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5Nm8H',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'arctic-animals-ice-playground',
     title: 'Arctic Animals Ice Playground',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لحيوانات قطبية تلعب على الجليد، مليء بتفاصيل دقيقة للتلوين. بومة ثلجية تطير من غصن صنوبر، ودب قطبي يمر، وشبل ينزلق على ظهره، وثعلب يركب فقمة على زلاجة، وفظ وفقمات تخرج من ثقوب الجليد، وطيور البفن وأرنب يتزلجون على الجليد، ورنة تراقب، مع منحدرات جليدية وجبال خلفها.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لحيوانات قطبية تلعب على الجليد، مليء بتفاصيل دقيقة للتلوين. بومة ثلجية تطير من غصن صنوبر، ودب قطبي يمر، وشبل ينزلق على ظهره، وثعلب يركب فقمة على زلاجة، وفظ وفقمات تخرج من ثقوب الجليد، وطيور البفن وأرنب يتزلجون على الجليد، ورنة تراقب، مع منحدرات جليدية وجبال خلفها.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -1023,17 +1023,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/arctic-animals-ice-playground.webp',
-    alt: 'Arctic Animals Ice Playground ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Arctic Animals Ice Playground صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/GT8XW',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'arctic-animal-road-trip',
     title: 'Arctic Animal Road Trip',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لحيوانات قطبية في رحلة برية بسيارة كبيرة. دب قطبي يقود السيارة، ورنتان وثعلب يركبون معه، وحقائب على السطح، وسلة نزهة وخريطة وبوصلة تملأ السيارة، مع أشجار صنوبر وأكواخ ثلجية وجبال وندف ثلج في الخارج.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لحيوانات قطبية في رحلة برية بسيارة كبيرة. دب قطبي يقود السيارة، ورنتان وثعلب يركبون معه، وحقائب على السطح، وسلة نزهة وخريطة وبوصلة تملأ السيارة، مع أشجار صنوبر وأكواخ ثلجية وجبال وندف ثلج في الخارج.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -1041,17 +1041,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 سنوات',
     image: '/images/arctic-animal-road-trip.webp',
-    alt: 'Arctic Animal Road Trip ملصق تلوين ضخم للأطفال من عمر 4-7 سنوات',
+    alt: 'Arctic Animal Road Trip صفحة تلوين كبيرة للأطفال من عمر 4-7 سنوات (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/U5jNu',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'walrus-polar-bear-fishing',
     title: 'Walrus Polar Bear Fishing',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لفظات ودب قطبي يصطادون في بحيرة قطبية، مليء بتفاصيل دقيقة للتلوين. فظان وفظ صغير يستريحان على طوف جليدي، وشبلا ثعلب يصطادان بقضبان، ودبة قطبية وشبلها يراقبان، وفقمات تخرج من الماء، وبومة وطيور البفن وأرنب وأيائل يجتمعون تحت شمس كبيرة.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لفظات ودب قطبي يصطادون في بحيرة قطبية، مليء بتفاصيل دقيقة للتلوين. فظان وفظ صغير يستريحان على طوف جليدي، وشبلا ثعلب يصطادان بقضبان، ودبة قطبية وشبلها يراقبان، وفقمات تخرج من الماء، وبومة وطيور البفن وأرنب وأيائل يجتمعون تحت شمس كبيرة.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -1059,17 +1059,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/walrus-polar-bear-fishing.webp',
-    alt: 'Walrus Polar Bear Fishing ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Walrus Polar Bear Fishing صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/9qIAg',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'aurora-northern-lights-science',
     title: 'Aurora Northern Lights Science',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود للأضواء الشمالية، مليء بتفاصيل دقيقة للتلوين. أشرطة شفق دوارة تملأ السماء مع ملصقات تشرح أن البنفسجي يعني النيتروجين والأحمر يعني الأكسجين في الأعلى والأخضر يعني الأكسجين في الأسفل، بينما طفل مع ثعلب يقرأ كتاباً عن الشمس والرياح الشمسية، وبومة وأشجار صنوبر وأيائل تملأ التلال الثلجية.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود للأضواء الشمالية، مليء بتفاصيل دقيقة للتلوين. أشرطة شفق دوارة تملأ السماء مع ملصقات تشرح أن البنفسجي يعني النيتروجين والأحمر يعني الأكسجين في الأعلى والأخضر يعني الأكسجين في الأسفل، بينما طفل مع ثعلب يقرأ كتاباً عن الشمس والرياح الشمسية، وبومة وأشجار صنوبر وأيائل تملأ التلال الثلجية.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -1077,17 +1077,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/aurora-northern-lights-science.webp',
-    alt: 'Aurora Northern Lights Science ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Aurora Northern Lights Science صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/psZkW',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   },
   {
     id: 'aurora-night-arctic-animals',
     title: 'Aurora Night Arctic Animals',
-    description: 'ملصق تلوين ضخم بالأبيض والأسود لحيوانات قطبية تحت الأضواء الشمالية ليلاً، مليء بتفاصيل دقيقة للتلوين. بومة تجلس على منحدر جليدي، وشبل دب قطبي وثعلب يمشيان في الثلج، وكركدن البحر يسبح في ثقب جليدي، وفظات تستريح، وقطيع رنة يعبر تلة، وطيور تطير تحت هلال، وأرنب يراقب من الثلج.',
+    description: 'صفحة تلوين كبيرة بالأبيض والأسود لحيوانات قطبية تحت الأضواء الشمالية ليلاً، مليء بتفاصيل دقيقة للتلوين. بومة تجلس على منحدر جليدي، وشبل دب قطبي وثعلب يمشيان في الثلج، وكركدن البحر يسبح في ثقب جليدي، وفظات تستريح، وقطيع رنة يعبر تلة، وطيور تطير تحت هلال، وأرنب يراقب من الثلج.',
     category: 'polar-arctic',
     categoryLabel: 'القطب والمنطقة القطبية',
     collection: 'الطبيعة والحياة البرية',
@@ -1095,12 +1095,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 سنة',
     image: '/images/aurora-night-arctic-animals.webp',
-    alt: 'Aurora Night Arctic Animals ملصق تلوين ضخم للأطفال من عمر 8-12 سنة',
+    alt: 'Aurora Night Arctic Animals صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/DhsPa',
     formats: 'SVG + PDF',
-    sizes: '3 × 1.5 قدم، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   }
 ];
 

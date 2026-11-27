@@ -1,6 +1,6 @@
-// AQWAGEL — Giant Coloring Posters
+// AQWAGEL — Giant Coloring Pages
 // Digital downloads only. Target countries: Netherlands. (Locale nl of aqwagel.com)
-// Price: $1.00 USD for every poster, all ages.
+// Price: $1.00 USD for every coloring page, all ages.
 // Buy Now opens the Payhip product page.
 
 const PRODUCTS = [
@@ -15,12 +15,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/birthday-animal-parade.webp',
-    alt: 'Birthday Animal Parade Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Birthday Animal Parade XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Z3TY6', // Birthday Animal Parade — live Payhip product, verified 25 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'rainbow-insect-garden',
@@ -33,12 +33,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/rainbow-insect-garden.webp',
-    alt: 'Rainbow Insect Garden Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Rainbow Insect Garden XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/1XUHo', // Rainbow Insect Garden — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-friends-river',
@@ -51,12 +51,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/safari-friends-river.webp',
-    alt: 'Safari Friends River Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Safari Friends River XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/UA8vp', // Safari Friends River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-animal-meadow',
@@ -69,12 +69,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/safari-animal-meadow.webp',
-    alt: 'Safari Animal Meadow Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Safari Animal Meadow XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Rarwk', // Safari Animal Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'barn-safari-friends',
@@ -87,12 +87,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/barn-safari-friends.webp',
-    alt: 'Barn Safari Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Barn Safari Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/7oYLX', // Barn Safari Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'lion-mandala-safari',
@@ -105,12 +105,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/lion-mandala-safari.webp',
-    alt: 'Lion Mandala Safari Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Lion Mandala Safari XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5pKUH', // Lion Mandala Safari — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'animal-friends-stream',
@@ -123,12 +123,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/animal-friends-stream.webp',
-    alt: 'Animal Friends Stream Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Animal Friends Stream XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/iGTk0', // Animal Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'kitten-garden-swing',
@@ -141,12 +141,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/kitten-garden-swing.webp',
-    alt: 'Kitten Garden Swing Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Kitten Garden Swing XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/fNbBy', // Kitten Garden Swing — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'kittens-moonlight-garden',
@@ -159,12 +159,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/kittens-moonlight-garden.webp',
-    alt: 'Kittens Moonlight Garden Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Kittens Moonlight Garden XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/hkoI5', // Kittens Moonlight Garden — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-river-animals',
@@ -177,12 +177,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/safari-river-animals.webp',
-    alt: 'Safari River Animals Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Safari River Animals XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/AqtgD', // Safari River Animals — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-stream',
@@ -195,12 +195,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/woodland-friends-stream.webp',
-    alt: 'Woodland Friends Stream Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Woodland Friends Stream XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-safari-friends',
@@ -213,12 +213,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/giraffe-safari-friends.webp',
-    alt: 'Giraffe Safari Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Giraffe Safari Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dtCA7', // Giraffe Safari Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'bear-safari-jeep',
@@ -231,12 +231,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/bear-safari-jeep.webp',
-    alt: 'Bear Safari Jeep Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Bear Safari Jeep XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/BV4af', // Bear Safari Jeep — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-zebra-savanna',
@@ -249,12 +249,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/giraffe-zebra-savanna.webp',
-    alt: 'Giraffe Zebra Savanna Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Giraffe Zebra Savanna XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/JzuRr', // Giraffe Zebra Savanna — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-lion-savanna',
@@ -267,12 +267,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/elephant-lion-savanna.webp',
-    alt: 'Elephant Lion Savanna Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Elephant Lion Savanna XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/SDs1W', // Elephant Lion Savanna — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-animal-friends',
@@ -285,12 +285,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/woodland-animal-friends.webp',
-    alt: 'Woodland Animal Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Woodland Animal Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/vhUCJ', // Woodland Animal Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-meadow',
@@ -303,12 +303,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/woodland-friends-meadow.webp',
-    alt: 'Woodland Friends Meadow Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Woodland Friends Meadow XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/xYXn0', // Woodland Friends Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-animal-gathering',
@@ -321,12 +321,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/safari-animal-gathering.webp',
-    alt: 'Safari Animal Gathering Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Safari Animal Gathering XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/2XfIB', // Safari Animal Gathering — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-hippo-friends',
@@ -339,12 +339,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/elephant-hippo-friends.webp',
-    alt: 'Elephant Hippo Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Elephant Hippo Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/jNdDi', // Elephant Hippo Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'jungle-animal-pond',
@@ -357,12 +357,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/jungle-animal-pond.webp',
-    alt: 'Jungle Animal Pond Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Jungle Animal Pond XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/0FGfy', // Jungle Animal Pond — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'farm-barn-friends',
@@ -375,12 +375,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/farm-barn-friends.webp',
-    alt: 'Farm Barn Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Farm Barn Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/2NvFM', // Farm Barn Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'lion-forest-portrait',
@@ -393,12 +393,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/lion-forest-portrait.webp',
-    alt: 'Lion Forest Portrait Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Lion Forest Portrait XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-friends-pond',
@@ -411,12 +411,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/safari-friends-pond.webp',
-    alt: 'Safari Friends Pond Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Safari Friends Pond XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'garden-pond-friends',
@@ -429,12 +429,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/garden-pond-friends.webp',
-    alt: 'Garden Pond Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Garden Pond Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'leopard-cubs-river',
@@ -447,12 +447,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/leopard-cubs-river.webp',
-    alt: 'Leopard Cubs River Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Leopard Cubs River XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-cub-friends',
@@ -465,12 +465,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/tiger-cub-friends.webp',
-    alt: 'Tiger Cub Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Tiger Cub Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-elephant-river',
@@ -483,12 +483,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/giraffe-elephant-river.webp',
-    alt: 'Giraffe Elephant River Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Giraffe Elephant River XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-cubs-savannah',
@@ -501,12 +501,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/tiger-cubs-savannah.webp',
-    alt: 'Tiger Cubs Savannah Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Tiger Cubs Savannah XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-monument-friends',
@@ -519,12 +519,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/safari-monument-friends.webp',
-    alt: 'Safari Monument Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Safari Monument Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-deer-friends',
@@ -537,12 +537,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/woodland-deer-friends.webp',
-    alt: 'Woodland Deer Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Woodland Deer Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-lion-jungle',
@@ -555,12 +555,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/elephant-lion-jungle.webp',
-    alt: 'Elephant Lion Jungle Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Elephant Lion Jungle XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-pyramid-adventure',
@@ -573,12 +573,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/safari-pyramid-adventure.webp',
-    alt: 'Safari Pyramid Adventure Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Safari Pyramid Adventure XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/gIXqk', // Safari Pyramid Adventure — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-adventure-scene',
@@ -591,12 +591,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/safari-adventure-scene.webp',
-    alt: 'Safari Adventure Scene Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Safari Adventure Scene XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/A5XIE', // Safari Adventure Scene — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'bear-picnic-forest',
@@ -609,12 +609,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/bear-picnic-forest.webp',
-    alt: 'Bear Picnic Forest Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Bear Picnic Forest XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/rT9f4', // Bear Picnic Forest — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-rainbow-friends',
@@ -627,12 +627,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/giraffe-rainbow-friends.webp',
-    alt: 'Giraffe Rainbow Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Giraffe Rainbow Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5gaNW', // Giraffe Rainbow Friends — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-monkey-river',
@@ -645,12 +645,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/elephant-monkey-river.webp',
-    alt: 'Elephant Monkey River Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Elephant Monkey River XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Gq3UK', // Elephant Monkey River — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'sloth-jungle-friends',
@@ -663,12 +663,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/sloth-jungle-friends.webp',
-    alt: 'Sloth Jungle Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Sloth Jungle Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/LweK8', // Sloth Jungle Friends — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'winter-deer-mountains',
@@ -681,12 +681,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/winter-deer-mountains.webp',
-    alt: 'Winter Deer Mountains Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Winter Deer Mountains XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/XrliN', // Winter Deer Mountains — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'dense-safari-scene',
@@ -699,12 +699,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/dense-safari-scene.webp',
-    alt: 'Dense Safari Scene Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Dense Safari Scene XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/q4z5H', // Dense Safari Scene — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'jungle-animal-parade',
@@ -717,12 +717,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/jungle-animal-parade.webp',
-    alt: 'Jungle Animal Parade Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Jungle Animal Parade XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/MqxZ1', // Jungle Animal Parade — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'forest-friends-gathering',
@@ -735,17 +735,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/forest-friends-gathering.webp',
-    alt: 'Forest Friends Gathering Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Forest Friends Gathering XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/cmX3K', // Forest Friends Gathering — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'cute-dinosaur-forest',
     title: 'Cute Dinosaur Forest',
-    description: 'Een gigantische zwart-wit kleurposter van een schattige babydinosaurus in een druk bos, vol fijne details om in te kleuren. Een grote glimlachende babydinosaurus staat in het midden, een stegosaurus loopt eronder, een olifant, een nijlpaard, koala\'s in een boom, schildpadden, katten, apen, een leeuw en vossen vullen het bos, met bloemen, bomen en een kronkelende beek eromheen.',
+    description: 'Een gigantische zwart-wit kleurplaat van een schattige babydinosaurus in een druk bos, vol fijne details om in te kleuren. Een grote glimlachende babydinosaurus staat in het midden, een stegosaurus loopt eronder, een olifant, een nijlpaard, koala\'s in een boom, schildpadden, katten, apen, een leeuw en vossen vullen het bos, met bloemen, bomen en een kronkelende beek eromheen.',
     category: 'dinosaur',
     categoryLabel: 'Dinosaurus',
     collection: 'Natuur & Dieren',
@@ -753,17 +753,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/cute-dinosaur-forest.webp',
-    alt: 'Cute Dinosaur Forest Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Cute Dinosaur Forest XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/KpBZ4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-jungle-river',
     title: 'Elephant Jungle River',
-    description: 'Een gigantische zwart-wit kleurposter van een olifant bij een junglerivier, vol fijne details om in te kleuren. Een olifant in een deken met patroon staat bij een kronkelende rivier onder een grote boom, een kat met een kopje thee zit op een tak, een konijn leest boeken in een boekenplank van een boomstam, een vos zit bij een kampvuur, met een glimlachende zon, bergen, paddenstoelen, bloemen en vissen in de rivier.',
+    description: 'Een gigantische zwart-wit kleurplaat van een olifant bij een junglerivier, vol fijne details om in te kleuren. Een olifant in een deken met patroon staat bij een kronkelende rivier onder een grote boom, een kat met een kopje thee zit op een tak, een konijn leest boeken in een boekenplank van een boomstam, een vos zit bij een kampvuur, met een glimlachende zon, bergen, paddenstoelen, bloemen en vissen in de rivier.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Natuur & Dieren',
@@ -771,17 +771,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/elephant-jungle-river.webp',
-    alt: 'Elephant Jungle River Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Elephant Jungle River XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/ntkEH',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-forest-adventure',
     title: 'Tiger Forest Adventure',
-    description: 'Een gigantische zwart-wit kleurposter van een tijger in een bosbeek, vol fijne details om in te kleuren. Een grote tijger staat bij een beek, twee apen spelen in de bomen, vogels en vlinders vliegen erboven, een schildpad en vissen zwemmen in het water, met grote bomen, bergen, bloemen en gladde stenen eromheen.',
+    description: 'Een gigantische zwart-wit kleurplaat van een tijger in een bosbeek, vol fijne details om in te kleuren. Een grote tijger staat bij een beek, twee apen spelen in de bomen, vogels en vlinders vliegen erboven, een schildpad en vissen zwemmen in het water, met grote bomen, bergen, bloemen en gladde stenen eromheen.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Natuur & Dieren',
@@ -789,17 +789,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/tiger-forest-adventure.webp',
-    alt: 'Tiger Forest Adventure Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Tiger Forest Adventure XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/rfF6D',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'moonlight-forest-campfire',
     title: 'Moonlight Forest Campfire',
-    description: 'Een gigantische zwart-wit kleurposter van bosvrienden rond een kampvuur \'s nachts, vol fijne details om in te kleuren. Een hert, een egel, eekhoorns, een vos, een beer en een das verzamelen zich rond een kampvuur onder een halve maan, met een uil in een boom, wasberen op een tak, sterren, dennenbomen, bergen, paddenstoelen en bloemen.',
+    description: 'Een gigantische zwart-wit kleurplaat van bosvrienden rond een kampvuur \'s nachts, vol fijne details om in te kleuren. Een hert, een egel, eekhoorns, een vos, een beer en een das verzamelen zich rond een kampvuur onder een halve maan, met een uil in een boom, wasberen op een tak, sterren, dennenbomen, bergen, paddenstoelen en bloemen.',
     category: 'woodland',
     categoryLabel: 'Bos',
     collection: 'Natuur & Dieren',
@@ -807,17 +807,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/moonlight-forest-campfire.webp',
-    alt: 'Moonlight Forest Campfire Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Moonlight Forest Campfire XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/9GAY2',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'treehouse-animal-home',
     title: 'Treehouse Animal Home',
-    description: 'Een gigantische zwart-wit kleurposter van een boomhut in het bos, vol fijne details om in te kleuren. Twee boomhutten, verbonden door een touwbrug en een ladder, huisvesten een aap, leeuwen, een babyolifant, neushoorns, een zebra en lemuren, met een giraf, een nijlpaard in een vijver, vlinders, een zon met patroon en bloemen eromheen.',
+    description: 'Een gigantische zwart-wit kleurplaat van een boomhut in het bos, vol fijne details om in te kleuren. Twee boomhutten, verbonden door een touwbrug en een ladder, huisvesten een aap, leeuwen, een babyolifant, neushoorns, een zebra en lemuren, met een giraf, een nijlpaard in een vijver, vlinders, een zon met patroon en bloemen eromheen.',
     category: 'woodland',
     categoryLabel: 'Bos',
     collection: 'Natuur & Dieren',
@@ -825,17 +825,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/treehouse-animal-home.webp',
-    alt: 'Treehouse Animal Home Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Treehouse Animal Home XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5UCoD',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'reindeer-herd-tundra',
     title: 'Reindeer Herd Tundra',
-    description: 'Een gigantische zwart-wit kleurposter van een rendierkudde op de toendra, vol fijne details om in te kleuren. Rendieren met grote geweien en hun kalveren grazen op de besneeuwde toendra, met een grote zon, bergen, rotsen, een beek, kleine planten en wervelend noorderlicht in de lucht.',
+    description: 'Een gigantische zwart-wit kleurplaat van een rendierkudde op de toendra, vol fijne details om in te kleuren. Rendieren met grote geweien en hun kalveren grazen op de besneeuwde toendra, met een grote zon, bergen, rotsen, een beek, kleine planten en wervelend noorderlicht in de lucht.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -843,17 +843,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/reindeer-herd-tundra.webp',
-    alt: 'Reindeer Herd Tundra Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Reindeer Herd Tundra XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/gN1nk',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'reindeer-classroom-learning',
     title: 'Reindeer Classroom Learning',
-    description: 'Een gigantische zwart-wit kleurposter van schattige rendieren die leren in een klaslokaal, vol fijne details om in te kleuren. Vier rendieren zitten aan tafels te lezen, te schrijven en te tekenen, met een schoolbord waarop LEARNING IS FUN staat, cijfers, een globe, boeken, schooltassen, sneeuwvlokken en vlaggetjes.',
+    description: 'Een gigantische zwart-wit kleurplaat van schattige rendieren die leren in een klaslokaal, vol fijne details om in te kleuren. Vier rendieren zitten aan tafels te lezen, te schrijven en te tekenen, met een schoolbord waarop LEARNING IS FUN staat, cijfers, een globe, boeken, schooltassen, sneeuwvlokken en vlaggetjes.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -861,17 +861,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/reindeer-classroom-learning.webp',
-    alt: 'Reindeer Classroom Learning Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Reindeer Classroom Learning XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/sR6K5',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'cozy-igloo-village',
     title: 'Cozy Igloo Village',
-    description: 'Een gigantische zwart-wit kleurposter van een gezellig iglodorp in de sneeuw. Grote iglo\'s met ronde ramen staan tussen dennenbomen en bergen, een walrus met jongen, wolven die bouwen met ijsblokken, sneeuwpoppen, een walvis in een vijver en vogels op de daken, met vallende sneeuwvlokken eromheen.',
+    description: 'Een gigantische zwart-wit kleurplaat van een gezellig iglodorp in de sneeuw. Grote iglo\'s met ronde ramen staan tussen dennenbomen en bergen, een walrus met jongen, wolven die bouwen met ijsblokken, sneeuwpoppen, een walvis in een vijver en vogels op de daken, met vallende sneeuwvlokken eromheen.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -879,17 +879,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/cozy-igloo-village.webp',
-    alt: 'Cozy Igloo Village Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Cozy Igloo Village XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/nfCgB',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'polar-bears-arctic-ocean',
     title: 'Polar Bears Arctic Ocean',
-    description: 'Een gigantische zwart-wit kleurposter van ijsberen in de Noordelijke IJszee, vol fijne details om in te kleuren. Een ijsberenmoeder met twee welpen staat op een ijsklip, narwallen en beloegawalvissen zwemmen in wervelende golven, een walrus, een zeehond en poolvossen rusten op ijsschotsen, met zeevogels, een grote zon, bergen en ijsbergen.',
+    description: 'Een gigantische zwart-wit kleurplaat van ijsberen in de Noordelijke IJszee, vol fijne details om in te kleuren. Een ijsberenmoeder met twee welpen staat op een ijsklip, narwallen en beloegawalvissen zwemmen in wervelende golven, een walrus, een zeehond en poolvossen rusten op ijsschotsen, met zeevogels, een grote zon, bergen en ijsbergen.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -897,17 +897,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/polar-bears-arctic-ocean.webp',
-    alt: 'Polar Bears Arctic Ocean Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Polar Bears Arctic Ocean XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dEMNV',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-village-igloo-houses',
     title: 'Arctic Village Igloo Houses',
-    description: 'Een gigantische zwart-wit kleurposter van een arctisch dorp van iglohuizen, vol fijne details om in te kleuren. Een ijsberenpostbode op een slee getrokken door husky\'s bezorgt post langs iglo\'s vernoemd naar een pinguïn-, een zeehonden-, een rendier-, een ijsberen- en een walrusfamilie, met een uil die een pakket draagt, een dorpsbord, een halve maan, noorderlicht, sneeuwvlokken en dennenbomen.',
+    description: 'Een gigantische zwart-wit kleurplaat van een arctisch dorp van iglohuizen, vol fijne details om in te kleuren. Een ijsberenpostbode op een slee getrokken door husky\'s bezorgt post langs iglo\'s vernoemd naar een pinguïn-, een zeehonden-, een rendier-, een ijsberen- en een walrusfamilie, met een uil die een pakket draagt, een dorpsbord, een halve maan, noorderlicht, sneeuwvlokken en dennenbomen.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -915,17 +915,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/arctic-village-igloo-houses.webp',
-    alt: 'Arctic Village Igloo Houses Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Arctic Village Igloo Houses XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/P6CO4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-aurora-science-exploration',
     title: 'Arctic Aurora Science Exploration',
-    description: 'Een gigantische zwart-wit kleurposter van een arctische wetenschappelijke expeditie onder het noorderlicht, vol fijne details om in te kleuren. Wetenschappers met een drone en een sonde verkennen het ijs naast een onderzeeër en beluga’s, met een poolobservatiebasis, een tent, een sneeuwscooter, een uil, rendieren en sterrenbeelden, en labels die uitleggen hoe het poollicht ontstaat.',
+    description: 'Een gigantische zwart-wit kleurplaat van een arctische wetenschappelijke expeditie onder het noorderlicht, vol fijne details om in te kleuren. Wetenschappers met een drone en een sonde verkennen het ijs naast een onderzeeër en beluga’s, met een poolobservatiebasis, een tent, een sneeuwscooter, een uil, rendieren en sterrenbeelden, en labels die uitleggen hoe het poollicht ontstaat.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -933,17 +933,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/arctic-aurora-science-exploration.webp',
-    alt: 'Arctic Aurora Science Exploration Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Arctic Aurora Science Exploration XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dHMQ4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'welcome-arctic-igloo-facts',
     title: 'Welcome Arctic Igloo Facts',
-    description: 'Een gigantische zwart-wit kleurposter van een grote iglo in het Noordpoolgebied, met leuke weetjes om in te kleuren en te leren. Een uil boven op de iglo houdt een vlag vast met Welcome to the Arctic, een lachend kind houdt een vis vast, een ijsbeerwelp en een walrus zitten op het ijs, een narwal springt uit het water, husky’s trekken een slee, en vossen, een rendier en een zeehond spelen in de sneeuw onder de maan.',
+    description: 'Een gigantische zwart-wit kleurplaat van een grote iglo in het Noordpoolgebied, met leuke weetjes om in te kleuren en te leren. Een uil boven op de iglo houdt een vlag vast met Welcome to the Arctic, een lachend kind houdt een vis vast, een ijsbeerwelp en een walrus zitten op het ijs, een narwal springt uit het water, husky’s trekken een slee, en vossen, een rendier en een zeehond spelen in de sneeuw onder de maan.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -951,17 +951,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/welcome-arctic-igloo-facts.webp',
-    alt: 'Welcome Arctic Igloo Facts Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Welcome Arctic Igloo Facts XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/YaFZm',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-star-talent-show',
     title: 'Arctic Star Talent Show',
-    description: 'Een gigantische zwart-wit kleurposter van een grote talentenshow in het Noordpoolgebied, vol fijne details om in te kleuren. Een walvisgoochelaar treedt op het podium op, een schildpad vertelt grappen, een beluga zingt, sneeuwluipaarden dansen, een liveband speelt, een otter schildert, pinguïns houden hun evenwicht, en juryleden en een publiek van walrussen, zeehonden, rendieren en vossen kijken toe onder het noorderlicht.',
+    description: 'Een gigantische zwart-wit kleurplaat van een grote talentenshow in het Noordpoolgebied, vol fijne details om in te kleuren. Een walvisgoochelaar treedt op het podium op, een schildpad vertelt grappen, een beluga zingt, sneeuwluipaarden dansen, een liveband speelt, een otter schildert, pinguïns houden hun evenwicht, en juryleden en een publiek van walrussen, zeehonden, rendieren en vossen kijken toe onder het noorderlicht.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -969,17 +969,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/arctic-star-talent-show.webp',
-    alt: 'Arctic Star Talent Show Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Arctic Star Talent Show XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/fyCsJ',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'snow-festival-igloo-friends',
     title: 'Snow Festival Igloo Friends',
-    description: 'Een gigantische zwart-wit kleurposter van een sneeuwfestival bij een grote iglo met sterrenpatroon. Een pinguïn met een feesthoedje en een ijsbeer met een vlinderdas houden sterren vast, een konijn draagt een mand, een zeehond klapt bij een bevroren vijver, en een uil op een tak zegt dat geen twee sneeuwvlokken hetzelfde zijn, met dennenbomen en vallende sneeuw overal omheen.',
+    description: 'Een gigantische zwart-wit kleurplaat van een sneeuwfestival bij een grote iglo met sterrenpatroon. Een pinguïn met een feesthoedje en een ijsbeer met een vlinderdas houden sterren vast, een konijn draagt een mand, een zeehond klapt bij een bevroren vijver, en een uil op een tak zegt dat geen twee sneeuwvlokken hetzelfde zijn, met dennenbomen en vallende sneeuw overal omheen.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -987,17 +987,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/snow-festival-igloo-friends.webp',
-    alt: 'Snow Festival Igloo Friends Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Snow Festival Igloo Friends XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/1sle2',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'owl-night-school-arctic',
     title: 'Owl Night School Arctic',
-    description: 'Een gigantische zwart-wit kleurposter van uilen op de nachtschool in het Noordpoolgebied. Een uilenleraar met een afstudeerhoed wijst naar een schoolbord met sterren, vier kleine uilen lezen, schrijven en kijken door een vergrootglas, en een babyuil slaapt in een nest, met een grote maan, sneeuwvlokken, een lantaarn en dennenbomen.',
+    description: 'Een gigantische zwart-wit kleurplaat van uilen op de nachtschool in het Noordpoolgebied. Een uilenleraar met een afstudeerhoed wijst naar een schoolbord met sterren, vier kleine uilen lezen, schrijven en kijken door een vergrootglas, en een babyuil slaapt in een nest, met een grote maan, sneeuwvlokken, een lantaarn en dennenbomen.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -1005,17 +1005,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/owl-night-school-arctic.webp',
-    alt: 'Owl Night School Arctic Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Owl Night School Arctic XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5Nm8H',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-animals-ice-playground',
     title: 'Arctic Animals Ice Playground',
-    description: 'Een gigantische zwart-wit kleurposter van arctische dieren die op het ijs spelen, vol fijne details om in te kleuren. Een sneeuwuil vliegt van een dennentak, een ijsbeer loopt voorbij, een welp glijdt op zijn rug, een vos rijdt op een zeehond op een slee, een walrus en zeehonden komen uit ijsgaten, papegaaiduikers en een konijn schaatsen op het ijs, en een rendier kijkt toe, met ijskliffen en bergen erachter.',
+    description: 'Een gigantische zwart-wit kleurplaat van arctische dieren die op het ijs spelen, vol fijne details om in te kleuren. Een sneeuwuil vliegt van een dennentak, een ijsbeer loopt voorbij, een welp glijdt op zijn rug, een vos rijdt op een zeehond op een slee, een walrus en zeehonden komen uit ijsgaten, papegaaiduikers en een konijn schaatsen op het ijs, en een rendier kijkt toe, met ijskliffen en bergen erachter.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -1023,17 +1023,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/arctic-animals-ice-playground.webp',
-    alt: 'Arctic Animals Ice Playground Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Arctic Animals Ice Playground XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/GT8XW',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-animal-road-trip',
     title: 'Arctic Animal Road Trip',
-    description: 'Een gigantische zwart-wit kleurposter van arctische dieren op een roadtrip in een grote auto. Een ijsbeer rijdt, twee rendieren en een vos rijden mee, koffers liggen op het dak, en een picknickmand, een kaart en een kompas vullen de auto, met dennenbomen, iglo’s, bergen en sneeuwvlokken buiten.',
+    description: 'Een gigantische zwart-wit kleurplaat van arctische dieren op een roadtrip in een grote auto. Een ijsbeer rijdt, twee rendieren en een vos rijden mee, koffers liggen op het dak, en een picknickmand, een kaart en een kompas vullen de auto, met dennenbomen, iglo’s, bergen en sneeuwvlokken buiten.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -1041,17 +1041,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 jaar',
     image: '/images/arctic-animal-road-trip.webp',
-    alt: 'Arctic Animal Road Trip Reuze kleurposter voor kinderen van 4-7 jaar',
+    alt: 'Arctic Animal Road Trip XXL kleurplaat voor kinderen van 4-7 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/U5jNu',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'walrus-polar-bear-fishing',
     title: 'Walrus Polar Bear Fishing',
-    description: 'Een gigantische zwart-wit kleurposter van walrussen en een ijsbeer die vissen in een arctisch meer, vol fijne details om in te kleuren. Twee walrussen en een babywalrus rusten op een ijsschots, twee vossenwelpjes vissen met hengels, een ijsbeer en haar welp kijken toe, zeehonden komen uit het water, en een uil, papegaaiduikers, een konijn en rendieren verzamelen zich onder een grote zon.',
+    description: 'Een gigantische zwart-wit kleurplaat van walrussen en een ijsbeer die vissen in een arctisch meer, vol fijne details om in te kleuren. Twee walrussen en een babywalrus rusten op een ijsschots, twee vossenwelpjes vissen met hengels, een ijsbeer en haar welp kijken toe, zeehonden komen uit het water, en een uil, papegaaiduikers, een konijn en rendieren verzamelen zich onder een grote zon.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -1059,17 +1059,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/walrus-polar-bear-fishing.webp',
-    alt: 'Walrus Polar Bear Fishing Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Walrus Polar Bear Fishing XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/9qIAg',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'aurora-northern-lights-science',
     title: 'Aurora Northern Lights Science',
-    description: 'Een gigantische zwart-wit kleurposter van het noorderlicht, vol fijne details om in te kleuren. Wervelende poollichtlinten vullen de lucht met labels die uitleggen dat paars stikstof betekent, rood zuurstof hoog in de lucht en groen zuurstof laag in de lucht, terwijl een kind met een vos een boek over de zon en de zonnewind leest, en een uil, dennenbomen en rendieren de besneeuwde heuvels vullen.',
+    description: 'Een gigantische zwart-wit kleurplaat van het noorderlicht, vol fijne details om in te kleuren. Wervelende poollichtlinten vullen de lucht met labels die uitleggen dat paars stikstof betekent, rood zuurstof hoog in de lucht en groen zuurstof laag in de lucht, terwijl een kind met een vos een boek over de zon en de zonnewind leest, en een uil, dennenbomen en rendieren de besneeuwde heuvels vullen.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -1077,17 +1077,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/aurora-northern-lights-science.webp',
-    alt: 'Aurora Northern Lights Science Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Aurora Northern Lights Science XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/psZkW',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'aurora-night-arctic-animals',
     title: 'Aurora Night Arctic Animals',
-    description: 'Een gigantische zwart-wit kleurposter van arctische dieren onder het noorderlicht ’s nachts, vol fijne details om in te kleuren. Een uil zit op een ijsklip, een ijsbeerwelp en een vos lopen door de sneeuw, een narwal zwemt in een ijsgat, walrussen rusten, een rendierkudde steekt een heuvel over, vogels vliegen onder een halve maan, en een konijn kijkt toe vanuit de sneeuw.',
+    description: 'Een gigantische zwart-wit kleurplaat van arctische dieren onder het noorderlicht ’s nachts, vol fijne details om in te kleuren. Een uil zit op een ijsklip, een ijsbeerwelp en een vos lopen door de sneeuw, een narwal zwemt in een ijsgat, walrussen rusten, een rendierkudde steekt een heuvel over, vogels vliegen onder een halve maan, en een konijn kijkt toe vanuit de sneeuw.',
     category: 'polar-arctic',
     categoryLabel: 'Pool & Arctisch',
     collection: 'Natuur & Dieren',
@@ -1095,12 +1095,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 jaar',
     image: '/images/aurora-night-arctic-animals.webp',
-    alt: 'Aurora Night Arctic Animals Reuze kleurposter voor kinderen van 8-12 jaar',
+    alt: 'Aurora Night Arctic Animals XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/DhsPa',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   }
 ];
 

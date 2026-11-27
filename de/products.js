@@ -1,6 +1,6 @@
-// AQWAGEL — Giant Coloring Posters
+// AQWAGEL — Giant Coloring Pages
 // Digital downloads only. Target countries: Germany. (Locale de of aqwagel.com)
-// Price: $1.00 USD for every poster, all ages.
+// Price: $1.00 USD for every coloring page, all ages.
 // Buy Now opens the Payhip product page.
 
 const PRODUCTS = [
@@ -15,12 +15,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/birthday-animal-parade.webp',
-    alt: 'Birthday Animal Parade Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Birthday Animal Parade XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Z3TY6', // Birthday Animal Parade — live Payhip product, verified 25 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'rainbow-insect-garden',
@@ -33,12 +33,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/rainbow-insect-garden.webp',
-    alt: 'Rainbow Insect Garden Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Rainbow Insect Garden XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/1XUHo', // Rainbow Insect Garden — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-friends-river',
@@ -51,12 +51,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/safari-friends-river.webp',
-    alt: 'Safari Friends River Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Safari Friends River XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/UA8vp', // Safari Friends River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-animal-meadow',
@@ -69,12 +69,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/safari-animal-meadow.webp',
-    alt: 'Safari Animal Meadow Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Safari Animal Meadow XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Rarwk', // Safari Animal Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'barn-safari-friends',
@@ -87,12 +87,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/barn-safari-friends.webp',
-    alt: 'Barn Safari Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Barn Safari Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/7oYLX', // Barn Safari Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'lion-mandala-safari',
@@ -105,12 +105,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/lion-mandala-safari.webp',
-    alt: 'Lion Mandala Safari Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Lion Mandala Safari XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5pKUH', // Lion Mandala Safari — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'animal-friends-stream',
@@ -123,12 +123,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/animal-friends-stream.webp',
-    alt: 'Animal Friends Stream Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Animal Friends Stream XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/iGTk0', // Animal Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'kitten-garden-swing',
@@ -141,12 +141,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/kitten-garden-swing.webp',
-    alt: 'Kitten Garden Swing Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Kitten Garden Swing XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/fNbBy', // Kitten Garden Swing — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'kittens-moonlight-garden',
@@ -159,12 +159,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/kittens-moonlight-garden.webp',
-    alt: 'Kittens Moonlight Garden Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Kittens Moonlight Garden XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/hkoI5', // Kittens Moonlight Garden — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-river-animals',
@@ -177,12 +177,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/safari-river-animals.webp',
-    alt: 'Safari River Animals Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Safari River Animals XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/AqtgD', // Safari River Animals — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-stream',
@@ -195,12 +195,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/woodland-friends-stream.webp',
-    alt: 'Woodland Friends Stream Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Woodland Friends Stream XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-safari-friends',
@@ -213,12 +213,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/giraffe-safari-friends.webp',
-    alt: 'Giraffe Safari Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Giraffe Safari Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dtCA7', // Giraffe Safari Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'bear-safari-jeep',
@@ -231,12 +231,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/bear-safari-jeep.webp',
-    alt: 'Bear Safari Jeep Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Bear Safari Jeep XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/BV4af', // Bear Safari Jeep — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-zebra-savanna',
@@ -249,12 +249,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/giraffe-zebra-savanna.webp',
-    alt: 'Giraffe Zebra Savanna Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Giraffe Zebra Savanna XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/JzuRr', // Giraffe Zebra Savanna — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-lion-savanna',
@@ -267,12 +267,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/elephant-lion-savanna.webp',
-    alt: 'Elephant Lion Savanna Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Elephant Lion Savanna XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/SDs1W', // Elephant Lion Savanna — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-animal-friends',
@@ -285,12 +285,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/woodland-animal-friends.webp',
-    alt: 'Woodland Animal Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Woodland Animal Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/vhUCJ', // Woodland Animal Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-meadow',
@@ -303,12 +303,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/woodland-friends-meadow.webp',
-    alt: 'Woodland Friends Meadow Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Woodland Friends Meadow XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/xYXn0', // Woodland Friends Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-animal-gathering',
@@ -321,12 +321,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/safari-animal-gathering.webp',
-    alt: 'Safari Animal Gathering Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Safari Animal Gathering XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/2XfIB', // Safari Animal Gathering — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-hippo-friends',
@@ -339,12 +339,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/elephant-hippo-friends.webp',
-    alt: 'Elephant Hippo Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Elephant Hippo Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/jNdDi', // Elephant Hippo Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'jungle-animal-pond',
@@ -357,12 +357,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/jungle-animal-pond.webp',
-    alt: 'Jungle Animal Pond Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Jungle Animal Pond XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/0FGfy', // Jungle Animal Pond — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'farm-barn-friends',
@@ -375,12 +375,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/farm-barn-friends.webp',
-    alt: 'Farm Barn Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Farm Barn Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/2NvFM', // Farm Barn Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'lion-forest-portrait',
@@ -393,12 +393,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/lion-forest-portrait.webp',
-    alt: 'Lion Forest Portrait Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Lion Forest Portrait XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-friends-pond',
@@ -411,12 +411,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/safari-friends-pond.webp',
-    alt: 'Safari Friends Pond Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Safari Friends Pond XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'garden-pond-friends',
@@ -429,12 +429,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/garden-pond-friends.webp',
-    alt: 'Garden Pond Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Garden Pond Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'leopard-cubs-river',
@@ -447,12 +447,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/leopard-cubs-river.webp',
-    alt: 'Leopard Cubs River Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Leopard Cubs River XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-cub-friends',
@@ -465,12 +465,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/tiger-cub-friends.webp',
-    alt: 'Tiger Cub Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Tiger Cub Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-elephant-river',
@@ -483,12 +483,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/giraffe-elephant-river.webp',
-    alt: 'Giraffe Elephant River Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Giraffe Elephant River XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-cubs-savannah',
@@ -501,12 +501,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/tiger-cubs-savannah.webp',
-    alt: 'Tiger Cubs Savannah Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Tiger Cubs Savannah XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-monument-friends',
@@ -519,12 +519,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/safari-monument-friends.webp',
-    alt: 'Safari Monument Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Safari Monument Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-deer-friends',
@@ -537,12 +537,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/woodland-deer-friends.webp',
-    alt: 'Woodland Deer Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Woodland Deer Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-lion-jungle',
@@ -555,12 +555,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/elephant-lion-jungle.webp',
-    alt: 'Elephant Lion Jungle Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Elephant Lion Jungle XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-pyramid-adventure',
@@ -573,12 +573,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/safari-pyramid-adventure.webp',
-    alt: 'Safari Pyramid Adventure Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Safari Pyramid Adventure XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/gIXqk', // Safari Pyramid Adventure — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-adventure-scene',
@@ -591,12 +591,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/safari-adventure-scene.webp',
-    alt: 'Safari Adventure Scene Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Safari Adventure Scene XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/A5XIE', // Safari Adventure Scene — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'bear-picnic-forest',
@@ -609,12 +609,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/bear-picnic-forest.webp',
-    alt: 'Bear Picnic Forest Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Bear Picnic Forest XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/rT9f4', // Bear Picnic Forest — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-rainbow-friends',
@@ -627,12 +627,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/giraffe-rainbow-friends.webp',
-    alt: 'Giraffe Rainbow Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Giraffe Rainbow Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5gaNW', // Giraffe Rainbow Friends — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-monkey-river',
@@ -645,12 +645,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/elephant-monkey-river.webp',
-    alt: 'Elephant Monkey River Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Elephant Monkey River XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Gq3UK', // Elephant Monkey River — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'sloth-jungle-friends',
@@ -663,12 +663,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/sloth-jungle-friends.webp',
-    alt: 'Sloth Jungle Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Sloth Jungle Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/LweK8', // Sloth Jungle Friends — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'winter-deer-mountains',
@@ -681,12 +681,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/winter-deer-mountains.webp',
-    alt: 'Winter Deer Mountains Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Winter Deer Mountains XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/XrliN', // Winter Deer Mountains — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'dense-safari-scene',
@@ -699,12 +699,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/dense-safari-scene.webp',
-    alt: 'Dense Safari Scene Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Dense Safari Scene XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/q4z5H', // Dense Safari Scene — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'jungle-animal-parade',
@@ -717,12 +717,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/jungle-animal-parade.webp',
-    alt: 'Jungle Animal Parade Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Jungle Animal Parade XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/MqxZ1', // Jungle Animal Parade — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'forest-friends-gathering',
@@ -735,17 +735,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/forest-friends-gathering.webp',
-    alt: 'Forest Friends Gathering Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Forest Friends Gathering XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/cmX3K', // Forest Friends Gathering — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'cute-dinosaur-forest',
     title: 'Cute Dinosaur Forest',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit einem niedlichen Babydinosaurier in einem geschäftigen Wald, voller feiner Details zum Ausmalen. Ein großer lächelnder Babydinosaurier steht in der Mitte, ein Stegosaurus läuft darunter, ein Elefant, ein Nilpferd, Koalas in einem Baum, Schildkröten, Katzen, Affen, ein Löwe und Füchse füllen den Wald, mit Blumen, Bäumen und einem gewundenen Bach ringsherum.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit einem niedlichen Babydinosaurier in einem geschäftigen Wald, voller feiner Details zum Ausmalen. Ein großer lächelnder Babydinosaurier steht in der Mitte, ein Stegosaurus läuft darunter, ein Elefant, ein Nilpferd, Koalas in einem Baum, Schildkröten, Katzen, Affen, ein Löwe und Füchse füllen den Wald, mit Blumen, Bäumen und einem gewundenen Bach ringsherum.',
     category: 'dinosaur',
     categoryLabel: 'Dinosaurier',
     collection: 'Natur & Tierwelt',
@@ -753,17 +753,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/cute-dinosaur-forest.webp',
-    alt: 'Cute Dinosaur Forest Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Cute Dinosaur Forest XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/KpBZ4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-jungle-river',
     title: 'Elephant Jungle River',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit einem Elefanten an einem Dschungelfluss, voller feiner Details zum Ausmalen. Ein Elefant in einer gemusterten Decke steht an einem gewundenen Fluss unter einem großen Baum, eine Katze mit einer Teetasse sitzt auf einem Ast, ein Hase liest Bücher an einem Bücherregal aus einem Baumstamm, ein Fuchs sitzt an einem Lagerfeuer, mit einer lächelnden Sonne, Bergen, Pilzen, Blumen und Fischen im Fluss.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit einem Elefanten an einem Dschungelfluss, voller feiner Details zum Ausmalen. Ein Elefant in einer gemusterten Decke steht an einem gewundenen Fluss unter einem großen Baum, eine Katze mit einer Teetasse sitzt auf einem Ast, ein Hase liest Bücher an einem Bücherregal aus einem Baumstamm, ein Fuchs sitzt an einem Lagerfeuer, mit einer lächelnden Sonne, Bergen, Pilzen, Blumen und Fischen im Fluss.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Dschungel',
     collection: 'Natur & Tierwelt',
@@ -771,17 +771,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/elephant-jungle-river.webp',
-    alt: 'Elephant Jungle River Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Elephant Jungle River XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/ntkEH',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-forest-adventure',
     title: 'Tiger Forest Adventure',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit einem Tiger an einem Waldbach, voller feiner Details zum Ausmalen. Ein großer Tiger steht an einem Bach, zwei Affen spielen in den Bäumen, Vögel und Schmetterlinge fliegen darüber, eine Schildkröte und Fische schwimmen im Wasser, mit großen Bäumen, Bergen, Blumen und glatten Steinen ringsherum.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit einem Tiger an einem Waldbach, voller feiner Details zum Ausmalen. Ein großer Tiger steht an einem Bach, zwei Affen spielen in den Bäumen, Vögel und Schmetterlinge fliegen darüber, eine Schildkröte und Fische schwimmen im Wasser, mit großen Bäumen, Bergen, Blumen und glatten Steinen ringsherum.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Dschungel',
     collection: 'Natur & Tierwelt',
@@ -789,17 +789,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/tiger-forest-adventure.webp',
-    alt: 'Tiger Forest Adventure Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Tiger Forest Adventure XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/rfF6D',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'moonlight-forest-campfire',
     title: 'Moonlight Forest Campfire',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit Waldfreunden um ein Lagerfeuer in der Nacht, voller feiner Details zum Ausmalen. Ein Reh, ein Igel, Eichhörnchen, ein Fuchs, ein Bär und ein Dachs versammeln sich um ein Lagerfeuer unter einem Sichelmond, mit einer Eule in einem Baum, Waschbären auf einem Ast, Sternen, Kiefern, Bergen, Pilzen und Blumen.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit Waldfreunden um ein Lagerfeuer in der Nacht, voller feiner Details zum Ausmalen. Ein Reh, ein Igel, Eichhörnchen, ein Fuchs, ein Bär und ein Dachs versammeln sich um ein Lagerfeuer unter einem Sichelmond, mit einer Eule in einem Baum, Waschbären auf einem Ast, Sternen, Kiefern, Bergen, Pilzen und Blumen.',
     category: 'woodland',
     categoryLabel: 'Wald',
     collection: 'Natur & Tierwelt',
@@ -807,17 +807,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/moonlight-forest-campfire.webp',
-    alt: 'Moonlight Forest Campfire Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Moonlight Forest Campfire XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/9GAY2',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'treehouse-animal-home',
     title: 'Treehouse Animal Home',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit einem Baumhaus in einem Wald, voller feiner Details zum Ausmalen. Zwei Baumhäuser, verbunden durch eine Seilbrücke und eine Leiter, beherbergen einen Affen, Löwen, einen Babyelefanten, Nashörner, ein Zebra und Lemuren, mit einer Giraffe, einem Nilpferd in einem Teich, Schmetterlingen, einer gemusterten Sonne und Blumen ringsherum.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit einem Baumhaus in einem Wald, voller feiner Details zum Ausmalen. Zwei Baumhäuser, verbunden durch eine Seilbrücke und eine Leiter, beherbergen einen Affen, Löwen, einen Babyelefanten, Nashörner, ein Zebra und Lemuren, mit einer Giraffe, einem Nilpferd in einem Teich, Schmetterlingen, einer gemusterten Sonne und Blumen ringsherum.',
     category: 'woodland',
     categoryLabel: 'Wald',
     collection: 'Natur & Tierwelt',
@@ -825,17 +825,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/treehouse-animal-home.webp',
-    alt: 'Treehouse Animal Home Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Treehouse Animal Home XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5UCoD',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'reindeer-herd-tundra',
     title: 'Reindeer Herd Tundra',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit einer Rentierherde in der Tundra, voller feiner Details zum Ausmalen. Rentiere mit großen Geweihen und ihre Kälber grasen in der schneebedeckten Tundra, mit einer großen Sonne, Bergen, Felsen, einem Bach, kleinen Pflanzen und wirbelnden Nordlichtern am Himmel.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit einer Rentierherde in der Tundra, voller feiner Details zum Ausmalen. Rentiere mit großen Geweihen und ihre Kälber grasen in der schneebedeckten Tundra, mit einer großen Sonne, Bergen, Felsen, einem Bach, kleinen Pflanzen und wirbelnden Nordlichtern am Himmel.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -843,17 +843,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/reindeer-herd-tundra.webp',
-    alt: 'Reindeer Herd Tundra Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Reindeer Herd Tundra XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/gN1nk',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'reindeer-classroom-learning',
     title: 'Reindeer Classroom Learning',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit niedlichen Rentieren, die in einem Klassenzimmer lernen, voller feiner Details zum Ausmalen. Vier Rentiere sitzen an Tischen und lesen, schreiben und zeichnen, mit einer Tafel, auf der LEARNING IS FUN steht, Zahlen, einem Globus, Büchern, Schultaschen, Schneeflocken und Wimpelketten.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit niedlichen Rentieren, die in einem Klassenzimmer lernen, voller feiner Details zum Ausmalen. Vier Rentiere sitzen an Tischen und lesen, schreiben und zeichnen, mit einer Tafel, auf der LEARNING IS FUN steht, Zahlen, einem Globus, Büchern, Schultaschen, Schneeflocken und Wimpelketten.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -861,17 +861,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/reindeer-classroom-learning.webp',
-    alt: 'Reindeer Classroom Learning Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Reindeer Classroom Learning XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/sR6K5',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'cozy-igloo-village',
     title: 'Cozy Igloo Village',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit einem gemütlichen Igludorf im Schnee. Große Iglus mit runden Fenstern stehen zwischen Kiefern und Bergen, ein Walross mit Jungtieren, Wölfe, die mit Eisblöcken bauen, Schneemänner, ein Wal in einem Teich und Vögel auf den Dächern, mit fallenden Schneeflocken ringsherum.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit einem gemütlichen Igludorf im Schnee. Große Iglus mit runden Fenstern stehen zwischen Kiefern und Bergen, ein Walross mit Jungtieren, Wölfe, die mit Eisblöcken bauen, Schneemänner, ein Wal in einem Teich und Vögel auf den Dächern, mit fallenden Schneeflocken ringsherum.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -879,17 +879,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/cozy-igloo-village.webp',
-    alt: 'Cozy Igloo Village Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Cozy Igloo Village XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/nfCgB',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'polar-bears-arctic-ocean',
     title: 'Polar Bears Arctic Ocean',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit Eisbären im arktischen Ozean, voller feiner Details zum Ausmalen. Eine Eisbärenmutter mit zwei Jungen steht auf einer Eisklippe, Narwale und Belugawale schwimmen in wirbelnden Wellen, ein Walross, eine Robbe und Polarfüchse ruhen auf Eisschollen, mit Seevögeln, einer großen Sonne, Bergen und Eisbergen.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit Eisbären im arktischen Ozean, voller feiner Details zum Ausmalen. Eine Eisbärenmutter mit zwei Jungen steht auf einer Eisklippe, Narwale und Belugawale schwimmen in wirbelnden Wellen, ein Walross, eine Robbe und Polarfüchse ruhen auf Eisschollen, mit Seevögeln, einer großen Sonne, Bergen und Eisbergen.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -897,17 +897,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/polar-bears-arctic-ocean.webp',
-    alt: 'Polar Bears Arctic Ocean Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Polar Bears Arctic Ocean XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dEMNV',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-village-igloo-houses',
     title: 'Arctic Village Igloo Houses',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit einem arktischen Dorf aus Igluhäusern, voller feiner Details zum Ausmalen. Ein Eisbärenpostbote auf einem von Huskys gezogenen Schlitten liefert Post an Iglus, die nach einer Pinguin-, einer Robben-, einer Rentier-, einer Eisbären- und einer Walrossfamilie benannt sind, mit einer Eule, die ein Paket trägt, einem Dorfschild, einem Sichelmond, Nordlichtern, Schneeflocken und Kiefern.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit einem arktischen Dorf aus Igluhäusern, voller feiner Details zum Ausmalen. Ein Eisbärenpostbote auf einem von Huskys gezogenen Schlitten liefert Post an Iglus, die nach einer Pinguin-, einer Robben-, einer Rentier-, einer Eisbären- und einer Walrossfamilie benannt sind, mit einer Eule, die ein Paket trägt, einem Dorfschild, einem Sichelmond, Nordlichtern, Schneeflocken und Kiefern.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -915,17 +915,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/arctic-village-igloo-houses.webp',
-    alt: 'Arctic Village Igloo Houses Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Arctic Village Igloo Houses XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/P6CO4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-aurora-science-exploration',
     title: 'Arctic Aurora Science Exploration',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit einer arktischen Forschungsexpedition unter Nordlichtern, voller feiner Details zum Ausmalen. Wissenschaftler mit einer Drohne und einer Sonde erkunden das Eis neben einem U-Boot und Belugawalen, mit einer Polarforschungsstation, einem Zelt, einem Schneemobil, einer Eule, Rentieren und Sternbildern, und Beschriftungen, die erklären, wie das Polarlicht entsteht.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit einer arktischen Forschungsexpedition unter Nordlichtern, voller feiner Details zum Ausmalen. Wissenschaftler mit einer Drohne und einer Sonde erkunden das Eis neben einem U-Boot und Belugawalen, mit einer Polarforschungsstation, einem Zelt, einem Schneemobil, einer Eule, Rentieren und Sternbildern, und Beschriftungen, die erklären, wie das Polarlicht entsteht.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -933,17 +933,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/arctic-aurora-science-exploration.webp',
-    alt: 'Arctic Aurora Science Exploration Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Arctic Aurora Science Exploration XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dHMQ4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'welcome-arctic-igloo-facts',
     title: 'Welcome Arctic Igloo Facts',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit einem großen Iglu in der Arktis, mit lustigen Fakten zum Ausmalen und Lernen. Eine Eule auf dem Iglu hält eine Fahne mit der Aufschrift Welcome to the Arctic, ein lächelndes Kind hält einen Fisch, ein Eisbärenjunges und ein Walross sitzen am Eis, ein Narwal springt aus dem Wasser, Huskys ziehen einen Schlitten, und Füchse, ein Rentier und eine Robbe spielen im Schnee unter dem Mond.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit einem großen Iglu in der Arktis, mit lustigen Fakten zum Ausmalen und Lernen. Eine Eule auf dem Iglu hält eine Fahne mit der Aufschrift Welcome to the Arctic, ein lächelndes Kind hält einen Fisch, ein Eisbärenjunges und ein Walross sitzen am Eis, ein Narwal springt aus dem Wasser, Huskys ziehen einen Schlitten, und Füchse, ein Rentier und eine Robbe spielen im Schnee unter dem Mond.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -951,17 +951,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/welcome-arctic-igloo-facts.webp',
-    alt: 'Welcome Arctic Igloo Facts Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Welcome Arctic Igloo Facts XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/YaFZm',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-star-talent-show',
     title: 'Arctic Star Talent Show',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit einer großen Talentshow in der Arktis, voller feiner Details zum Ausmalen. Ein Walzauberer tritt auf der Bühne auf, eine Schildkröte erzählt Witze, ein Beluga singt, Schneeleoparden tanzen, eine Live-Band spielt, ein Otter malt, Pinguine balancieren, und Juroren und ein Publikum aus Walrossen, Robben, Rentieren und Füchsen schauen unter den Nordlichtern zu.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit einer großen Talentshow in der Arktis, voller feiner Details zum Ausmalen. Ein Walzauberer tritt auf der Bühne auf, eine Schildkröte erzählt Witze, ein Beluga singt, Schneeleoparden tanzen, eine Live-Band spielt, ein Otter malt, Pinguine balancieren, und Juroren und ein Publikum aus Walrossen, Robben, Rentieren und Füchsen schauen unter den Nordlichtern zu.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -969,17 +969,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/arctic-star-talent-show.webp',
-    alt: 'Arctic Star Talent Show Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Arctic Star Talent Show XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/fyCsJ',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'snow-festival-igloo-friends',
     title: 'Snow Festival Igloo Friends',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit einem Schneefest an einem großen Iglu mit Sternenmuster. Ein Pinguin mit Partyhut und ein Eisbär mit Fliege halten Sterne, ein Hase trägt einen Korb, eine Robbe klatscht an einem eisigen Teich, und eine Eule auf einem Ast sagt, dass keine zwei Schneeflocken gleich sind, mit Kiefern und fallendem Schnee ringsum.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit einem Schneefest an einem großen Iglu mit Sternenmuster. Ein Pinguin mit Partyhut und ein Eisbär mit Fliege halten Sterne, ein Hase trägt einen Korb, eine Robbe klatscht an einem eisigen Teich, und eine Eule auf einem Ast sagt, dass keine zwei Schneeflocken gleich sind, mit Kiefern und fallendem Schnee ringsum.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -987,17 +987,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/snow-festival-igloo-friends.webp',
-    alt: 'Snow Festival Igloo Friends Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Snow Festival Igloo Friends XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/1sle2',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'owl-night-school-arctic',
     title: 'Owl Night School Arctic',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit Eulen in der Nachtschule in der Arktis. Eine Lehrereule mit Doktorhut zeigt auf eine Tafel mit Sternen, vier kleine Eulen lesen, schreiben und schauen durch eine Lupe, und eine Babyeule schläft in einem Nest, mit einem großen Mond, Schneeflocken, einer Laterne und Kiefern.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit Eulen in der Nachtschule in der Arktis. Eine Lehrereule mit Doktorhut zeigt auf eine Tafel mit Sternen, vier kleine Eulen lesen, schreiben und schauen durch eine Lupe, und eine Babyeule schläft in einem Nest, mit einem großen Mond, Schneeflocken, einer Laterne und Kiefern.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -1005,17 +1005,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/owl-night-school-arctic.webp',
-    alt: 'Owl Night School Arctic Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Owl Night School Arctic XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5Nm8H',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-animals-ice-playground',
     title: 'Arctic Animals Ice Playground',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit arktischen Tieren, die auf dem Eis spielen, voller feiner Details zum Ausmalen. Eine Schneeeule fliegt von einem Kiefernast, ein Eisbär geht vorbei, ein Junges rutscht auf dem Rücken, ein Fuchs reitet auf einer Robbe auf einem Schlitten, ein Walross und Robben tauchen aus Eislöchern auf, Papageientaucher und ein Hase laufen auf dem Eis Schlittschuh, und ein Rentier schaut zu, mit Eisklippen und Bergen dahinter.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit arktischen Tieren, die auf dem Eis spielen, voller feiner Details zum Ausmalen. Eine Schneeeule fliegt von einem Kiefernast, ein Eisbär geht vorbei, ein Junges rutscht auf dem Rücken, ein Fuchs reitet auf einer Robbe auf einem Schlitten, ein Walross und Robben tauchen aus Eislöchern auf, Papageientaucher und ein Hase laufen auf dem Eis Schlittschuh, und ein Rentier schaut zu, mit Eisklippen und Bergen dahinter.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -1023,17 +1023,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/arctic-animals-ice-playground.webp',
-    alt: 'Arctic Animals Ice Playground Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Arctic Animals Ice Playground XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/GT8XW',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-animal-road-trip',
     title: 'Arctic Animal Road Trip',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit arktischen Tieren auf einem Roadtrip in einem großen Auto. Ein Eisbär fährt, zwei Rentiere und ein Fuchs fahren mit, Koffer liegen auf dem Dach, und ein Picknickkorb, eine Karte und ein Kompass füllen das Auto, mit Kiefern, Iglus, Bergen und Schneeflocken draußen.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit arktischen Tieren auf einem Roadtrip in einem großen Auto. Ein Eisbär fährt, zwei Rentiere und ein Fuchs fahren mit, Koffer liegen auf dem Dach, und ein Picknickkorb, eine Karte und ein Kompass füllen das Auto, mit Kiefern, Iglus, Bergen und Schneeflocken draußen.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -1041,17 +1041,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Alter 4–7',
     image: '/images/arctic-animal-road-trip.webp',
-    alt: 'Arctic Animal Road Trip Riesiges Ausmalposter für Kinder, Alter 4–7',
+    alt: 'Arctic Animal Road Trip XXL Ausmalbild für Kinder, Alter 4–7 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/U5jNu',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'walrus-polar-bear-fishing',
     title: 'Walrus Polar Bear Fishing',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit Walrossen und einem Eisbären beim Angeln an einem arktischen See, voller feiner Details zum Ausmalen. Zwei Walrosse und ein Babywalross ruhen auf einer Eisscholle, zwei Fuchskinder angeln mit Ruten, ein Eisbär und ihr Junges schauen zu, Robben tauchen aus dem Wasser auf, und eine Eule, Papageientaucher, ein Hase und Rentiere versammeln sich unter einer großen Sonne.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit Walrossen und einem Eisbären beim Angeln an einem arktischen See, voller feiner Details zum Ausmalen. Zwei Walrosse und ein Babywalross ruhen auf einer Eisscholle, zwei Fuchskinder angeln mit Ruten, ein Eisbär und ihr Junges schauen zu, Robben tauchen aus dem Wasser auf, und eine Eule, Papageientaucher, ein Hase und Rentiere versammeln sich unter einer großen Sonne.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -1059,17 +1059,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/walrus-polar-bear-fishing.webp',
-    alt: 'Walrus Polar Bear Fishing Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Walrus Polar Bear Fishing XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/9qIAg',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'aurora-northern-lights-science',
     title: 'Aurora Northern Lights Science',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit Nordlichtern, voller feiner Details zum Ausmalen. Wirbelnde Polarlichtbänder füllen den Himmel mit Beschriftungen, die erklären, dass Violett Stickstoff bedeutet, Rot Sauerstoff hoch oben und Grün Sauerstoff tief unten, während ein Kind mit einem Fuchs ein Buch über die Sonne und den Sonnenwind liest, und eine Eule, Kiefern und Rentiere die verschneiten Hügel füllen.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit Nordlichtern, voller feiner Details zum Ausmalen. Wirbelnde Polarlichtbänder füllen den Himmel mit Beschriftungen, die erklären, dass Violett Stickstoff bedeutet, Rot Sauerstoff hoch oben und Grün Sauerstoff tief unten, während ein Kind mit einem Fuchs ein Buch über die Sonne und den Sonnenwind liest, und eine Eule, Kiefern und Rentiere die verschneiten Hügel füllen.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -1077,17 +1077,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/aurora-northern-lights-science.webp',
-    alt: 'Aurora Northern Lights Science Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Aurora Northern Lights Science XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/psZkW',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'aurora-night-arctic-animals',
     title: 'Aurora Night Arctic Animals',
-    description: 'Ein riesiges Schwarz-Weiß-Malposter mit arktischen Tieren unter Nordlichtern bei Nacht, voller feiner Details zum Ausmalen. Eine Eule sitzt auf einer Eisklippe, ein Eisbärenjunges und ein Fuchs laufen durch den Schnee, ein Narwal schwimmt in einem Eisloch, Walrosse ruhen, eine Rentierherde überquert einen Hügel, Vögel fliegen unter einem Sichelmond, und ein Hase schaut aus dem Schnee zu.',
+    description: 'Ein riesiges Schwarz-Weiß-Ausmalbild mit arktischen Tieren unter Nordlichtern bei Nacht, voller feiner Details zum Ausmalen. Eine Eule sitzt auf einer Eisklippe, ein Eisbärenjunges und ein Fuchs laufen durch den Schnee, ein Narwal schwimmt in einem Eisloch, Walrosse ruhen, eine Rentierherde überquert einen Hügel, Vögel fliegen unter einem Sichelmond, und ein Hase schaut aus dem Schnee zu.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arktis',
     collection: 'Natur & Tierwelt',
@@ -1095,12 +1095,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Alter 8–12',
     image: '/images/aurora-night-arctic-animals.webp',
-    alt: 'Aurora Night Arctic Animals Riesiges Ausmalposter für Kinder, Alter 8–12',
+    alt: 'Aurora Night Arctic Animals XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/DhsPa',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   }
 ];
 

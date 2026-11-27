@@ -1,6 +1,6 @@
-// AQWAGEL — Giant Coloring Posters
+// AQWAGEL — Giant Coloring Pages
 // Digital downloads only. Target countries: United Kingdom, Australia. (Locale en-gb of aqwagel.com)
-// Price: $1.00 USD for every poster, all ages.
+// Price: $1.00 USD for every coloring page, all ages.
 // Buy Now opens the Payhip product page.
 
 const PRODUCTS = [
@@ -15,12 +15,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/birthday-animal-parade.webp',
-    alt: 'Birthday Animal Parade giant colouring poster for kids ages 4-7',
+    alt: 'Birthday Animal Parade giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Z3TY6', // Birthday Animal Parade — live Payhip product, verified 25 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'rainbow-insect-garden',
@@ -33,12 +33,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/rainbow-insect-garden.webp',
-    alt: 'Rainbow Insect Garden giant colouring poster for kids ages 4-7',
+    alt: 'Rainbow Insect Garden giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/1XUHo', // Rainbow Insect Garden — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-friends-river',
@@ -51,12 +51,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/safari-friends-river.webp',
-    alt: 'Safari Friends River giant colouring poster for kids ages 4-7',
+    alt: 'Safari Friends River giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/UA8vp', // Safari Friends River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-animal-meadow',
@@ -69,12 +69,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/safari-animal-meadow.webp',
-    alt: 'Safari Animal Meadow giant colouring poster for kids ages 4-7',
+    alt: 'Safari Animal Meadow giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Rarwk', // Safari Animal Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'barn-safari-friends',
@@ -87,12 +87,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/barn-safari-friends.webp',
-    alt: 'Barn Safari Friends giant colouring poster for kids ages 4-7',
+    alt: 'Barn Safari Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/7oYLX', // Barn Safari Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'lion-mandala-safari',
@@ -105,12 +105,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/lion-mandala-safari.webp',
-    alt: 'Lion Mandala Safari giant colouring poster for kids ages 4-7',
+    alt: 'Lion Mandala Safari giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5pKUH', // Lion Mandala Safari — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'animal-friends-stream',
@@ -123,12 +123,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/animal-friends-stream.webp',
-    alt: 'Animal Friends Stream giant colouring poster for kids ages 4-7',
+    alt: 'Animal Friends Stream giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/iGTk0', // Animal Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'kitten-garden-swing',
@@ -141,12 +141,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/kitten-garden-swing.webp',
-    alt: 'Kitten Garden Swing giant colouring poster for kids ages 4-7',
+    alt: 'Kitten Garden Swing giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/fNbBy', // Kitten Garden Swing — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'kittens-moonlight-garden',
@@ -159,12 +159,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/kittens-moonlight-garden.webp',
-    alt: 'Kittens Moonlight Garden giant colouring poster for kids ages 4-7',
+    alt: 'Kittens Moonlight Garden giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/hkoI5', // Kittens Moonlight Garden — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-river-animals',
@@ -177,12 +177,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/safari-river-animals.webp',
-    alt: 'Safari River Animals giant colouring poster for kids ages 8-12',
+    alt: 'Safari River Animals giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/AqtgD', // Safari River Animals — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-stream',
@@ -195,12 +195,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/woodland-friends-stream.webp',
-    alt: 'Woodland Friends Stream giant colouring poster for kids ages 4-7',
+    alt: 'Woodland Friends Stream giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-safari-friends',
@@ -213,12 +213,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/giraffe-safari-friends.webp',
-    alt: 'Giraffe Safari Friends giant colouring poster for kids ages 4-7',
+    alt: 'Giraffe Safari Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dtCA7', // Giraffe Safari Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'bear-safari-jeep',
@@ -231,12 +231,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/bear-safari-jeep.webp',
-    alt: 'Bear Safari Jeep giant colouring poster for kids ages 4-7',
+    alt: 'Bear Safari Jeep giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/BV4af', // Bear Safari Jeep — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-zebra-savanna',
@@ -249,12 +249,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/giraffe-zebra-savanna.webp',
-    alt: 'Giraffe Zebra Savanna giant colouring poster for kids ages 4-7',
+    alt: 'Giraffe Zebra Savanna giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/JzuRr', // Giraffe Zebra Savanna — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-lion-savanna',
@@ -267,12 +267,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/elephant-lion-savanna.webp',
-    alt: 'Elephant Lion Savanna giant colouring poster for kids ages 4-7',
+    alt: 'Elephant Lion Savanna giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/SDs1W', // Elephant Lion Savanna — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-animal-friends',
@@ -285,12 +285,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/woodland-animal-friends.webp',
-    alt: 'Woodland Animal Friends giant colouring poster for kids ages 4-7',
+    alt: 'Woodland Animal Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/vhUCJ', // Woodland Animal Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-meadow',
@@ -303,12 +303,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/woodland-friends-meadow.webp',
-    alt: 'Woodland Friends Meadow giant colouring poster for kids ages 4-7',
+    alt: 'Woodland Friends Meadow giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/xYXn0', // Woodland Friends Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-animal-gathering',
@@ -321,12 +321,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/safari-animal-gathering.webp',
-    alt: 'Safari Animal Gathering giant colouring poster for kids ages 8-12',
+    alt: 'Safari Animal Gathering giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/2XfIB', // Safari Animal Gathering — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-hippo-friends',
@@ -339,12 +339,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/elephant-hippo-friends.webp',
-    alt: 'Elephant Hippo Friends giant colouring poster for kids ages 4-7',
+    alt: 'Elephant Hippo Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/jNdDi', // Elephant Hippo Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'jungle-animal-pond',
@@ -357,12 +357,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/jungle-animal-pond.webp',
-    alt: 'Jungle Animal Pond giant colouring poster for kids ages 4-7',
+    alt: 'Jungle Animal Pond giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/0FGfy', // Jungle Animal Pond — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'farm-barn-friends',
@@ -375,17 +375,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/farm-barn-friends.webp',
-    alt: 'Farm Barn Friends giant colouring poster for kids ages 4-7',
+    alt: 'Farm Barn Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/2NvFM', // Farm Barn Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'lion-forest-portrait',
     title: 'Lion Forest Portrait',
-    description: 'A giant black-and-white coloring poster of a cute lion cub in a forest. A lion with a big round mane stands in the middle, with tall trees on both sides, a smiling sun and clouds above, a baobab tree, a giraffe and an elephant in the distance, flowers, ferns and paw prints all around, and a stream with fish at the bottom.',
+    description: 'A giant black-and-white coloring page of a cute lion cub in a forest. A lion with a big round mane stands in the middle, with tall trees on both sides, a smiling sun and clouds above, a baobab tree, a giraffe and an elephant in the distance, flowers, ferns and paw prints all around, and a stream with fish at the bottom.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -393,17 +393,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/lion-forest-portrait.webp',
-    alt: 'Lion Forest Portrait giant colouring poster for kids ages 4-7',
+    alt: 'Lion Forest Portrait giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-friends-pond',
     title: 'Safari Friends Pond',
-    description: 'A giant black-and-white coloring poster of safari friends around a pond. A zebra stands on the left, a baby elephant stands in the center, a giraffe, a tiger cub and a hippo in the pond fill the front, with a monkey on a branch, a flamingo and a toucan above, a crocodile in the stream, and a lion sitting by a little stone temple.',
+    description: 'A giant black-and-white coloring page of safari friends around a pond. A zebra stands on the left, a baby elephant stands in the center, a giraffe, a tiger cub and a hippo in the pond fill the front, with a monkey on a branch, a flamingo and a toucan above, a crocodile in the stream, and a lion sitting by a little stone temple.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -411,17 +411,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/safari-friends-pond.webp',
-    alt: 'Safari Friends Pond giant colouring poster for kids ages 4-7',
+    alt: 'Safari Friends Pond giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'garden-pond-friends',
     title: 'Garden Pond Friends',
-    description: 'A giant black-and-white coloring poster of garden friends by a pond. An elephant with flowers on its body stands on the left, an owl, a bunny holding a dotted egg, a bird, a crab, a duckling, a fish, a turtle and an ant share the garden, with a birdhouse, a teapot birdhouse, a treasure chest full of flowers, a jellyfish, reeds and a smiling sun.',
+    description: 'A giant black-and-white coloring page of garden friends by a pond. An elephant with flowers on its body stands on the left, an owl, a bunny holding a dotted egg, a bird, a crab, a duckling, a fish, a turtle and an ant share the garden, with a birdhouse, a teapot birdhouse, a treasure chest full of flowers, a jellyfish, reeds and a smiling sun.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -429,17 +429,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/garden-pond-friends.webp',
-    alt: 'Garden Pond Friends giant colouring poster for kids ages 4-7',
+    alt: 'Garden Pond Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'leopard-cubs-river',
     title: 'Leopard Cubs River',
-    description: 'A giant black-and-white coloring poster of leopard cubs by a river. Three spotted leopard cubs and a little lion stand by a winding stream, with palm trees, acacia trees, butterflies, a turtle, birds, a smiling sun and clouds above, and rocks and ferns all around.',
+    description: 'A giant black-and-white coloring page of leopard cubs by a river. Three spotted leopard cubs and a little lion stand by a winding stream, with palm trees, acacia trees, butterflies, a turtle, birds, a smiling sun and clouds above, and rocks and ferns all around.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -447,17 +447,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/leopard-cubs-river.webp',
-    alt: 'Leopard Cubs River giant colouring poster for kids ages 4-7',
+    alt: 'Leopard Cubs River giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-cub-friends',
     title: 'Tiger Cub Friends',
-    description: 'A giant black-and-white coloring poster of a tiger cub and its friends. A tiger cub sits by a stream in the middle, a baby elephant stands on the left, a smiling hippo stands on the right, and a big parrot sits on a branch, with palm trees and clouds above.',
+    description: 'A giant black-and-white coloring page of a tiger cub and its friends. A tiger cub sits by a stream in the middle, a baby elephant stands on the left, a smiling hippo stands on the right, and a big parrot sits on a branch, with palm trees and clouds above.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -465,17 +465,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/tiger-cub-friends.webp',
-    alt: 'Tiger Cub Friends giant colouring poster for kids ages 4-7',
+    alt: 'Tiger Cub Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-elephant-river',
     title: 'Giraffe Elephant River',
-    description: 'A giant black-and-white coloring poster of safari animals by a winding river. A tall giraffe stands on the left, a big elephant and a zebra stand in the middle, a lion and a hippo rest on the right, a tiger sits by a big baobab tree, with hornbills and birds on a branch, fish in the river, paw prints and a smiling sun above.',
+    description: 'A giant black-and-white coloring page of safari animals by a winding river. A tall giraffe stands on the left, a big elephant and a zebra stand in the middle, a lion and a hippo rest on the right, a tiger sits by a big baobab tree, with hornbills and birds on a branch, fish in the river, paw prints and a smiling sun above.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -483,17 +483,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/giraffe-elephant-river.webp',
-    alt: 'Giraffe Elephant River giant colouring poster for kids ages 4-7',
+    alt: 'Giraffe Elephant River giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-cubs-savannah',
     title: 'Tiger Cubs Savannah',
-    description: 'A giant black-and-white coloring poster of tiger cubs on the savanna. A tiger cub and a little leopard sit on a rock in the middle, a smiling giraffe peeks from behind a big tree, a zebra stands on the left, deer graze behind, and a snake, ducks, turtles and tall reeds fill the pond at the front, under a big sun.',
+    description: 'A giant black-and-white coloring page of tiger cubs on the savanna. A tiger cub and a little leopard sit on a rock in the middle, a smiling giraffe peeks from behind a big tree, a zebra stands on the left, deer graze behind, and a snake, ducks, turtles and tall reeds fill the pond at the front, under a big sun.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -501,17 +501,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/tiger-cubs-savannah.webp',
-    alt: 'Tiger Cubs Savannah giant colouring poster for kids ages 4-7',
+    alt: 'Tiger Cubs Savannah giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-monument-friends',
     title: 'Safari Monument Friends',
-    description: 'A giant black-and-white coloring poster of safari friends at a stone monument. A giraffe and an elephant stand on the left, a lion sits on a carved stone in the middle under a big lion-face monument, a monkey sits in a tree, a zebra and a stork stand by a pond, with meerkats, a penguin, butterflies, mountains and a smiling sun.',
+    description: 'A giant black-and-white coloring page of safari friends at a stone monument. A giraffe and an elephant stand on the left, a lion sits on a carved stone in the middle under a big lion-face monument, a monkey sits in a tree, a zebra and a stork stand by a pond, with meerkats, a penguin, butterflies, mountains and a smiling sun.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -519,17 +519,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/safari-monument-friends.webp',
-    alt: 'Safari Monument Friends giant colouring poster for kids ages 4-7',
+    alt: 'Safari Monument Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-deer-friends',
     title: 'Woodland Deer Friends',
-    description: 'A giant black-and-white coloring poster of three woodland friends in a flower forest. A deer with big black antlers, a kitten and a little spotted deer stand among roses, tulips and daisies, with a bird, a butterfly, a smiling sun, a smiling moon and stars in the sky, and paw prints along a path.',
+    description: 'A giant black-and-white coloring page of three woodland friends in a flower forest. A deer with big black antlers, a kitten and a little spotted deer stand among roses, tulips and daisies, with a bird, a butterfly, a smiling sun, a smiling moon and stars in the sky, and paw prints along a path.',
     category: 'woodland',
     categoryLabel: 'Woodland',
     collection: 'Nature & Wildlife',
@@ -537,17 +537,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/woodland-deer-friends.webp',
-    alt: 'Woodland Deer Friends giant colouring poster for kids ages 4-7',
+    alt: 'Woodland Deer Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-lion-jungle',
     title: 'Elephant Lion Jungle',
-    description: 'A giant black-and-white coloring poster of a big jungle gathering, full of fine details to color. A smiling elephant with a monkey and a frog on its head stands in the center, a lion, a hippo, a giraffe, a parrot, two toucans, a tapir and a sloth fill the jungle, with snakes, palm trees, flowers and a big sun.',
+    description: 'A giant black-and-white coloring page of a big jungle gathering, full of fine details to color. A smiling elephant with a monkey and a frog on its head stands in the center, a lion, a hippo, a giraffe, a parrot, two toucans, a tapir and a sloth fill the jungle, with snakes, palm trees, flowers and a big sun.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -555,17 +555,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/elephant-lion-jungle.webp',
-    alt: 'Elephant Lion Jungle giant colouring poster for kids ages 8-12',
+    alt: 'Elephant Lion Jungle giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-pyramid-adventure',
     title: 'Safari Pyramid Adventure',
-    description: 'A giant black-and-white coloring poster of safari animals by the pyramids. A big elephant stands in the center with a toucan on its back, a lion and a tiger cub play on a rock at the front left, a tall giraffe stands behind, a hippo rests in a pond on the right, with koalas on a tree, turtles, a chameleon, a fox, butterflies, palm trees, cacti, pyramids and a temple under a smiling sun.',
+    description: 'A giant black-and-white coloring page of safari animals by the pyramids. A big elephant stands in the center with a toucan on its back, a lion and a tiger cub play on a rock at the front left, a tall giraffe stands behind, a hippo rests in a pond on the right, with koalas on a tree, turtles, a chameleon, a fox, butterflies, palm trees, cacti, pyramids and a temple under a smiling sun.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -573,17 +573,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/safari-pyramid-adventure.webp',
-    alt: 'Safari Pyramid Adventure giant colouring poster for kids ages 4-7',
+    alt: 'Safari Pyramid Adventure giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/gIXqk', // Safari Pyramid Adventure — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-adventure-scene',
     title: 'Safari Adventure Scene',
-    description: 'A giant black-and-white coloring poster of a dense jungle safari, full of fine details to color. A herd of elephants crosses the middle, a lion with a cub and a tiger by a crocodile fill the front, a leopard, a zebra, a giraffe, a gorilla and monkeys hide in the trees, with a safari jeep, a treehouse lodge, storks, a snake and thick jungle plants all around.',
+    description: 'A giant black-and-white coloring page of a dense jungle safari, full of fine details to color. A herd of elephants crosses the middle, a lion with a cub and a tiger by a crocodile fill the front, a leopard, a zebra, a giraffe, a gorilla and monkeys hide in the trees, with a safari jeep, a treehouse lodge, storks, a snake and thick jungle plants all around.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -591,17 +591,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/safari-adventure-scene.webp',
-    alt: 'Safari Adventure Scene giant colouring poster for kids ages 8-12',
+    alt: 'Safari Adventure Scene giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/A5XIE', // Safari Adventure Scene — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'bear-picnic-forest',
     title: 'Bear Picnic Forest',
-    description: 'A giant black-and-white coloring poster of a bear picnic in a sunny forest. A bear, a bunny and a fox share sandwiches and fruit on a checkered picnic blanket, an elephant fishes in a winding stream, a giraffe stands nearby, a monkey and a squirrel play in a spiral treehouse tree, with a castle in the distance, a big smiling sun, birds, butterflies, flowers and mushrooms.',
+    description: 'A giant black-and-white coloring page of a bear picnic in a sunny forest. A bear, a bunny and a fox share sandwiches and fruit on a checkered picnic blanket, an elephant fishes in a winding stream, a giraffe stands nearby, a monkey and a squirrel play in a spiral treehouse tree, with a castle in the distance, a big smiling sun, birds, butterflies, flowers and mushrooms.',
     category: 'woodland',
     categoryLabel: 'Woodland',
     collection: 'Nature & Wildlife',
@@ -609,17 +609,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/bear-picnic-forest.webp',
-    alt: 'Bear Picnic Forest giant colouring poster for kids ages 4-7',
+    alt: 'Bear Picnic Forest giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/rT9f4', // Bear Picnic Forest — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-rainbow-friends',
     title: 'Giraffe Rainbow Friends',
-    description: 'A giant black-and-white coloring poster of a smiling giraffe and its friends under a rainbow. A tall giraffe stands on the left, an ostrich and a monkey with a banana sit by a stream, a meerkat stands on a rock, a parrot, birds and dragonflies fly above, with a big rainbow over the mountains, a winding path, flowers and a little snake in the grass.',
+    description: 'A giant black-and-white coloring page of a smiling giraffe and its friends under a rainbow. A tall giraffe stands on the left, an ostrich and a monkey with a banana sit by a stream, a meerkat stands on a rock, a parrot, birds and dragonflies fly above, with a big rainbow over the mountains, a winding path, flowers and a little snake in the grass.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -627,17 +627,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/giraffe-rainbow-friends.webp',
-    alt: 'Giraffe Rainbow Friends giant colouring poster for kids ages 4-7',
+    alt: 'Giraffe Rainbow Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5gaNW', // Giraffe Rainbow Friends — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-monkey-river',
     title: 'Elephant Monkey River',
-    description: 'A giant black-and-white coloring poster of a baby elephant by a river. A baby elephant stands at the water\'s edge on the left, a monkey with a banana and a parrot with a butterfly sit on a branch above, a lion rests on the right, a giraffe and a toucan stand behind, with two meerkats on a rock in the river, a big sun and flowers.',
+    description: 'A giant black-and-white coloring page of a baby elephant by a river. A baby elephant stands at the water\'s edge on the left, a monkey with a banana and a parrot with a butterfly sit on a branch above, a lion rests on the right, a giraffe and a toucan stand behind, with two meerkats on a rock in the river, a big sun and flowers.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -645,17 +645,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/elephant-monkey-river.webp',
-    alt: 'Elephant Monkey River giant colouring poster for kids ages 4-7',
+    alt: 'Elephant Monkey River giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Gq3UK', // Elephant Monkey River — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'sloth-jungle-friends',
     title: 'Sloth Jungle Friends',
-    description: 'A giant black-and-white coloring poster of a sleepy sloth and its jungle friends. A sloth hangs from a branch at the top, a monkey, a toucan and a parrot sit in the trees, a tiger cub peeks from the bushes, a baby elephant stands by a pond with a frog on a lily pad, under two suns and clouds, with big leaves and flowers all around.',
+    description: 'A giant black-and-white coloring page of a sleepy sloth and its jungle friends. A sloth hangs from a branch at the top, a monkey, a toucan and a parrot sit in the trees, a tiger cub peeks from the bushes, a baby elephant stands by a pond with a frog on a lily pad, under two suns and clouds, with big leaves and flowers all around.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -663,17 +663,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/sloth-jungle-friends.webp',
-    alt: 'Sloth Jungle Friends giant colouring poster for kids ages 4-7',
+    alt: 'Sloth Jungle Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/LweK8', // Sloth Jungle Friends — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'winter-deer-mountains',
     title: 'Winter Deer Mountains',
-    description: 'A giant black-and-white coloring poster of a deer in a snowy mountain forest. A big deer with large antlers stands in the center as snowflakes fall, with pine trees, a log cabin, a little castle by a pond, an owl, a rabbit and a fox, paw prints in the snow, swirling northern lights in the sky and a pinecone banner hanging at the top.',
+    description: 'A giant black-and-white coloring page of a deer in a snowy mountain forest. A big deer with large antlers stands in the center as snowflakes fall, with pine trees, a log cabin, a little castle by a pond, an owl, a rabbit and a fox, paw prints in the snow, swirling northern lights in the sky and a pinecone banner hanging at the top.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -681,17 +681,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/winter-deer-mountains.webp',
-    alt: 'Winter Deer Mountains giant colouring poster for kids ages 4-7',
+    alt: 'Winter Deer Mountains giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/XrliN', // Winter Deer Mountains — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'dense-safari-scene',
     title: 'Dense Safari Scene',
-    description: 'A giant black-and-white coloring poster of a dense safari, full of fine details to color. An elephant, a tiger, a leopard, a rhino, a giraffe, a toucan, a lion, a hippo in a pond, a zebra, a warthog, a gorilla and a swinging monkey fill the jungle, with flowers and thick leaves everywhere.',
+    description: 'A giant black-and-white coloring page of a dense safari, full of fine details to color. An elephant, a tiger, a leopard, a rhino, a giraffe, a toucan, a lion, a hippo in a pond, a zebra, a warthog, a gorilla and a swinging monkey fill the jungle, with flowers and thick leaves everywhere.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -699,17 +699,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/dense-safari-scene.webp',
-    alt: 'Dense Safari Scene giant colouring poster for kids ages 8-12',
+    alt: 'Dense Safari Scene giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/q4z5H', // Dense Safari Scene — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'jungle-animal-parade',
     title: 'Jungle Animal Parade',
-    description: 'A giant black-and-white coloring poster of a jungle animal parade, full of fine details to color. A monkey sits in a big fruit tree on the left, a lion stands on a rock, a zebra, an elephant, a giraffe, a rhino, a horse and a hippo in a stream fill the scene, with a deer, cats, a bear, fish, bees, snails and flowers all around.',
+    description: 'A giant black-and-white coloring page of a jungle animal parade, full of fine details to color. A monkey sits in a big fruit tree on the left, a lion stands on a rock, a zebra, an elephant, a giraffe, a rhino, a horse and a hippo in a stream fill the scene, with a deer, cats, a bear, fish, bees, snails and flowers all around.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -717,17 +717,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/jungle-animal-parade.webp',
-    alt: 'Jungle Animal Parade giant colouring poster for kids ages 8-12',
+    alt: 'Jungle Animal Parade giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/MqxZ1', // Jungle Animal Parade — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'forest-friends-gathering',
     title: 'Forest Friends Gathering',
-    description: 'A giant black-and-white coloring poster of cute baby forest friends, full of fine details to color. A baby lion, a baby elephant and a baby fox sit in the front, a unicorn, a panda eating bamboo, an owl, a sloth, a chameleon, a turtle and a bee gather around a winding stream, with a mandala sun, a crescent moon, mountains and pine trees.',
+    description: 'A giant black-and-white coloring page of cute baby forest friends, full of fine details to color. A baby lion, a baby elephant and a baby fox sit in the front, a unicorn, a panda eating bamboo, an owl, a sloth, a chameleon, a turtle and a bee gather around a winding stream, with a mandala sun, a crescent moon, mountains and pine trees.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -735,17 +735,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/forest-friends-gathering.webp',
-    alt: 'Forest Friends Gathering giant colouring poster for kids ages 8-12',
+    alt: 'Forest Friends Gathering giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/cmX3K', // Forest Friends Gathering — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'cute-dinosaur-forest',
     title: 'Cute Dinosaur Forest',
-    description: 'A giant black-and-white coloring poster of a cute baby dinosaur in a busy forest, full of fine details to color. A big smiling baby dinosaur stands in the center, a stegosaurus walks below, an elephant, a hippo, koalas in a tree, turtles, cats, monkeys, a lion and foxes fill the forest, with flowers, trees and a winding stream all around.',
+    description: 'A giant black-and-white coloring page of a cute baby dinosaur in a busy forest, full of fine details to color. A big smiling baby dinosaur stands in the center, a stegosaurus walks below, an elephant, a hippo, koalas in a tree, turtles, cats, monkeys, a lion and foxes fill the forest, with flowers, trees and a winding stream all around.',
     category: 'dinosaur',
     categoryLabel: 'Dinosaur',
     collection: 'Nature & Wildlife',
@@ -753,17 +753,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/cute-dinosaur-forest.webp',
-    alt: 'Cute Dinosaur Forest giant colouring poster for kids ages 8-12',
+    alt: 'Cute Dinosaur Forest giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/KpBZ4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-jungle-river',
     title: 'Elephant Jungle River',
-    description: 'A giant black-and-white coloring poster of an elephant by a jungle river, full of fine details to color. An elephant in a patterned blanket stands by a winding river under a big tree, a cat with a teacup sits on a branch, a rabbit reads books at a log bookshelf, a fox sits by a campfire, with a smiling sun, mountains, mushrooms, flowers and fish in the river.',
+    description: 'A giant black-and-white coloring page of an elephant by a jungle river, full of fine details to color. An elephant in a patterned blanket stands by a winding river under a big tree, a cat with a teacup sits on a branch, a rabbit reads books at a log bookshelf, a fox sits by a campfire, with a smiling sun, mountains, mushrooms, flowers and fish in the river.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -771,17 +771,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/elephant-jungle-river.webp',
-    alt: 'Elephant Jungle River giant colouring poster for kids ages 8-12',
+    alt: 'Elephant Jungle River giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/ntkEH',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-forest-adventure',
     title: 'Tiger Forest Adventure',
-    description: 'A giant black-and-white coloring poster of a tiger in a forest stream, full of fine details to color. A big tiger stands by a stream, two monkeys play in the trees, birds and butterflies fly above, a turtle and fish swim in the water, with big trees, mountains, flowers and smooth stones all around.',
+    description: 'A giant black-and-white coloring page of a tiger in a forest stream, full of fine details to color. A big tiger stands by a stream, two monkeys play in the trees, birds and butterflies fly above, a turtle and fish swim in the water, with big trees, mountains, flowers and smooth stones all around.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Wildlife',
@@ -789,17 +789,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/tiger-forest-adventure.webp',
-    alt: 'Tiger Forest Adventure giant colouring poster for kids ages 8-12',
+    alt: 'Tiger Forest Adventure giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/rfF6D',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'moonlight-forest-campfire',
     title: 'Moonlight Forest Campfire',
-    description: 'A giant black-and-white coloring poster of forest friends around a campfire at night, full of fine details to color. A deer, a hedgehog, squirrels, a fox, a bear and a badger gather around a campfire under a crescent moon, with an owl in a tree, raccoons on a branch, stars, pine trees, mountains, mushrooms and flowers.',
+    description: 'A giant black-and-white coloring page of forest friends around a campfire at night, full of fine details to color. A deer, a hedgehog, squirrels, a fox, a bear and a badger gather around a campfire under a crescent moon, with an owl in a tree, raccoons on a branch, stars, pine trees, mountains, mushrooms and flowers.',
     category: 'woodland',
     categoryLabel: 'Woodland',
     collection: 'Nature & Wildlife',
@@ -807,17 +807,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/moonlight-forest-campfire.webp',
-    alt: 'Moonlight Forest Campfire giant colouring poster for kids ages 8-12',
+    alt: 'Moonlight Forest Campfire giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/9GAY2',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'treehouse-animal-home',
     title: 'Treehouse Animal Home',
-    description: 'A giant black-and-white coloring poster of a treehouse home in the forest, full of fine details to color. Two treehouses joined by a rope bridge and a ladder hold a monkey, lions, a baby elephant, rhinos, a zebra and lemurs, with a giraffe, a hippo in a pond, butterflies, a patterned sun and flowers all around.',
+    description: 'A giant black-and-white coloring page of a treehouse home in the forest, full of fine details to color. Two treehouses joined by a rope bridge and a ladder hold a monkey, lions, a baby elephant, rhinos, a zebra and lemurs, with a giraffe, a hippo in a pond, butterflies, a patterned sun and flowers all around.',
     category: 'woodland',
     categoryLabel: 'Woodland',
     collection: 'Nature & Wildlife',
@@ -825,17 +825,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/treehouse-animal-home.webp',
-    alt: 'Treehouse Animal Home giant colouring poster for kids ages 8-12',
+    alt: 'Treehouse Animal Home giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5UCoD',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'reindeer-herd-tundra',
     title: 'Reindeer Herd Tundra',
-    description: 'A giant black-and-white coloring poster of a reindeer herd on the tundra, full of fine details to color. Reindeer with big antlers and their calves graze across the snowy tundra, with a big sun, mountains, rocks, a stream, small plants and swirling northern lights in the sky.',
+    description: 'A giant black-and-white coloring page of a reindeer herd on the tundra, full of fine details to color. Reindeer with big antlers and their calves graze across the snowy tundra, with a big sun, mountains, rocks, a stream, small plants and swirling northern lights in the sky.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -843,17 +843,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/reindeer-herd-tundra.webp',
-    alt: 'Reindeer Herd Tundra giant colouring poster for kids ages 8-12',
+    alt: 'Reindeer Herd Tundra giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/gN1nk',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'reindeer-classroom-learning',
     title: 'Reindeer Classroom Learning',
-    description: 'A giant black-and-white coloring poster of cute reindeer learning in a classroom, full of fine details to color. Four reindeer sit at desks reading, writing and drawing, with a blackboard that says LEARNING IS FUN, numbers, a globe, books, school bags, snowflakes and bunting.',
+    description: 'A giant black-and-white coloring page of cute reindeer learning in a classroom, full of fine details to color. Four reindeer sit at desks reading, writing and drawing, with a blackboard that says LEARNING IS FUN, numbers, a globe, books, school bags, snowflakes and bunting.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -861,17 +861,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/reindeer-classroom-learning.webp',
-    alt: 'Reindeer Classroom Learning giant colouring poster for kids ages 8-12',
+    alt: 'Reindeer Classroom Learning giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/sR6K5',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'cozy-igloo-village',
     title: 'Cozy Igloo Village',
-    description: 'A giant black-and-white coloring poster of a cozy igloo village in the snow. Big igloos with round windows stand among pine trees and mountains, a walrus with pups, wolves building with ice blocks, snowmen, a whale in a pond and birds on the roofs, with falling snowflakes all around.',
+    description: 'A giant black-and-white coloring page of a cozy igloo village in the snow. Big igloos with round windows stand among pine trees and mountains, a walrus with pups, wolves building with ice blocks, snowmen, a whale in a pond and birds on the roofs, with falling snowflakes all around.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -879,17 +879,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/cozy-igloo-village.webp',
-    alt: 'Cozy Igloo Village giant colouring poster for kids ages 4-7',
+    alt: 'Cozy Igloo Village giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/nfCgB',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'polar-bears-arctic-ocean',
     title: 'Polar Bears Arctic Ocean',
-    description: 'A giant black-and-white coloring poster of polar bears in the Arctic ocean, full of fine details to color. A polar bear mother with two cubs stands on an ice cliff, narwhals and beluga whales swim in swirling waves, a walrus, a seal and arctic foxes rest on ice floes, with seabirds, a big sun, mountains and icebergs.',
+    description: 'A giant black-and-white coloring page of polar bears in the Arctic ocean, full of fine details to color. A polar bear mother with two cubs stands on an ice cliff, narwhals and beluga whales swim in swirling waves, a walrus, a seal and arctic foxes rest on ice floes, with seabirds, a big sun, mountains and icebergs.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -897,17 +897,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/polar-bears-arctic-ocean.webp',
-    alt: 'Polar Bears Arctic Ocean giant colouring poster for kids ages 8-12',
+    alt: 'Polar Bears Arctic Ocean giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dEMNV',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-village-igloo-houses',
     title: 'Arctic Village Igloo Houses',
-    description: 'A giant black-and-white coloring poster of an arctic village of igloo houses, full of fine details to color. A postman polar bear on a sled pulled by huskies delivers mail past igloos named for a penguin, a seal, a reindeer, a polar bear and a walrus family, with an owl carrying a parcel, a village sign, a crescent moon, northern lights, snowflakes and pine trees.',
+    description: 'A giant black-and-white coloring page of an arctic village of igloo houses, full of fine details to color. A postman polar bear on a sled pulled by huskies delivers mail past igloos named for a penguin, a seal, a reindeer, a polar bear and a walrus family, with an owl carrying a parcel, a village sign, a crescent moon, northern lights, snowflakes and pine trees.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -915,17 +915,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/arctic-village-igloo-houses.webp',
-    alt: 'Arctic Village Igloo Houses giant colouring poster for kids ages 8-12',
+    alt: 'Arctic Village Igloo Houses giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/P6CO4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-aurora-science-exploration',
     title: 'Arctic Aurora Science Exploration',
-    description: 'A giant black-and-white coloring poster of an arctic science expedition under the northern lights, full of fine details to color. Scientists with a drone and a probe explore the ice beside a submarine and beluga whales, with a polar observatory base, a tent, a snowmobile, an owl, reindeer and constellations, and labels explaining how the aurora forms.',
+    description: 'A giant black-and-white coloring page of an arctic science expedition under the northern lights, full of fine details to color. Scientists with a drone and a probe explore the ice beside a submarine and beluga whales, with a polar observatory base, a tent, a snowmobile, an owl, reindeer and constellations, and labels explaining how the aurora forms.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -933,17 +933,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/arctic-aurora-science-exploration.webp',
-    alt: 'Arctic Aurora Science Exploration giant colouring poster for kids ages 8-12',
+    alt: 'Arctic Aurora Science Exploration giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dHMQ4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'welcome-arctic-igloo-facts',
     title: 'Welcome Arctic Igloo Facts',
-    description: 'A giant black-and-white coloring poster of a big igloo in the Arctic, with fun facts to color and learn. An owl on top of the igloo holds a flag that says Welcome to the Arctic, a smiling child holds a fish, a polar bear cub and a walrus sit by the ice, a narwhal jumps from the water, huskies pull a sled, and foxes, a reindeer and a seal play in the snow under the moon.',
+    description: 'A giant black-and-white coloring page of a big igloo in the Arctic, with fun facts to color and learn. An owl on top of the igloo holds a flag that says Welcome to the Arctic, a smiling child holds a fish, a polar bear cub and a walrus sit by the ice, a narwhal jumps from the water, huskies pull a sled, and foxes, a reindeer and a seal play in the snow under the moon.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -951,17 +951,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/welcome-arctic-igloo-facts.webp',
-    alt: 'Welcome Arctic Igloo Facts giant colouring poster for kids ages 4-7',
+    alt: 'Welcome Arctic Igloo Facts giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/YaFZm',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-star-talent-show',
     title: 'Arctic Star Talent Show',
-    description: 'A giant black-and-white coloring poster of a grand talent show in the Arctic, full of fine details to color. A whale magician performs on stage, a turtle tells jokes, a beluga sings, snow leopards dance, a live band plays, an otter paints, penguins balance, and judges and an audience of walruses, seals, reindeer and foxes watch under the northern lights.',
+    description: 'A giant black-and-white coloring page of a grand talent show in the Arctic, full of fine details to color. A whale magician performs on stage, a turtle tells jokes, a beluga sings, snow leopards dance, a live band plays, an otter paints, penguins balance, and judges and an audience of walruses, seals, reindeer and foxes watch under the northern lights.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -969,17 +969,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/arctic-star-talent-show.webp',
-    alt: 'Arctic Star Talent Show giant colouring poster for kids ages 8-12',
+    alt: 'Arctic Star Talent Show giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/fyCsJ',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'snow-festival-igloo-friends',
     title: 'Snow Festival Igloo Friends',
-    description: 'A giant black-and-white coloring poster of a snow festival at a big star-patterned igloo. A penguin in a party hat and a polar bear with a bow tie hold stars, a rabbit carries a basket, a seal claps by an icy pond, and an owl on a branch says no two snowflakes are the same, with pine trees and falling snow all around.',
+    description: 'A giant black-and-white coloring page of a snow festival at a big star-patterned igloo. A penguin in a party hat and a polar bear with a bow tie hold stars, a rabbit carries a basket, a seal claps by an icy pond, and an owl on a branch says no two snowflakes are the same, with pine trees and falling snow all around.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -987,17 +987,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/snow-festival-igloo-friends.webp',
-    alt: 'Snow Festival Igloo Friends giant colouring poster for kids ages 4-7',
+    alt: 'Snow Festival Igloo Friends giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/1sle2',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'owl-night-school-arctic',
     title: 'Owl Night School Arctic',
-    description: 'A giant black-and-white coloring poster of owls at night school in the Arctic. A teacher owl with a graduation cap points at a blackboard of stars, four little owls read, write and look through a magnifying glass, and a baby owl sleeps in a nest, with a big moon, snowflakes, a lantern and pine trees.',
+    description: 'A giant black-and-white coloring page of owls at night school in the Arctic. A teacher owl with a graduation cap points at a blackboard of stars, four little owls read, write and look through a magnifying glass, and a baby owl sleeps in a nest, with a big moon, snowflakes, a lantern and pine trees.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -1005,17 +1005,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/owl-night-school-arctic.webp',
-    alt: 'Owl Night School Arctic giant colouring poster for kids ages 4-7',
+    alt: 'Owl Night School Arctic giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5Nm8H',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-animals-ice-playground',
     title: 'Arctic Animals Ice Playground',
-    description: 'A giant black-and-white coloring poster of arctic animals playing on the ice, full of fine details to color. A snowy owl flies from a pine branch, a polar bear walks past, a cub slides on its back, a fox rides a seal on a sled, a walrus and seals pop out of ice holes, puffins and a rabbit skate on the ice, and a reindeer watches, with icy cliffs and mountains behind.',
+    description: 'A giant black-and-white coloring page of arctic animals playing on the ice, full of fine details to color. A snowy owl flies from a pine branch, a polar bear walks past, a cub slides on its back, a fox rides a seal on a sled, a walrus and seals pop out of ice holes, puffins and a rabbit skate on the ice, and a reindeer watches, with icy cliffs and mountains behind.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -1023,17 +1023,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/arctic-animals-ice-playground.webp',
-    alt: 'Arctic Animals Ice Playground giant colouring poster for kids ages 8-12',
+    alt: 'Arctic Animals Ice Playground giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/GT8XW',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-animal-road-trip',
     title: 'Arctic Animal Road Trip',
-    description: 'A giant black-and-white coloring poster of arctic animals on a road trip in a big car. A polar bear drives, two reindeer and a fox ride along, suitcases sit on the roof, and a picnic basket, a map and a compass fill the car, with pine trees, igloos, mountains and snowflakes outside.',
+    description: 'A giant black-and-white coloring page of arctic animals on a road trip in a big car. A polar bear drives, two reindeer and a fox ride along, suitcases sit on the roof, and a picnic basket, a map and a compass fill the car, with pine trees, igloos, mountains and snowflakes outside.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -1041,17 +1041,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: 'Ages 4-7',
     image: '/images/arctic-animal-road-trip.webp',
-    alt: 'Arctic Animal Road Trip giant colouring poster for kids ages 4-7',
+    alt: 'Arctic Animal Road Trip giant colouring page for kids ages 4-7 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/U5jNu',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'walrus-polar-bear-fishing',
     title: 'Walrus Polar Bear Fishing',
-    description: 'A giant black-and-white coloring poster of walruses and a polar bear fishing at an arctic lake, full of fine details to color. Two walruses and a baby walrus rest on an ice floe, two fox cubs fish with rods, a polar bear and her cub watch, seals pop out of the water, and an owl, puffins, a rabbit and reindeer gather under a big sun.',
+    description: 'A giant black-and-white coloring page of walruses and a polar bear fishing at an arctic lake, full of fine details to color. Two walruses and a baby walrus rest on an ice floe, two fox cubs fish with rods, a polar bear and her cub watch, seals pop out of the water, and an owl, puffins, a rabbit and reindeer gather under a big sun.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -1059,17 +1059,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/walrus-polar-bear-fishing.webp',
-    alt: 'Walrus Polar Bear Fishing giant colouring poster for kids ages 8-12',
+    alt: 'Walrus Polar Bear Fishing giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/9qIAg',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'aurora-northern-lights-science',
     title: 'Aurora Northern Lights Science',
-    description: 'A giant black-and-white coloring poster of the northern lights, full of fine details to color. Swirling aurora ribbons fill the sky with labels explaining that purple means nitrogen, red means oxygen high up and green means oxygen low down, while a child reads a book about the Sun and solar wind with a fox, and an owl, pine trees and reindeer fill the snowy hills.',
+    description: 'A giant black-and-white coloring page of the northern lights, full of fine details to color. Swirling aurora ribbons fill the sky with labels explaining that purple means nitrogen, red means oxygen high up and green means oxygen low down, while a child reads a book about the Sun and solar wind with a fox, and an owl, pine trees and reindeer fill the snowy hills.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -1077,17 +1077,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/aurora-northern-lights-science.webp',
-    alt: 'Aurora Northern Lights Science giant colouring poster for kids ages 8-12',
+    alt: 'Aurora Northern Lights Science giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/psZkW',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'aurora-night-arctic-animals',
     title: 'Aurora Night Arctic Animals',
-    description: 'A giant black-and-white coloring poster of arctic animals under the northern lights at night, full of fine details to color. An owl sits on an icy cliff, a polar bear cub and a fox walk through the snow, a narwhal swims in an ice hole, walruses rest, a reindeer herd crosses a hill, birds fly under a crescent moon, and a rabbit watches from the snow.',
+    description: 'A giant black-and-white coloring page of arctic animals under the northern lights at night, full of fine details to color. An owl sits on an icy cliff, a polar bear cub and a fox walk through the snow, a narwhal swims in an ice hole, walruses rest, a reindeer herd crosses a hill, birds fly under a crescent moon, and a rabbit watches from the snow.',
     category: 'polar-arctic',
     categoryLabel: 'Polar & Arctic',
     collection: 'Nature & Wildlife',
@@ -1095,12 +1095,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: 'Ages 8-12',
     image: '/images/aurora-night-arctic-animals.webp',
-    alt: 'Aurora Night Arctic Animals giant colouring poster for kids ages 8-12',
+    alt: 'Aurora Night Arctic Animals giant colouring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/DhsPa',
     formats: 'SVG + PDF',
-    sizes: '3 x 1.5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   }
 ];
 

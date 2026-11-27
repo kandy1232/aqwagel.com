@@ -1,6 +1,6 @@
-// AQWAGEL — Giant Coloring Posters
+// AQWAGEL — Giant Coloring Pages
 // Digital downloads only. Target countries: France. (Locale fr of aqwagel.com)
-// Price: $1.00 USD for every poster, all ages.
+// Price: $1.00 USD for every coloring page, all ages.
 // Buy Now opens the Payhip product page.
 
 const PRODUCTS = [
@@ -15,12 +15,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/birthday-animal-parade.webp',
-    alt: 'Birthday Animal Parade Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Birthday Animal Parade Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Z3TY6', // Birthday Animal Parade — live Payhip product, verified 25 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'rainbow-insect-garden',
@@ -33,12 +33,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/rainbow-insect-garden.webp',
-    alt: 'Rainbow Insect Garden Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Rainbow Insect Garden Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/1XUHo', // Rainbow Insect Garden — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-friends-river',
@@ -51,12 +51,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/safari-friends-river.webp',
-    alt: 'Safari Friends River Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Safari Friends River Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/UA8vp', // Safari Friends River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-animal-meadow',
@@ -69,12 +69,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/safari-animal-meadow.webp',
-    alt: 'Safari Animal Meadow Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Safari Animal Meadow Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Rarwk', // Safari Animal Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'barn-safari-friends',
@@ -87,12 +87,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/barn-safari-friends.webp',
-    alt: 'Barn Safari Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Barn Safari Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/7oYLX', // Barn Safari Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'lion-mandala-safari',
@@ -105,12 +105,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/lion-mandala-safari.webp',
-    alt: 'Lion Mandala Safari Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Lion Mandala Safari Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5pKUH', // Lion Mandala Safari — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'animal-friends-stream',
@@ -123,12 +123,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/animal-friends-stream.webp',
-    alt: 'Animal Friends Stream Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Animal Friends Stream Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/iGTk0', // Animal Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'kitten-garden-swing',
@@ -141,12 +141,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/kitten-garden-swing.webp',
-    alt: 'Kitten Garden Swing Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Kitten Garden Swing Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/fNbBy', // Kitten Garden Swing — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'kittens-moonlight-garden',
@@ -159,12 +159,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/kittens-moonlight-garden.webp',
-    alt: 'Kittens Moonlight Garden Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Kittens Moonlight Garden Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/hkoI5', // Kittens Moonlight Garden — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-river-animals',
@@ -177,12 +177,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/safari-river-animals.webp',
-    alt: 'Safari River Animals Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Safari River Animals Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/AqtgD', // Safari River Animals — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-stream',
@@ -195,12 +195,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/woodland-friends-stream.webp',
-    alt: 'Woodland Friends Stream Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Woodland Friends Stream Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/lU7fE', // Woodland Friends Stream — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-safari-friends',
@@ -213,12 +213,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/giraffe-safari-friends.webp',
-    alt: 'Giraffe Safari Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Giraffe Safari Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dtCA7', // Giraffe Safari Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'bear-safari-jeep',
@@ -231,12 +231,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/bear-safari-jeep.webp',
-    alt: 'Bear Safari Jeep Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Bear Safari Jeep Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/BV4af', // Bear Safari Jeep — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-zebra-savanna',
@@ -249,12 +249,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/giraffe-zebra-savanna.webp',
-    alt: 'Giraffe Zebra Savanna Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Giraffe Zebra Savanna Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/JzuRr', // Giraffe Zebra Savanna — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-lion-savanna',
@@ -267,12 +267,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/elephant-lion-savanna.webp',
-    alt: 'Elephant Lion Savanna Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Elephant Lion Savanna Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/SDs1W', // Elephant Lion Savanna — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-animal-friends',
@@ -285,12 +285,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/woodland-animal-friends.webp',
-    alt: 'Woodland Animal Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Woodland Animal Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/vhUCJ', // Woodland Animal Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-friends-meadow',
@@ -303,12 +303,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/woodland-friends-meadow.webp',
-    alt: 'Woodland Friends Meadow Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Woodland Friends Meadow Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/xYXn0', // Woodland Friends Meadow — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-animal-gathering',
@@ -321,12 +321,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/safari-animal-gathering.webp',
-    alt: 'Safari Animal Gathering Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Safari Animal Gathering Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/2XfIB', // Safari Animal Gathering — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-hippo-friends',
@@ -339,12 +339,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/elephant-hippo-friends.webp',
-    alt: 'Elephant Hippo Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Elephant Hippo Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/jNdDi', // Elephant Hippo Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'jungle-animal-pond',
@@ -357,12 +357,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/jungle-animal-pond.webp',
-    alt: 'Jungle Animal Pond Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Jungle Animal Pond Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/0FGfy', // Jungle Animal Pond — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'farm-barn-friends',
@@ -375,12 +375,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/farm-barn-friends.webp',
-    alt: 'Farm Barn Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Farm Barn Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/2NvFM', // Farm Barn Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'lion-forest-portrait',
@@ -393,12 +393,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/lion-forest-portrait.webp',
-    alt: 'Lion Forest Portrait Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Lion Forest Portrait Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/4c9lZ', // Lion Forest Portrait — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-friends-pond',
@@ -411,12 +411,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/safari-friends-pond.webp',
-    alt: 'Safari Friends Pond Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Safari Friends Pond Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/jARbz', // Safari Friends Pond — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'garden-pond-friends',
@@ -429,12 +429,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/garden-pond-friends.webp',
-    alt: 'Garden Pond Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Garden Pond Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/zpry7', // Garden Pond Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'leopard-cubs-river',
@@ -447,12 +447,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/leopard-cubs-river.webp',
-    alt: 'Leopard Cubs River Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Leopard Cubs River Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/hCxAn', // Leopard Cubs River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-cub-friends',
@@ -465,12 +465,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/tiger-cub-friends.webp',
-    alt: 'Tiger Cub Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Tiger Cub Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/chONP', // Tiger Cub Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-elephant-river',
@@ -483,12 +483,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/giraffe-elephant-river.webp',
-    alt: 'Giraffe Elephant River Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Giraffe Elephant River Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/3hdlV', // Giraffe Elephant River — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-cubs-savannah',
@@ -501,12 +501,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/tiger-cubs-savannah.webp',
-    alt: 'Tiger Cubs Savannah Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Tiger Cubs Savannah Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Lgd6z', // Tiger Cubs Savannah — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-monument-friends',
@@ -519,12 +519,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/safari-monument-friends.webp',
-    alt: 'Safari Monument Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Safari Monument Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/HqYCe', // Safari Monument Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'woodland-deer-friends',
@@ -537,12 +537,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/woodland-deer-friends.webp',
-    alt: 'Woodland Deer Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Woodland Deer Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/I7uhl', // Woodland Deer Friends — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-lion-jungle',
@@ -555,12 +555,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/elephant-lion-jungle.webp',
-    alt: 'Elephant Lion Jungle Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Elephant Lion Jungle Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/bDK4l', // Elephant Lion Jungle — live Payhip product, verified 26 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-pyramid-adventure',
@@ -573,12 +573,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/safari-pyramid-adventure.webp',
-    alt: 'Safari Pyramid Adventure Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Safari Pyramid Adventure Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/gIXqk', // Safari Pyramid Adventure — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'safari-adventure-scene',
@@ -591,12 +591,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/safari-adventure-scene.webp',
-    alt: 'Safari Adventure Scene Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Safari Adventure Scene Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/A5XIE', // Safari Adventure Scene — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'bear-picnic-forest',
@@ -609,12 +609,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/bear-picnic-forest.webp',
-    alt: 'Bear Picnic Forest Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Bear Picnic Forest Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/rT9f4', // Bear Picnic Forest — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'giraffe-rainbow-friends',
@@ -627,12 +627,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/giraffe-rainbow-friends.webp',
-    alt: 'Giraffe Rainbow Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Giraffe Rainbow Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5gaNW', // Giraffe Rainbow Friends — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-monkey-river',
@@ -645,12 +645,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/elephant-monkey-river.webp',
-    alt: 'Elephant Monkey River Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Elephant Monkey River Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/Gq3UK', // Elephant Monkey River — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'sloth-jungle-friends',
@@ -663,12 +663,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/sloth-jungle-friends.webp',
-    alt: 'Sloth Jungle Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Sloth Jungle Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/LweK8', // Sloth Jungle Friends — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'winter-deer-mountains',
@@ -681,12 +681,12 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/winter-deer-mountains.webp',
-    alt: 'Winter Deer Mountains Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Winter Deer Mountains Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/XrliN', // Winter Deer Mountains — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'dense-safari-scene',
@@ -699,12 +699,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/dense-safari-scene.webp',
-    alt: 'Dense Safari Scene Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Dense Safari Scene Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/q4z5H', // Dense Safari Scene — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'jungle-animal-parade',
@@ -717,12 +717,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/jungle-animal-parade.webp',
-    alt: 'Jungle Animal Parade Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Jungle Animal Parade Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/MqxZ1', // Jungle Animal Parade — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'forest-friends-gathering',
@@ -735,17 +735,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/forest-friends-gathering.webp',
-    alt: 'Forest Friends Gathering Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Forest Friends Gathering Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/cmX3K', // Forest Friends Gathering — live Payhip product, verified 27 Nov 2026
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'cute-dinosaur-forest',
     title: 'Cute Dinosaur Forest',
-    description: 'Un immense poster à colorier en noir et blanc d\'un mignon bébé dinosaure dans une forêt animée, plein de petits détails à colorier. Un grand bébé dinosaure souriant se tient au centre, un stégosaure marche en dessous, un éléphant, un hippopotame, des koalas dans un arbre, des tortues, des chats, des singes, un lion et des renards remplissent la forêt, avec des fleurs, des arbres et un ruisseau sinueux tout autour.',
+    description: 'Un immense coloriage géant en noir et blanc d\'un mignon bébé dinosaure dans une forêt animée, plein de petits détails à colorier. Un grand bébé dinosaure souriant se tient au centre, un stégosaure marche en dessous, un éléphant, un hippopotame, des koalas dans un arbre, des tortues, des chats, des singes, un lion et des renards remplissent la forêt, avec des fleurs, des arbres et un ruisseau sinueux tout autour.',
     category: 'dinosaur',
     categoryLabel: 'Dinosaure',
     collection: 'Nature & Animaux',
@@ -753,17 +753,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/cute-dinosaur-forest.webp',
-    alt: 'Cute Dinosaur Forest Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Cute Dinosaur Forest Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/KpBZ4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'elephant-jungle-river',
     title: 'Elephant Jungle River',
-    description: 'Un immense poster à colorier en noir et blanc d\'un éléphant près d\'une rivière de jungle, plein de petits détails à colorier. Un éléphant dans une couverture à motifs se tient près d\'une rivière sinueuse sous un grand arbre, un chat avec une tasse de thé est assis sur une branche, un lapin lit des livres dans une bibliothèque en tronc d\'arbre, un renard est assis près d\'un feu de camp, avec un soleil souriant, des montagnes, des champignons, des fleurs et des poissons dans la rivière.',
+    description: 'Un immense coloriage géant en noir et blanc d\'un éléphant près d\'une rivière de jungle, plein de petits détails à colorier. Un éléphant dans une couverture à motifs se tient près d\'une rivière sinueuse sous un grand arbre, un chat avec une tasse de thé est assis sur une branche, un lapin lit des livres dans une bibliothèque en tronc d\'arbre, un renard est assis près d\'un feu de camp, avec un soleil souriant, des montagnes, des champignons, des fleurs et des poissons dans la rivière.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Animaux',
@@ -771,17 +771,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/elephant-jungle-river.webp',
-    alt: 'Elephant Jungle River Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Elephant Jungle River Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/ntkEH',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'tiger-forest-adventure',
     title: 'Tiger Forest Adventure',
-    description: 'Un immense poster à colorier en noir et blanc d\'un tigre dans un ruisseau de forêt, plein de petits détails à colorier. Un grand tigre se tient près d\'un ruisseau, deux singes jouent dans les arbres, des oiseaux et des papillons volent au-dessus, une tortue et des poissons nagent dans l\'eau, avec de grands arbres, des montagnes, des fleurs et des pierres lisses tout autour.',
+    description: 'Un immense coloriage géant en noir et blanc d\'un tigre dans un ruisseau de forêt, plein de petits détails à colorier. Un grand tigre se tient près d\'un ruisseau, deux singes jouent dans les arbres, des oiseaux et des papillons volent au-dessus, une tortue et des poissons nagent dans l\'eau, avec de grands arbres, des montagnes, des fleurs et des pierres lisses tout autour.',
     category: 'safari-jungle',
     categoryLabel: 'Safari & Jungle',
     collection: 'Nature & Animaux',
@@ -789,17 +789,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/tiger-forest-adventure.webp',
-    alt: 'Tiger Forest Adventure Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Tiger Forest Adventure Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/rfF6D',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'moonlight-forest-campfire',
     title: 'Moonlight Forest Campfire',
-    description: 'Un immense poster à colorier en noir et blanc d\'amis de la forêt autour d\'un feu de camp la nuit, plein de petits détails à colorier. Un cerf, un hérisson, des écureuils, un renard, un ours et un blaireau se rassemblent autour d\'un feu de camp sous un croissant de lune, avec un hibou dans un arbre, des ratons laveurs sur une branche, des étoiles, des pins, des montagnes, des champignons et des fleurs.',
+    description: 'Un immense coloriage géant en noir et blanc d\'amis de la forêt autour d\'un feu de camp la nuit, plein de petits détails à colorier. Un cerf, un hérisson, des écureuils, un renard, un ours et un blaireau se rassemblent autour d\'un feu de camp sous un croissant de lune, avec un hibou dans un arbre, des ratons laveurs sur une branche, des étoiles, des pins, des montagnes, des champignons et des fleurs.',
     category: 'woodland',
     categoryLabel: 'Forêt',
     collection: 'Nature & Animaux',
@@ -807,17 +807,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/moonlight-forest-campfire.webp',
-    alt: 'Moonlight Forest Campfire Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Moonlight Forest Campfire Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/9GAY2',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'treehouse-animal-home',
     title: 'Treehouse Animal Home',
-    description: 'Un immense poster à colorier en noir et blanc d\'une maison dans les arbres dans la forêt, plein de petits détails à colorier. Deux cabanes dans les arbres reliées par un pont de corde et une échelle accueillent un singe, des lions, un bébé éléphant, des rhinocéros, un zèbre et des lémuriens, avec une girafe, un hippopotame dans un étang, des papillons, un soleil à motifs et des fleurs tout autour.',
+    description: 'Un immense coloriage géant en noir et blanc d\'une maison dans les arbres dans la forêt, plein de petits détails à colorier. Deux cabanes dans les arbres reliées par un pont de corde et une échelle accueillent un singe, des lions, un bébé éléphant, des rhinocéros, un zèbre et des lémuriens, avec une girafe, un hippopotame dans un étang, des papillons, un soleil à motifs et des fleurs tout autour.',
     category: 'woodland',
     categoryLabel: 'Forêt',
     collection: 'Nature & Animaux',
@@ -825,17 +825,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/treehouse-animal-home.webp',
-    alt: 'Treehouse Animal Home Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Treehouse Animal Home Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5UCoD',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'reindeer-herd-tundra',
     title: 'Reindeer Herd Tundra',
-    description: 'Un immense poster à colorier en noir et blanc d\'un troupeau de rennes dans la toundra, plein de petits détails à colorier. Des rennes aux grands bois et leurs petits broutent dans la toundra enneigée, avec un grand soleil, des montagnes, des rochers, un ruisseau, de petites plantes et des aurores boréales tourbillonnantes dans le ciel.',
+    description: 'Un immense coloriage géant en noir et blanc d\'un troupeau de rennes dans la toundra, plein de petits détails à colorier. Des rennes aux grands bois et leurs petits broutent dans la toundra enneigée, avec un grand soleil, des montagnes, des rochers, un ruisseau, de petites plantes et des aurores boréales tourbillonnantes dans le ciel.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -843,17 +843,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/reindeer-herd-tundra.webp',
-    alt: 'Reindeer Herd Tundra Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Reindeer Herd Tundra Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/gN1nk',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'reindeer-classroom-learning',
     title: 'Reindeer Classroom Learning',
-    description: 'Un immense poster à colorier en noir et blanc de mignons rennes qui apprennent dans une salle de classe, plein de petits détails à colorier. Quatre rennes sont assis à des pupitres et lisent, écrivent et dessinent, avec un tableau qui dit LEARNING IS FUN, des chiffres, un globe, des livres, des cartables, des flocons de neige et des fanions.',
+    description: 'Un immense coloriage géant en noir et blanc de mignons rennes qui apprennent dans une salle de classe, plein de petits détails à colorier. Quatre rennes sont assis à des pupitres et lisent, écrivent et dessinent, avec un tableau qui dit LEARNING IS FUN, des chiffres, un globe, des livres, des cartables, des flocons de neige et des fanions.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -861,17 +861,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/reindeer-classroom-learning.webp',
-    alt: 'Reindeer Classroom Learning Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Reindeer Classroom Learning Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/sR6K5',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'cozy-igloo-village',
     title: 'Cozy Igloo Village',
-    description: 'Un immense poster à colorier en noir et blanc d\'un village d\'igloos douillet dans la neige. De grands igloos aux fenêtres rondes se dressent parmi les pins et les montagnes, un morse avec ses petits, des loups qui construisent avec des blocs de glace, des bonhommes de neige, une baleine dans un étang et des oiseaux sur les toits, avec des flocons de neige qui tombent tout autour.',
+    description: 'Un immense coloriage géant en noir et blanc d\'un village d\'igloos douillet dans la neige. De grands igloos aux fenêtres rondes se dressent parmi les pins et les montagnes, un morse avec ses petits, des loups qui construisent avec des blocs de glace, des bonhommes de neige, une baleine dans un étang et des oiseaux sur les toits, avec des flocons de neige qui tombent tout autour.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -879,17 +879,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/cozy-igloo-village.webp',
-    alt: 'Cozy Igloo Village Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Cozy Igloo Village Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/nfCgB',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'polar-bears-arctic-ocean',
     title: 'Polar Bears Arctic Ocean',
-    description: 'Un immense poster à colorier en noir et blanc d\'ours polaires dans l\'océan Arctique, plein de petits détails à colorier. Une mère ours polaire avec deux oursons se tient sur une falaise de glace, des narvals et des bélugas nagent dans des vagues tourbillonnantes, un morse, un phoque et des renards arctiques se reposent sur des icebergs, avec des oiseaux de mer, un grand soleil, des montagnes et des icebergs.',
+    description: 'Un immense coloriage géant en noir et blanc d\'ours polaires dans l\'océan Arctique, plein de petits détails à colorier. Une mère ours polaire avec deux oursons se tient sur une falaise de glace, des narvals et des bélugas nagent dans des vagues tourbillonnantes, un morse, un phoque et des renards arctiques se reposent sur des icebergs, avec des oiseaux de mer, un grand soleil, des montagnes et des icebergs.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -897,17 +897,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/polar-bears-arctic-ocean.webp',
-    alt: 'Polar Bears Arctic Ocean Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Polar Bears Arctic Ocean Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dEMNV',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-village-igloo-houses',
     title: 'Arctic Village Igloo Houses',
-    description: 'Un immense poster à colorier en noir et blanc d\'un village arctique de maisons-igloos, plein de petits détails à colorier. Un facteur ours polaire sur un traîneau tiré par des huskys distribue le courrier devant des igloos nommés d\'après une famille de manchots, de phoques, de rennes, d\'ours polaires et de morses, avec un hibou portant un colis, un panneau de village, un croissant de lune, des aurores boréales, des flocons de neige et des pins.',
+    description: 'Un immense coloriage géant en noir et blanc d\'un village arctique de maisons-igloos, plein de petits détails à colorier. Un facteur ours polaire sur un traîneau tiré par des huskys distribue le courrier devant des igloos nommés d\'après une famille de manchots, de phoques, de rennes, d\'ours polaires et de morses, avec un hibou portant un colis, un panneau de village, un croissant de lune, des aurores boréales, des flocons de neige et des pins.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -915,17 +915,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/arctic-village-igloo-houses.webp',
-    alt: 'Arctic Village Igloo Houses Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Arctic Village Igloo Houses Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/P6CO4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-aurora-science-exploration',
     title: 'Arctic Aurora Science Exploration',
-    description: 'Un immense poster à colorier en noir et blanc d\'une expédition scientifique arctique sous les aurores boréales, plein de petits détails à colorier. Des scientifiques avec un drone et une sonde explorent la glace à côté d\'un sous-marin et de bélugas, avec une base d\'observation polaire, une tente, une motoneige, un hibou, des rennes et des constellations, et des étiquettes qui expliquent comment se forme l\'aurore.',
+    description: 'Un immense coloriage géant en noir et blanc d\'une expédition scientifique arctique sous les aurores boréales, plein de petits détails à colorier. Des scientifiques avec un drone et une sonde explorent la glace à côté d\'un sous-marin et de bélugas, avec une base d\'observation polaire, une tente, une motoneige, un hibou, des rennes et des constellations, et des étiquettes qui expliquent comment se forme l\'aurore.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -933,17 +933,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/arctic-aurora-science-exploration.webp',
-    alt: 'Arctic Aurora Science Exploration Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Arctic Aurora Science Exploration Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/dHMQ4',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'welcome-arctic-igloo-facts',
     title: 'Welcome Arctic Igloo Facts',
-    description: 'Un immense poster à colorier en noir et blanc d\'un grand igloo dans l\'Arctique, avec des faits amusants à colorier et à apprendre. Un hibou sur l\'igloo tient un drapeau qui dit Welcome to the Arctic, un enfant souriant tient un poisson, un ourson polaire et un morse sont assis sur la glace, un narval saute hors de l\'eau, des huskys tirent un traîneau, et des renards, un renne et un phoque jouent dans la neige sous la lune.',
+    description: 'Un immense coloriage géant en noir et blanc d\'un grand igloo dans l\'Arctique, avec des faits amusants à colorier et à apprendre. Un hibou sur l\'igloo tient un drapeau qui dit Welcome to the Arctic, un enfant souriant tient un poisson, un ourson polaire et un morse sont assis sur la glace, un narval saute hors de l\'eau, des huskys tirent un traîneau, et des renards, un renne et un phoque jouent dans la neige sous la lune.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -951,17 +951,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/welcome-arctic-igloo-facts.webp',
-    alt: 'Welcome Arctic Igloo Facts Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Welcome Arctic Igloo Facts Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/YaFZm',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-star-talent-show',
     title: 'Arctic Star Talent Show',
-    description: 'Un immense poster à colorier en noir et blanc d\'un grand spectacle de talents dans l\'Arctique, plein de petits détails à colorier. Une baleine magicienne se produit sur scène, une tortue raconte des blagues, un béluga chante, des léopards des neiges dansent, un groupe joue en direct, une loutre peint, des manchots gardent l\'équilibre, et des juges et un public de morses, de phoques, de rennes et de renards regardent sous les aurores boréales.',
+    description: 'Un immense coloriage géant en noir et blanc d\'un grand spectacle de talents dans l\'Arctique, plein de petits détails à colorier. Une baleine magicienne se produit sur scène, une tortue raconte des blagues, un béluga chante, des léopards des neiges dansent, un groupe joue en direct, une loutre peint, des manchots gardent l\'équilibre, et des juges et un public de morses, de phoques, de rennes et de renards regardent sous les aurores boréales.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -969,17 +969,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/arctic-star-talent-show.webp',
-    alt: 'Arctic Star Talent Show Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Arctic Star Talent Show Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/fyCsJ',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'snow-festival-igloo-friends',
     title: 'Snow Festival Igloo Friends',
-    description: 'Un immense poster à colorier en noir et blanc d\'un festival de neige devant un grand igloo à motifs d\'étoiles. Un manchot avec un chapeau de fête et un ours polaire avec un nœud papillon tiennent des étoiles, un lapin porte un panier, un phoque applaudit près d\'un étang gelé, et un hibou sur une branche dit qu\'il n\'y a pas deux flocons de neige pareils, avec des pins et de la neige qui tombe tout autour.',
+    description: 'Un immense coloriage géant en noir et blanc d\'un festival de neige devant un grand igloo à motifs d\'étoiles. Un manchot avec un chapeau de fête et un ours polaire avec un nœud papillon tiennent des étoiles, un lapin porte un panier, un phoque applaudit près d\'un étang gelé, et un hibou sur une branche dit qu\'il n\'y a pas deux flocons de neige pareils, avec des pins et de la neige qui tombe tout autour.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -987,17 +987,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/snow-festival-igloo-friends.webp',
-    alt: 'Snow Festival Igloo Friends Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Snow Festival Igloo Friends Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/1sle2',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'owl-night-school-arctic',
     title: 'Owl Night School Arctic',
-    description: 'Un immense poster à colorier en noir et blanc de hiboux à l\'école de nuit dans l\'Arctique. Un hibou professeur avec un chapeau de diplômé montre un tableau d\'étoiles, quatre petits hiboux lisent, écrivent et regardent à travers une loupe, et un bébé hibou dort dans un nid, avec une grande lune, des flocons de neige, une lanterne et des pins.',
+    description: 'Un immense coloriage géant en noir et blanc de hiboux à l\'école de nuit dans l\'Arctique. Un hibou professeur avec un chapeau de diplômé montre un tableau d\'étoiles, quatre petits hiboux lisent, écrivent et regardent à travers une loupe, et un bébé hibou dort dans un nid, avec une grande lune, des flocons de neige, une lanterne et des pins.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -1005,17 +1005,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/owl-night-school-arctic.webp',
-    alt: 'Owl Night School Arctic Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Owl Night School Arctic Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/5Nm8H',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-animals-ice-playground',
     title: 'Arctic Animals Ice Playground',
-    description: 'Un immense poster à colorier en noir et blanc d\'animaux arctiques qui jouent sur la glace, plein de petits détails à colorier. Un harfang s\'envole d\'une branche de pin, un ours polaire passe, un ourson glisse sur le dos, un renard monte sur un phoque sur un traîneau, un morse et des phoques sortent de trous dans la glace, des macareux et un lapin patinent sur la glace, et un renne regarde, avec des falaises de glace et des montagnes derrière.',
+    description: 'Un immense coloriage géant en noir et blanc d\'animaux arctiques qui jouent sur la glace, plein de petits détails à colorier. Un harfang s\'envole d\'une branche de pin, un ours polaire passe, un ourson glisse sur le dos, un renard monte sur un phoque sur un traîneau, un morse et des phoques sortent de trous dans la glace, des macareux et un lapin patinent sur la glace, et un renne regarde, avec des falaises de glace et des montagnes derrière.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -1023,17 +1023,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/arctic-animals-ice-playground.webp',
-    alt: 'Arctic Animals Ice Playground Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Arctic Animals Ice Playground Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/GT8XW',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'arctic-animal-road-trip',
     title: 'Arctic Animal Road Trip',
-    description: 'Un immense poster à colorier en noir et blanc d\'animaux arctiques en voyage en voiture. Un ours polaire conduit, deux rennes et un renard voyagent avec lui, des valises sont sur le toit, et un panier de pique-nique, une carte et une boussole remplissent la voiture, avec des pins, des igloos, des montagnes et des flocons de neige dehors.',
+    description: 'Un immense coloriage géant en noir et blanc d\'animaux arctiques en voyage en voiture. Un ours polaire conduit, deux rennes et un renard voyagent avec lui, des valises sont sur le toit, et un panier de pique-nique, une carte et une boussole remplissent la voiture, avec des pins, des igloos, des montagnes et des flocons de neige dehors.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -1041,17 +1041,17 @@ const PRODUCTS = [
     age: '4-7',
     ageLabel: '4-7 ans',
     image: '/images/arctic-animal-road-trip.webp',
-    alt: 'Arctic Animal Road Trip Poster géant à colorier pour enfants de 4-7 ans',
+    alt: 'Arctic Animal Road Trip Coloriage géant pour enfants de 4-7 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/U5jNu',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'walrus-polar-bear-fishing',
     title: 'Walrus Polar Bear Fishing',
-    description: 'Un immense poster à colorier en noir et blanc de morses et d\'un ours polaire qui pêchent dans un lac arctique, plein de petits détails à colorier. Deux morses et un bébé morse se reposent sur un bloc de glace, deux petits renards pêchent à la ligne, un ours polaire et son ourson regardent, des phoques sortent de l\'eau, et un hibou, des macareux, un lapin et des rennes se rassemblent sous un grand soleil.',
+    description: 'Un immense coloriage géant en noir et blanc de morses et d\'un ours polaire qui pêchent dans un lac arctique, plein de petits détails à colorier. Deux morses et un bébé morse se reposent sur un bloc de glace, deux petits renards pêchent à la ligne, un ours polaire et son ourson regardent, des phoques sortent de l\'eau, et un hibou, des macareux, un lapin et des rennes se rassemblent sous un grand soleil.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -1059,17 +1059,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/walrus-polar-bear-fishing.webp',
-    alt: 'Walrus Polar Bear Fishing Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Walrus Polar Bear Fishing Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/9qIAg',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'aurora-northern-lights-science',
     title: 'Aurora Northern Lights Science',
-    description: 'Un immense poster à colorier en noir et blanc des aurores boréales, plein de petits détails à colorier. Des rubans d\'aurore tourbillonnants remplissent le ciel avec des étiquettes qui expliquent que le violet signifie l\'azote, le rouge l\'oxygène en hauteur et le vert l\'oxygène plus bas, pendant qu\'un enfant lit un livre sur le Soleil et le vent solaire avec un renard, et qu\'un hibou, des pins et des rennes remplissent les collines enneigées.',
+    description: 'Un immense coloriage géant en noir et blanc des aurores boréales, plein de petits détails à colorier. Des rubans d\'aurore tourbillonnants remplissent le ciel avec des étiquettes qui expliquent que le violet signifie l\'azote, le rouge l\'oxygène en hauteur et le vert l\'oxygène plus bas, pendant qu\'un enfant lit un livre sur le Soleil et le vent solaire avec un renard, et qu\'un hibou, des pins et des rennes remplissent les collines enneigées.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -1077,17 +1077,17 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/aurora-northern-lights-science.webp',
-    alt: 'Aurora Northern Lights Science Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Aurora Northern Lights Science Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/psZkW',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   },
   {
     id: 'aurora-night-arctic-animals',
     title: 'Aurora Night Arctic Animals',
-    description: 'Un immense poster à colorier en noir et blanc d\'animaux arctiques sous les aurores boréales la nuit, plein de petits détails à colorier. Un hibou est assis sur une falaise de glace, un ourson polaire et un renard marchent dans la neige, un narval nage dans un trou de glace, des morses se reposent, un troupeau de rennes traverse une colline, des oiseaux volent sous un croissant de lune, et un lapin regarde depuis la neige.',
+    description: 'Un immense coloriage géant en noir et blanc d\'animaux arctiques sous les aurores boréales la nuit, plein de petits détails à colorier. Un hibou est assis sur une falaise de glace, un ourson polaire et un renard marchent dans la neige, un narval nage dans un trou de glace, des morses se reposent, un troupeau de rennes traverse une colline, des oiseaux volent sous un croissant de lune, et un lapin regarde depuis la neige.',
     category: 'polar-arctic',
     categoryLabel: 'Polaire & Arctique',
     collection: 'Nature & Animaux',
@@ -1095,12 +1095,12 @@ const PRODUCTS = [
     age: '8-12',
     ageLabel: '8-12 ans',
     image: '/images/aurora-night-arctic-animals.webp',
-    alt: 'Aurora Night Arctic Animals Poster géant à colorier pour enfants de 8-12 ans',
+    alt: 'Aurora Night Arctic Animals Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
     price: '1.00',
     priceCurrency: 'USD',
     payhipUrl: 'https://payhip.com/b/DhsPa',
     formats: 'SVG + PDF',
-    sizes: '3 x 1,5 ft, 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   }
 ];
 
