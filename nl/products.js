@@ -1461,6 +1461,62 @@ const PRODUCTS = [
     payhipUrl: 'https://payhip.com/b/0VDv4',
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'frosty-forest-animals',
+    title: 'Frosty Forest Animals',
+    description: 'Een XXL kleurplaat van een besneeuwd kerstbos met een grote versierde kerstboom in het midden, een hert, drie vossen met sjaals en drie konijnen tussen dennenbomen, lantaarns, sneeuwvlokken, dennenappels, paddenstoelen en hulst, vol fijne details om in te kleuren.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Feesten & Vakanties',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 jaar',
+    image: '/images/frosty-forest-animals.webp',
+    alt: 'Frosty Forest Animals XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/DHh6C',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+
+  {
+    id: 'santa-mail-post-office',
+    title: 'Santa Mail Post Office',
+    description: 'Een XXL kleurplaat van het postkantoor van de Kerstman, met twee elfen die brieven sorteren aan een tafel, een grote brievenbus, postzakken, een versierde kerstboom en cadeaus, een besneeuwd raam en slingers, kransen en bellen, vol fijne details om in te kleuren.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Feesten & Vakanties',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 jaar',
+    image: '/images/santa-mail-post-office.webp',
+    alt: 'Santa Mail Post Office XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/U6oxB',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+
+  {
+    id: 'christmas-hot-chocolate',
+    title: 'Christmas Hot Chocolate',
+    description: 'Een XXL kleurplaat van een gezellige kerstkeuken met een grote dampende mok warme chocolademelk met marshmallows, een bord koekjes en een peperkoekmannetje, een slapende kat op een deken, een versierde kerstboom met cadeaus en een besneeuwd raam, vol fijne details om in te kleuren.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Feesten & Vakanties',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 jaar',
+    image: '/images/christmas-hot-chocolate.webp',
+    alt: 'Christmas Hot Chocolate XXL kleurplaat voor kinderen van 8-12 jaar (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/0TYhk',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   }
 ];
 

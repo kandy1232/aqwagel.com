@@ -1461,6 +1461,62 @@ const PRODUCTS = [
     payhipUrl: 'https://payhip.com/b/0VDv4',
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'frosty-forest-animals',
+    title: 'Frosty Forest Animals',
+    description: 'Un coloriage géant d\'une forêt de Noël enneigée avec un grand sapin décoré au centre, un cerf, trois renards en écharpe et trois lapins parmi les sapins, les lanternes, les flocons de neige, les pommes de pin, les champignons et le houx, plein de fins détails à colorier.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Fêtes & Vacances',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 ans',
+    image: '/images/frosty-forest-animals.webp',
+    alt: 'Frosty Forest Animals Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/DHh6C',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+
+  {
+    id: 'santa-mail-post-office',
+    title: 'Santa Mail Post Office',
+    description: 'Un coloriage géant du bureau de poste du Père Noël, avec deux lutins qui trient des lettres à une table, une grande boîte aux lettres, des sacs de courrier, un sapin décoré et des cadeaux, une fenêtre enneigée, des guirlandes, des couronnes et des cloches, plein de fins détails à colorier.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Fêtes & Vacances',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 ans',
+    image: '/images/santa-mail-post-office.webp',
+    alt: 'Santa Mail Post Office Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/U6oxB',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+
+  {
+    id: 'christmas-hot-chocolate',
+    title: 'Christmas Hot Chocolate',
+    description: 'Un coloriage géant d\'une cuisine de Noël douillette avec une grande tasse fumante de chocolat chaud aux guimauves, une assiette de biscuits et un bonhomme en pain d\'épices, un chat endormi sur une couverture, un sapin décoré avec des cadeaux et une fenêtre enneigée, plein de fins détails à colorier.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Fêtes & Vacances',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 ans',
+    image: '/images/christmas-hot-chocolate.webp',
+    alt: 'Christmas Hot Chocolate Coloriage géant pour enfants de 8-12 ans (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/0TYhk',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   }
 ];
 

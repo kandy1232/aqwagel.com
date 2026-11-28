@@ -1461,6 +1461,62 @@ const PRODUCTS = [
     payhipUrl: 'https://payhip.com/b/0VDv4',
     formats: 'SVG + PDF',
     sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'frosty-forest-animals',
+    title: 'Frosty Forest Animals',
+    description: 'A giant black-and-white coloring page of a snowy Christmas forest with a big decorated Christmas tree in the center, a deer, three foxes in scarves and three rabbits among pine trees, lanterns, snowflakes, pinecones, mushrooms and holly, full of fine details to color.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Celebrations & Holidays',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: 'Ages 8-12',
+    image: 'images/frosty-forest-animals.webp',
+    alt: 'Frosty Forest Animals giant coloring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/DHh6C',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+
+  {
+    id: 'santa-mail-post-office',
+    title: 'Santa Mail Post Office',
+    description: 'A giant black-and-white coloring page of Santa\'s mail post office, with two elves sorting letters at a table, a big post box, sacks of mail, a decorated Christmas tree and presents, a snowy window and garlands, wreaths and bells, full of fine details to color.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Celebrations & Holidays',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: 'Ages 8-12',
+    image: 'images/santa-mail-post-office.webp',
+    alt: 'Santa Mail Post Office giant coloring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/U6oxB',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+
+  {
+    id: 'christmas-hot-chocolate',
+    title: 'Christmas Hot Chocolate',
+    description: 'A giant black-and-white coloring page of a cozy Christmas kitchen with a big steaming mug of hot chocolate with marshmallows, a plate of cookies and a gingerbread man, a sleeping cat on a blanket, a decorated Christmas tree with presents and a snowy window, full of fine details to color.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Celebrations & Holidays',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: 'Ages 8-12',
+    image: 'images/christmas-hot-chocolate.webp',
+    alt: 'Christmas Hot Chocolate giant coloring page for kids ages 8-12 (90 x 45 cm, 36 x 18 in)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/0TYhk',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1.5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   }
 ];
 

@@ -1461,6 +1461,62 @@ const PRODUCTS = [
     payhipUrl: 'https://payhip.com/b/0VDv4',
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'frosty-forest-animals',
+    title: 'Frosty Forest Animals',
+    description: 'Ein XXL Ausmalbild von einem verschneiten Weihnachtswald mit einem großen geschmückten Weihnachtsbaum in der Mitte, einem Hirsch, drei Füchsen mit Schals und drei Kaninchen zwischen Tannen, Laternen, Schneeflocken, Tannenzapfen, Pilzen und Stechpalmen, voller feiner Details zum Ausmalen.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Feiern & Feiertage',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: 'Alter 8–12',
+    image: '/images/frosty-forest-animals.webp',
+    alt: 'Frosty Forest Animals XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/DHh6C',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+
+  {
+    id: 'santa-mail-post-office',
+    title: 'Santa Mail Post Office',
+    description: 'Ein XXL Ausmalbild von Santas Postamt, mit zwei Elfen, die Briefe an einem Tisch sortieren, einem großen Briefkasten, Postsäcken, einem geschmückten Weihnachtsbaum und Geschenken, einem verschneiten Fenster sowie Girlanden, Kränzen und Glocken, voller feiner Details zum Ausmalen.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Feiern & Feiertage',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: 'Alter 8–12',
+    image: '/images/santa-mail-post-office.webp',
+    alt: 'Santa Mail Post Office XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/U6oxB',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+
+  {
+    id: 'christmas-hot-chocolate',
+    title: 'Christmas Hot Chocolate',
+    description: 'Ein XXL Ausmalbild von einer gemütlichen Weihnachtsküche mit einer großen dampfenden Tasse heißer Schokolade mit Marshmallows, einem Teller Kekse und einem Lebkuchenmann, einer schlafenden Katze auf einer Decke, einem geschmückten Weihnachtsbaum mit Geschenken und einem verschneiten Fenster, voller feiner Details zum Ausmalen.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Feiern & Feiertage',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: 'Alter 8–12',
+    image: '/images/christmas-hot-chocolate.webp',
+    alt: 'Christmas Hot Chocolate XXL Ausmalbild für Kinder, Alter 8–12 (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/0TYhk',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   }
 ];
 

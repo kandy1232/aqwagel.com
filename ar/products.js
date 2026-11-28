@@ -1461,6 +1461,62 @@ const PRODUCTS = [
     payhipUrl: 'https://payhip.com/b/0VDv4',
     formats: 'SVG + PDF',
     sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+  {
+    id: 'frosty-forest-animals',
+    title: 'Frosty Forest Animals',
+    description: 'صفحة تلوين كبيرة لغابة عيد ميلاد ثلجية فيها شجرة عيد ميلاد كبيرة مزينة في الوسط، وغزال، وثلاثة ثعالب ترتدي أوشحة، وثلاثة أرانب بين أشجار الصنوبر والفوانيس وندف الثلج وأكواز الصنوبر والفطر والبهشية، مليئة بتفاصيل دقيقة للتلوين.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'الاحتفالات والأعياد',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 سنة',
+    image: '/images/frosty-forest-animals.webp',
+    alt: 'Frosty Forest Animals صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/DHh6C',
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+
+  {
+    id: 'santa-mail-post-office',
+    title: 'Santa Mail Post Office',
+    description: 'صفحة تلوين كبيرة لمكتب بريد سانتا، فيه قزمان يفرزان الرسائل على طاولة، وصندوق بريد كبير، وأكياس بريد، وشجرة عيد ميلاد مزينة وهدايا، ونافذة ثلجية وأكاليل وأجراس، مليئة بتفاصيل دقيقة للتلوين.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'الاحتفالات والأعياد',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 سنة',
+    image: '/images/santa-mail-post-office.webp',
+    alt: 'Santa Mail Post Office صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/U6oxB',
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
+  },
+
+  {
+    id: 'christmas-hot-chocolate',
+    title: 'Christmas Hot Chocolate',
+    description: 'صفحة تلوين كبيرة لمطبخ عيد ميلاد دافئ فيه كوب كبير من الشوكولاتة الساخنة بالمارشميلو، وطبق بسكويت ورجل خبز الزنجبيل، وقطة نائمة على بطانية، وشجرة عيد ميلاد مزينة مع هدايا ونافذة ثلجية، مليئة بتفاصيل دقيقة للتلوين.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'الاحتفالات والأعياد',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 سنة',
+    image: '/images/christmas-hot-chocolate.webp',
+    alt: 'Christmas Hot Chocolate صفحة تلوين كبيرة للأطفال من عمر 8-12 سنة (90 × 45 سم)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/0TYhk',
+    formats: 'SVG + PDF',
+    sizes: '3 × 1.5 قدم (90 × 45 سم)، 6 × 3 قدم، 8 × 4 قدم، 12 × 6 قدم'
   }
 ];
 

@@ -1461,6 +1461,62 @@ const PRODUCTS = [
     payhipUrl: 'https://payhip.com/b/0VDv4',
     formats: 'SVG + PDF',
     sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+  {
+    id: 'frosty-forest-animals',
+    title: 'Frosty Forest Animals',
+    description: 'Un dibujo gigante para colorear de un bosque navideño nevado con un gran árbol de Navidad decorado en el centro, un ciervo, tres zorros con bufanda y tres conejos entre pinos, faroles, copos de nieve, piñas, setas y acebo, lleno de finos detalles para colorear.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Celebraciones y Fiestas',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 años',
+    image: '/images/frosty-forest-animals.webp',
+    alt: 'Frosty Forest Animals Dibujo gigante para colorear para niños de 8-12 años (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/DHh6C',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+
+  {
+    id: 'santa-mail-post-office',
+    title: 'Santa Mail Post Office',
+    description: 'Un dibujo gigante para colorear de la oficina de correos de Papá Noel, con dos duendes clasificando cartas en una mesa, un gran buzón, sacos de correo, un árbol de Navidad decorado y regalos, una ventana nevada y guirnaldas, coronas y campanas, lleno de finos detalles para colorear.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Celebraciones y Fiestas',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 años',
+    image: '/images/santa-mail-post-office.webp',
+    alt: 'Santa Mail Post Office Dibujo gigante para colorear para niños de 8-12 años (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/U6oxB',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
+  },
+
+  {
+    id: 'christmas-hot-chocolate',
+    title: 'Christmas Hot Chocolate',
+    description: 'Un dibujo gigante para colorear de una cocina navideña acogedora con una gran taza humeante de chocolate caliente con malvaviscos, un plato de galletas y un muñeco de jengibre, un gato dormido sobre una manta, un árbol de Navidad decorado con regalos y una ventana nevada, lleno de finos detalles para colorear.',
+    category: 'christmas',
+    categoryLabel: 'Christmas',
+    collection: 'Celebraciones y Fiestas',
+    collectionSlug: 'celebrations-holidays',
+    age: '8-12',
+    ageLabel: '8-12 años',
+    image: '/images/christmas-hot-chocolate.webp',
+    alt: 'Christmas Hot Chocolate Dibujo gigante para colorear para niños de 8-12 años (90 x 45 cm)',
+    price: '1.00',
+    priceCurrency: 'USD',
+    payhipUrl: 'https://payhip.com/b/0TYhk',
+    formats: 'SVG + PDF',
+    sizes: '3 x 1,5 ft (90 x 45 cm), 6 x 3 ft, 8 x 4 ft, 12 x 6 ft'
   }
 ];
 
